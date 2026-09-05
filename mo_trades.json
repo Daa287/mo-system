@@ -1,5 +1,5 @@
 {
-  "generiert": "2026-09-05T23:35:04",
+  "generiert": "2026-09-06T00:05:04",
   "anzahl": 216,
   "trades": [
     {
@@ -10,7 +10,7 @@
       "einstieg_datum": "2026-08-28",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 8,
+      "tage_seit_einstieg": 9,
       "link": "https://www.youtube.com/watch?v=Rp1oj4pc7kY"
     },
     {
@@ -21,7 +21,7 @@
       "einstieg_datum": "2026-08-28",
       "sk_score_zum_zeitpunkt": 6.0,
       "status": "WIN",
-      "tage_seit_einstieg": 8,
+      "tage_seit_einstieg": 9,
       "link": "https://www.youtube.com/watch?v=4-4h46R1H-o"
     },
     {
@@ -32,7 +32,7 @@
       "einstieg_datum": "2026-08-26",
       "sk_score_zum_zeitpunkt": 6.0,
       "status": "WIN",
-      "tage_seit_einstieg": 10,
+      "tage_seit_einstieg": 11,
       "link": "https://www.youtube.com/watch?v=4ENJBRm-OJI"
     },
     {
@@ -43,7 +43,7 @@
       "einstieg_datum": "2026-08-25",
       "sk_score_zum_zeitpunkt": 6.0,
       "status": "WIN",
-      "tage_seit_einstieg": 11,
+      "tage_seit_einstieg": 12,
       "link": "https://www.youtube.com/watch?v=4ENJBRm-OJI"
     },
     {
@@ -54,7 +54,7 @@
       "einstieg_datum": "2026-08-25",
       "sk_score_zum_zeitpunkt": 6.0,
       "status": "WIN",
-      "tage_seit_einstieg": 11,
+      "tage_seit_einstieg": 12,
       "link": "https://www.youtube.com/watch?v=bo1Z1EWV23o"
     },
     {
@@ -65,7 +65,7 @@
       "einstieg_datum": "2026-08-21",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 15,
+      "tage_seit_einstieg": 16,
       "link": "https://www.youtube.com/watch?v=wCJNv9PZ11I"
     },
     {
@@ -76,7 +76,7 @@
       "einstieg_datum": "2026-08-19",
       "sk_score_zum_zeitpunkt": 6.0,
       "status": "LOSS",
-      "tage_seit_einstieg": 17,
+      "tage_seit_einstieg": 18,
       "link": "https://www.youtube.com/watch?v=XnHHxqUHAiU"
     },
     {
@@ -87,7 +87,7 @@
       "einstieg_datum": "2026-08-18",
       "sk_score_zum_zeitpunkt": 6.0,
       "status": "WIN",
-      "tage_seit_einstieg": 18,
+      "tage_seit_einstieg": 19,
       "link": "https://www.youtube.com/watch?v=XkOy6H9ctfY"
     },
     {
@@ -98,7 +98,7 @@
       "einstieg_datum": "2026-08-17",
       "sk_score_zum_zeitpunkt": 6.0,
       "status": "WIN",
-      "tage_seit_einstieg": 19,
+      "tage_seit_einstieg": 20,
       "link": "https://www.youtube.com/watch?v=MzeFuy_c9uc"
     },
     {
@@ -109,7 +109,7 @@
       "einstieg_datum": "2026-08-17",
       "sk_score_zum_zeitpunkt": 6.0,
       "status": "LOSS",
-      "tage_seit_einstieg": 19,
+      "tage_seit_einstieg": 20,
       "link": "https://www.youtube.com/watch?v=MzeFuy_c9uc"
     },
     {
@@ -120,7 +120,7 @@
       "einstieg_datum": "2026-08-14",
       "sk_score_zum_zeitpunkt": 6.0,
       "status": "WIN",
-      "tage_seit_einstieg": 22,
+      "tage_seit_einstieg": 23,
       "link": "https://www.youtube.com/watch?v=djwNW6i3Wjo"
     },
     {
@@ -131,7 +131,7 @@
       "einstieg_datum": "2026-08-13",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 23,
+      "tage_seit_einstieg": 24,
       "link": "https://www.youtube.com/watch?v=GHGqPFrO0io"
     },
     {
@@ -142,7 +142,7 @@
       "einstieg_datum": "2026-08-12",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 24,
+      "tage_seit_einstieg": 25,
       "link": "https://www.youtube.com/watch?v=SKtGRq02iIs"
     },
     {
@@ -153,7 +153,7 @@
       "einstieg_datum": "2026-08-12",
       "sk_score_zum_zeitpunkt": 6.0,
       "status": "LOSS",
-      "tage_seit_einstieg": 24,
+      "tage_seit_einstieg": 25,
       "link": "https://www.youtube.com/watch?v=SKtGRq02iIs"
     },
     {
@@ -164,7 +164,7 @@
       "einstieg_datum": "2026-08-12",
       "sk_score_zum_zeitpunkt": 6.0,
       "status": "WIN",
-      "tage_seit_einstieg": 24,
+      "tage_seit_einstieg": 25,
       "link": "https://www.youtube.com/watch?v=SKtGRq02iIs"
     },
     {
@@ -175,7 +175,7 @@
       "einstieg_datum": "2026-08-11",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 25,
+      "tage_seit_einstieg": 26,
       "link": "https://www.youtube.com/watch?v=CLUdio3CjVY"
     },
     {
@@ -186,7 +186,7 @@
       "einstieg_datum": "2026-08-11",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 25,
+      "tage_seit_einstieg": 26,
       "link": "https://www.youtube.com/watch?v=CLUdio3CjVY"
     },
     {
@@ -197,7 +197,7 @@
       "einstieg_datum": "2026-08-10",
       "sk_score_zum_zeitpunkt": 6.0,
       "status": "WIN",
-      "tage_seit_einstieg": 26,
+      "tage_seit_einstieg": 27,
       "link": "https://www.youtube.com/watch?v=CLUdio3CjVY"
     },
     {
@@ -208,7 +208,7 @@
       "einstieg_datum": "2026-08-06",
       "sk_score_zum_zeitpunkt": 2.0,
       "status": "WIN",
-      "tage_seit_einstieg": 30,
+      "tage_seit_einstieg": 31,
       "link": "https://www.youtube.com/watch?v=mb9Vks-frpc"
     },
     {
@@ -219,7 +219,7 @@
       "einstieg_datum": "2026-08-05",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 31,
+      "tage_seit_einstieg": 32,
       "link": "https://www.youtube.com/watch?v=EJcNK2oaTGg"
     },
     {
@@ -230,7 +230,7 @@
       "einstieg_datum": "2026-08-05",
       "sk_score_zum_zeitpunkt": 3.0,
       "status": "WIN",
-      "tage_seit_einstieg": 31,
+      "tage_seit_einstieg": 32,
       "link": "https://www.youtube.com/watch?v=EJcNK2oaTGg"
     },
     {
@@ -241,7 +241,7 @@
       "einstieg_datum": "2026-08-05",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 31,
+      "tage_seit_einstieg": 32,
       "link": "https://www.youtube.com/watch?v=EJcNK2oaTGg"
     },
     {
@@ -252,7 +252,7 @@
       "einstieg_datum": "2026-08-03",
       "sk_score_zum_zeitpunkt": 2.0,
       "status": "WIN",
-      "tage_seit_einstieg": 33,
+      "tage_seit_einstieg": 34,
       "link": "https://www.youtube.com/watch?v=UA0s1iCYCAc"
     },
     {
@@ -263,7 +263,7 @@
       "einstieg_datum": "2026-08-03",
       "sk_score_zum_zeitpunkt": 3.0,
       "status": "WIN",
-      "tage_seit_einstieg": 33,
+      "tage_seit_einstieg": 34,
       "link": "https://www.youtube.com/watch?v=UA0s1iCYCAc"
     },
     {
@@ -274,7 +274,7 @@
       "einstieg_datum": "2026-08-02",
       "sk_score_zum_zeitpunkt": 4.0,
       "status": "WIN",
-      "tage_seit_einstieg": 34,
+      "tage_seit_einstieg": 35,
       "link": "https://www.youtube.com/watch?v=6-m9e2O7KFY"
     },
     {
@@ -285,7 +285,7 @@
       "einstieg_datum": "2026-08-02",
       "sk_score_zum_zeitpunkt": 4.0,
       "status": "LOSS",
-      "tage_seit_einstieg": 34,
+      "tage_seit_einstieg": 35,
       "link": "https://www.youtube.com/watch?v=6-m9e2O7KFY"
     },
     {
@@ -296,7 +296,7 @@
       "einstieg_datum": "2026-08-02",
       "sk_score_zum_zeitpunkt": 4.0,
       "status": "WIN",
-      "tage_seit_einstieg": 34,
+      "tage_seit_einstieg": 35,
       "link": "https://www.youtube.com/watch?v=TLfhbCO5QG4"
     },
     {
@@ -307,7 +307,7 @@
       "einstieg_datum": "2026-08-01",
       "sk_score_zum_zeitpunkt": 4.0,
       "status": "WIN",
-      "tage_seit_einstieg": 35,
+      "tage_seit_einstieg": 36,
       "link": "https://www.youtube.com/watch?v=6-m9e2O7KFY"
     },
     {
@@ -318,7 +318,7 @@
       "einstieg_datum": "2026-08-01",
       "sk_score_zum_zeitpunkt": 4.0,
       "status": "WIN",
-      "tage_seit_einstieg": 35,
+      "tage_seit_einstieg": 36,
       "link": "https://www.youtube.com/watch?v=TLfhbCO5QG4"
     },
     {
@@ -329,7 +329,7 @@
       "einstieg_datum": "2026-07-30",
       "sk_score_zum_zeitpunkt": 3.0,
       "status": "WIN",
-      "tage_seit_einstieg": 37,
+      "tage_seit_einstieg": 38,
       "link": "https://www.youtube.com/watch?v=4ECJarBWyuM"
     },
     {
@@ -340,7 +340,7 @@
       "einstieg_datum": "2026-07-29",
       "sk_score_zum_zeitpunkt": 2.0,
       "status": "WIN",
-      "tage_seit_einstieg": 38,
+      "tage_seit_einstieg": 39,
       "link": "https://www.youtube.com/watch?v=0RklMHmJ5Ps"
     },
     {
@@ -351,7 +351,7 @@
       "einstieg_datum": "2026-07-29",
       "sk_score_zum_zeitpunkt": 4.0,
       "status": "WIN",
-      "tage_seit_einstieg": 38,
+      "tage_seit_einstieg": 39,
       "link": "https://www.youtube.com/watch?v=YX3Lx2O0PSA"
     },
     {
@@ -362,7 +362,7 @@
       "einstieg_datum": "2026-07-27",
       "sk_score_zum_zeitpunkt": 3.0,
       "status": "WIN",
-      "tage_seit_einstieg": 40,
+      "tage_seit_einstieg": 41,
       "link": "https://www.youtube.com/watch?v=JME5OAoPqUo"
     },
     {
@@ -373,7 +373,7 @@
       "einstieg_datum": "2026-07-24",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 43,
+      "tage_seit_einstieg": 44,
       "link": "https://www.youtube.com/watch?v=QtpIXF8agxA"
     },
     {
@@ -384,7 +384,7 @@
       "einstieg_datum": "2026-07-23",
       "sk_score_zum_zeitpunkt": 0.0,
       "status": "WIN",
-      "tage_seit_einstieg": 44,
+      "tage_seit_einstieg": 45,
       "link": "https://www.youtube.com/watch?v=BTwAaQwDBqw"
     },
     {
@@ -395,7 +395,7 @@
       "einstieg_datum": "2026-07-16",
       "sk_score_zum_zeitpunkt": 3.0,
       "status": "WIN",
-      "tage_seit_einstieg": 51,
+      "tage_seit_einstieg": 52,
       "link": "https://www.youtube.com/watch?v=2mvm5eZC4ro"
     },
     {
@@ -406,7 +406,7 @@
       "einstieg_datum": "2026-07-13",
       "sk_score_zum_zeitpunkt": 4.0,
       "status": "WIN",
-      "tage_seit_einstieg": 54,
+      "tage_seit_einstieg": 55,
       "link": "https://www.youtube.com/watch?v=jUWXEkqnnrg"
     },
     {
@@ -417,7 +417,7 @@
       "einstieg_datum": "2026-07-13",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 54,
+      "tage_seit_einstieg": 55,
       "link": "https://www.youtube.com/watch?v=jUWXEkqnnrg"
     },
     {
@@ -428,7 +428,7 @@
       "einstieg_datum": "2026-07-13",
       "sk_score_zum_zeitpunkt": 2.0,
       "status": "WIN",
-      "tage_seit_einstieg": 54,
+      "tage_seit_einstieg": 55,
       "link": "https://www.youtube.com/watch?v=jUWXEkqnnrg"
     },
     {
@@ -439,7 +439,7 @@
       "einstieg_datum": "2026-07-10",
       "sk_score_zum_zeitpunkt": 2.0,
       "status": "WIN",
-      "tage_seit_einstieg": 57,
+      "tage_seit_einstieg": 58,
       "link": "https://www.youtube.com/watch?v=-ymWveWNyg8"
     },
     {
@@ -450,7 +450,7 @@
       "einstieg_datum": "2026-07-10",
       "sk_score_zum_zeitpunkt": 2.0,
       "status": "LOSS",
-      "tage_seit_einstieg": 57,
+      "tage_seit_einstieg": 58,
       "link": "https://www.youtube.com/watch?v=-ymWveWNyg8"
     },
     {
@@ -461,7 +461,7 @@
       "einstieg_datum": "2026-07-08",
       "sk_score_zum_zeitpunkt": 3.0,
       "status": "WIN",
-      "tage_seit_einstieg": 59,
+      "tage_seit_einstieg": 60,
       "link": "https://www.youtube.com/watch?v=jHgRAzjO8BA"
     },
     {
@@ -472,7 +472,7 @@
       "einstieg_datum": "2026-07-08",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 59,
+      "tage_seit_einstieg": 60,
       "link": "https://www.youtube.com/watch?v=jHgRAzjO8BA"
     },
     {
@@ -483,7 +483,7 @@
       "einstieg_datum": "2026-07-08",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 59,
+      "tage_seit_einstieg": 60,
       "link": "https://www.youtube.com/watch?v=jHgRAzjO8BA"
     },
     {
@@ -494,7 +494,7 @@
       "einstieg_datum": "2026-07-07",
       "sk_score_zum_zeitpunkt": 3.0,
       "status": "LOSS",
-      "tage_seit_einstieg": 60,
+      "tage_seit_einstieg": 61,
       "link": "https://www.youtube.com/watch?v=liwoYTrCrpM"
     },
     {
@@ -505,7 +505,7 @@
       "einstieg_datum": "2026-07-05",
       "sk_score_zum_zeitpunkt": 4.0,
       "status": "WIN",
-      "tage_seit_einstieg": 62,
+      "tage_seit_einstieg": 63,
       "link": "https://www.youtube.com/watch?v=_GwqhTGcBt8"
     },
     {
@@ -516,7 +516,7 @@
       "einstieg_datum": "2026-07-05",
       "sk_score_zum_zeitpunkt": 3.0,
       "status": "WIN",
-      "tage_seit_einstieg": 62,
+      "tage_seit_einstieg": 63,
       "link": "https://www.youtube.com/watch?v=_GwqhTGcBt8"
     },
     {
@@ -527,7 +527,7 @@
       "einstieg_datum": "2026-07-04",
       "sk_score_zum_zeitpunkt": 3.0,
       "status": "WIN",
-      "tage_seit_einstieg": 63,
+      "tage_seit_einstieg": 64,
       "link": "https://www.youtube.com/watch?v=OqGczt6QqsE"
     },
     {
@@ -538,7 +538,7 @@
       "einstieg_datum": "2026-07-01",
       "sk_score_zum_zeitpunkt": 3.0,
       "status": "WIN",
-      "tage_seit_einstieg": 66,
+      "tage_seit_einstieg": 67,
       "link": "https://www.youtube.com/watch?v=Y0YCf4DtvWs"
     },
     {
@@ -549,7 +549,7 @@
       "einstieg_datum": "2026-06-30",
       "sk_score_zum_zeitpunkt": 3.0,
       "status": "WIN",
-      "tage_seit_einstieg": 67,
+      "tage_seit_einstieg": 68,
       "link": "https://www.youtube.com/watch?v=iJv3wyuGCUc"
     },
     {
@@ -560,7 +560,7 @@
       "einstieg_datum": "2026-06-27",
       "sk_score_zum_zeitpunkt": 3.0,
       "status": "WIN",
-      "tage_seit_einstieg": 70,
+      "tage_seit_einstieg": 71,
       "link": "https://www.youtube.com/watch?v=qWlUGH7rGDQ"
     },
     {
@@ -571,7 +571,7 @@
       "einstieg_datum": "2026-06-25",
       "sk_score_zum_zeitpunkt": 3.0,
       "status": "WIN",
-      "tage_seit_einstieg": 72,
+      "tage_seit_einstieg": 73,
       "link": "https://www.youtube.com/watch?v=mMVxiZ2A-W4"
     },
     {
@@ -582,7 +582,7 @@
       "einstieg_datum": "2026-06-25",
       "sk_score_zum_zeitpunkt": 2.0,
       "status": "WIN",
-      "tage_seit_einstieg": 72,
+      "tage_seit_einstieg": 73,
       "link": "https://www.youtube.com/watch?v=mMVxiZ2A-W4"
     },
     {
@@ -593,7 +593,7 @@
       "einstieg_datum": "2026-06-24",
       "sk_score_zum_zeitpunkt": 3.0,
       "status": "WIN",
-      "tage_seit_einstieg": 73,
+      "tage_seit_einstieg": 74,
       "link": "https://www.youtube.com/watch?v=mMVxiZ2A-W4"
     },
     {
@@ -604,7 +604,7 @@
       "einstieg_datum": "2026-06-23",
       "sk_score_zum_zeitpunkt": 3.0,
       "status": "LOSS",
-      "tage_seit_einstieg": 74,
+      "tage_seit_einstieg": 75,
       "link": "https://www.youtube.com/watch?v=5Ecf_v6-02A"
     },
     {
@@ -615,7 +615,7 @@
       "einstieg_datum": "2026-06-23",
       "sk_score_zum_zeitpunkt": 3.0,
       "status": "LOSS",
-      "tage_seit_einstieg": 74,
+      "tage_seit_einstieg": 75,
       "link": "https://www.youtube.com/watch?v=5Ecf_v6-02A"
     },
     {
@@ -626,7 +626,7 @@
       "einstieg_datum": "2026-06-22",
       "sk_score_zum_zeitpunkt": 3.0,
       "status": "LOSS",
-      "tage_seit_einstieg": 75,
+      "tage_seit_einstieg": 76,
       "link": "https://www.youtube.com/watch?v=qofnw8oA93Q"
     },
     {
@@ -637,7 +637,7 @@
       "einstieg_datum": "2026-06-22",
       "sk_score_zum_zeitpunkt": 2.0,
       "status": "WIN",
-      "tage_seit_einstieg": 75,
+      "tage_seit_einstieg": 76,
       "link": "https://www.youtube.com/watch?v=5Ecf_v6-02A"
     },
     {
@@ -648,7 +648,7 @@
       "einstieg_datum": "2026-06-20",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 77,
+      "tage_seit_einstieg": 78,
       "link": "https://www.youtube.com/watch?v=KIjQVy-g7hA"
     },
     {
@@ -659,7 +659,7 @@
       "einstieg_datum": "2026-06-20",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 77,
+      "tage_seit_einstieg": 78,
       "link": "https://www.youtube.com/watch?v=KIjQVy-g7hA"
     },
     {
@@ -670,7 +670,7 @@
       "einstieg_datum": "2026-06-20",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 77,
+      "tage_seit_einstieg": 78,
       "link": "https://www.youtube.com/watch?v=KIjQVy-g7hA"
     },
     {
@@ -681,7 +681,7 @@
       "einstieg_datum": "2026-06-19",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 78,
+      "tage_seit_einstieg": 79,
       "link": "https://www.youtube.com/watch?v=l6Qw81Osfr4"
     },
     {
@@ -692,7 +692,7 @@
       "einstieg_datum": "2026-06-16",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 81,
+      "tage_seit_einstieg": 82,
       "link": "https://www.youtube.com/watch?v=6DJax0mvN5c"
     },
     {
@@ -703,7 +703,7 @@
       "einstieg_datum": "2026-06-16",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 81,
+      "tage_seit_einstieg": 82,
       "link": "https://www.youtube.com/watch?v=aufZPMOcULQ"
     },
     {
@@ -714,7 +714,7 @@
       "einstieg_datum": "2026-06-11",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 86,
+      "tage_seit_einstieg": 87,
       "link": "https://www.youtube.com/watch?v=IKeejST4hBE"
     },
     {
@@ -725,7 +725,7 @@
       "einstieg_datum": "2026-06-06",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 91,
+      "tage_seit_einstieg": 92,
       "link": "https://www.youtube.com/watch?v=dtmyPsKyoIU"
     },
     {
@@ -736,7 +736,7 @@
       "einstieg_datum": "2026-06-06",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 91,
+      "tage_seit_einstieg": 92,
       "link": "https://www.youtube.com/watch?v=dtmyPsKyoIU"
     },
     {
@@ -747,7 +747,7 @@
       "einstieg_datum": "2026-06-02",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 95,
+      "tage_seit_einstieg": 96,
       "link": "https://www.youtube.com/watch?v=TTDpigUwLUo"
     },
     {
@@ -758,7 +758,7 @@
       "einstieg_datum": "2026-06-02",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 95,
+      "tage_seit_einstieg": 96,
       "link": "https://www.youtube.com/watch?v=TTDpigUwLUo"
     },
     {
@@ -769,7 +769,7 @@
       "einstieg_datum": "2026-06-01",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 96,
+      "tage_seit_einstieg": 97,
       "link": "https://www.youtube.com/watch?v=RS7v2tR7CQk"
     },
     {
@@ -780,7 +780,7 @@
       "einstieg_datum": "2026-06-01",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 96,
+      "tage_seit_einstieg": 97,
       "link": "https://www.youtube.com/watch?v=RS7v2tR7CQk"
     },
     {
@@ -791,7 +791,7 @@
       "einstieg_datum": "2026-05-29",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 99,
+      "tage_seit_einstieg": 100,
       "link": "https://www.youtube.com/watch?v=3ubQzSHiCQM"
     },
     {
@@ -802,7 +802,7 @@
       "einstieg_datum": "2026-05-29",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 99,
+      "tage_seit_einstieg": 100,
       "link": "https://www.youtube.com/watch?v=3ubQzSHiCQM"
     },
     {
@@ -813,7 +813,7 @@
       "einstieg_datum": "2026-05-29",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 99,
+      "tage_seit_einstieg": 100,
       "link": "https://www.youtube.com/watch?v=3ubQzSHiCQM"
     },
     {
@@ -824,7 +824,7 @@
       "einstieg_datum": "2026-05-29",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 99,
+      "tage_seit_einstieg": 100,
       "link": "https://www.youtube.com/watch?v=3ubQzSHiCQM"
     },
     {
@@ -835,7 +835,7 @@
       "einstieg_datum": "2026-05-29",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 99,
+      "tage_seit_einstieg": 100,
       "link": "https://www.youtube.com/watch?v=3ubQzSHiCQM"
     },
     {
@@ -846,7 +846,7 @@
       "einstieg_datum": "2026-05-28",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 100,
+      "tage_seit_einstieg": 101,
       "link": "https://www.youtube.com/watch?v=3ubQzSHiCQM"
     },
     {
@@ -857,7 +857,7 @@
       "einstieg_datum": "2026-05-28",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 100,
+      "tage_seit_einstieg": 101,
       "link": "https://www.youtube.com/watch?v=3ubQzSHiCQM"
     },
     {
@@ -868,7 +868,7 @@
       "einstieg_datum": "2026-05-26",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 102,
+      "tage_seit_einstieg": 103,
       "link": "https://www.youtube.com/watch?v=R4uVKcA8svI"
     },
     {
@@ -879,7 +879,7 @@
       "einstieg_datum": "2026-05-26",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 102,
+      "tage_seit_einstieg": 103,
       "link": "https://www.youtube.com/watch?v=R4uVKcA8svI"
     },
     {
@@ -890,7 +890,7 @@
       "einstieg_datum": "2026-05-26",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 102,
+      "tage_seit_einstieg": 103,
       "link": "https://www.youtube.com/watch?v=R4uVKcA8svI"
     },
     {
@@ -901,7 +901,7 @@
       "einstieg_datum": "2026-05-24",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 104,
+      "tage_seit_einstieg": 105,
       "link": "https://www.youtube.com/watch?v=oZJHvLsEpuI"
     },
     {
@@ -912,7 +912,7 @@
       "einstieg_datum": "2026-05-24",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 104,
+      "tage_seit_einstieg": 105,
       "link": "https://www.youtube.com/watch?v=oZJHvLsEpuI"
     },
     {
@@ -923,7 +923,7 @@
       "einstieg_datum": "2026-05-24",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 104,
+      "tage_seit_einstieg": 105,
       "link": "https://www.youtube.com/watch?v=oZJHvLsEpuI"
     },
     {
@@ -934,7 +934,7 @@
       "einstieg_datum": "2026-05-23",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 105,
+      "tage_seit_einstieg": 106,
       "link": "https://www.youtube.com/watch?v=oZJHvLsEpuI"
     },
     {
@@ -945,7 +945,7 @@
       "einstieg_datum": "2026-05-23",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 105,
+      "tage_seit_einstieg": 106,
       "link": "https://www.youtube.com/watch?v=oZJHvLsEpuI"
     },
     {
@@ -956,7 +956,7 @@
       "einstieg_datum": "2026-05-23",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 105,
+      "tage_seit_einstieg": 106,
       "link": "https://www.youtube.com/watch?v=oZJHvLsEpuI"
     },
     {
@@ -967,7 +967,7 @@
       "einstieg_datum": "2026-05-23",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 105,
+      "tage_seit_einstieg": 106,
       "link": "https://www.youtube.com/watch?v=83tXL1Qv_Zg"
     },
     {
@@ -978,7 +978,7 @@
       "einstieg_datum": "2026-05-20",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 108,
+      "tage_seit_einstieg": 109,
       "link": "https://www.youtube.com/watch?v=XZOv7QgCDKg"
     },
     {
@@ -989,7 +989,7 @@
       "einstieg_datum": "2026-05-18",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 110,
+      "tage_seit_einstieg": 111,
       "link": "https://www.youtube.com/watch?v=LGC6MorLm8k"
     },
     {
@@ -1000,7 +1000,7 @@
       "einstieg_datum": "2026-05-13",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 115,
+      "tage_seit_einstieg": 116,
       "link": "https://www.youtube.com/watch?v=un9xYXGlu4o"
     },
     {
@@ -1011,7 +1011,7 @@
       "einstieg_datum": "2026-05-13",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 115,
+      "tage_seit_einstieg": 116,
       "link": "https://www.youtube.com/watch?v=un9xYXGlu4o"
     },
     {
@@ -1022,7 +1022,7 @@
       "einstieg_datum": "2026-05-13",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 115,
+      "tage_seit_einstieg": 116,
       "link": "https://www.youtube.com/watch?v=un9xYXGlu4o"
     },
     {
@@ -1033,7 +1033,7 @@
       "einstieg_datum": "2026-05-11",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 117,
+      "tage_seit_einstieg": 118,
       "link": "https://www.youtube.com/watch?v=DYwxbOm9GB4"
     },
     {
@@ -1044,7 +1044,7 @@
       "einstieg_datum": "2026-05-09",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 119,
+      "tage_seit_einstieg": 120,
       "link": "https://www.youtube.com/watch?v=Uwi0xqliOcc"
     },
     {
@@ -1055,7 +1055,7 @@
       "einstieg_datum": "2026-05-09",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 119,
+      "tage_seit_einstieg": 120,
       "link": "https://www.youtube.com/watch?v=Uwi0xqliOcc"
     },
     {
@@ -1066,7 +1066,7 @@
       "einstieg_datum": "2026-05-09",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 119,
+      "tage_seit_einstieg": 120,
       "link": "https://www.youtube.com/watch?v=Uwi0xqliOcc"
     },
     {
@@ -1077,7 +1077,7 @@
       "einstieg_datum": "2026-05-09",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 119,
+      "tage_seit_einstieg": 120,
       "link": "https://www.youtube.com/watch?v=Uwi0xqliOcc"
     },
     {
@@ -1088,7 +1088,7 @@
       "einstieg_datum": "2026-05-09",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 119,
+      "tage_seit_einstieg": 120,
       "link": "https://www.youtube.com/watch?v=Uwi0xqliOcc"
     },
     {
@@ -1099,7 +1099,7 @@
       "einstieg_datum": "2026-05-09",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 119,
+      "tage_seit_einstieg": 120,
       "link": "https://www.youtube.com/watch?v=Uwi0xqliOcc"
     },
     {
@@ -1110,7 +1110,7 @@
       "einstieg_datum": "2026-05-08",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 120,
+      "tage_seit_einstieg": 121,
       "link": "https://www.youtube.com/watch?v=9fVL1jweTr8"
     },
     {
@@ -1121,7 +1121,7 @@
       "einstieg_datum": "2026-05-08",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 120,
+      "tage_seit_einstieg": 121,
       "link": "https://www.youtube.com/watch?v=9fVL1jweTr8"
     },
     {
@@ -1132,7 +1132,7 @@
       "einstieg_datum": "2026-05-07",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 121,
+      "tage_seit_einstieg": 122,
       "link": "https://www.youtube.com/watch?v=xlYs8OlGKNs"
     },
     {
@@ -1143,7 +1143,7 @@
       "einstieg_datum": "2026-05-07",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 121,
+      "tage_seit_einstieg": 122,
       "link": "https://www.youtube.com/watch?v=xlYs8OlGKNs"
     },
     {
@@ -1154,7 +1154,7 @@
       "einstieg_datum": "2026-05-07",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 121,
+      "tage_seit_einstieg": 122,
       "link": "https://www.youtube.com/watch?v=xlYs8OlGKNs"
     },
     {
@@ -1165,7 +1165,7 @@
       "einstieg_datum": "2026-05-07",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 121,
+      "tage_seit_einstieg": 122,
       "link": "https://www.youtube.com/watch?v=xlYs8OlGKNs"
     },
     {
@@ -1176,7 +1176,7 @@
       "einstieg_datum": "2026-05-05",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 123,
+      "tage_seit_einstieg": 124,
       "link": "https://www.youtube.com/watch?v=VSXyZnC85hQ"
     },
     {
@@ -1187,7 +1187,7 @@
       "einstieg_datum": "2026-05-02",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 126,
+      "tage_seit_einstieg": 127,
       "link": "https://www.youtube.com/watch?v=ta3wzBWBGew"
     },
     {
@@ -1198,7 +1198,7 @@
       "einstieg_datum": "2026-05-02",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 126,
+      "tage_seit_einstieg": 127,
       "link": "https://www.youtube.com/watch?v=ta3wzBWBGew"
     },
     {
@@ -1209,7 +1209,7 @@
       "einstieg_datum": "2026-05-02",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 126,
+      "tage_seit_einstieg": 127,
       "link": "https://www.youtube.com/watch?v=ta3wzBWBGew"
     },
     {
@@ -1220,7 +1220,7 @@
       "einstieg_datum": "2026-05-01",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 127,
+      "tage_seit_einstieg": 128,
       "link": "https://www.youtube.com/watch?v=ta3wzBWBGew"
     },
     {
@@ -1231,7 +1231,7 @@
       "einstieg_datum": "2026-04-30",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 128,
+      "tage_seit_einstieg": 129,
       "link": "https://www.youtube.com/watch?v=Ejnmg0wUEjg"
     },
     {
@@ -1242,7 +1242,7 @@
       "einstieg_datum": "2026-04-30",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 128,
+      "tage_seit_einstieg": 129,
       "link": "https://www.youtube.com/watch?v=Ejnmg0wUEjg"
     },
     {
@@ -1253,7 +1253,7 @@
       "einstieg_datum": "2026-04-29",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 129,
+      "tage_seit_einstieg": 130,
       "link": "https://www.youtube.com/watch?v=Ejnmg0wUEjg"
     },
     {
@@ -1264,7 +1264,7 @@
       "einstieg_datum": "2026-04-23",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 135,
+      "tage_seit_einstieg": 136,
       "link": "https://www.youtube.com/watch?v=DfNYhvq4ToU"
     },
     {
@@ -1275,7 +1275,7 @@
       "einstieg_datum": "2026-04-23",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 135,
+      "tage_seit_einstieg": 136,
       "link": "https://www.youtube.com/watch?v=DfNYhvq4ToU"
     },
     {
@@ -1286,7 +1286,7 @@
       "einstieg_datum": "2026-04-23",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 135,
+      "tage_seit_einstieg": 136,
       "link": "https://www.youtube.com/watch?v=DfNYhvq4ToU"
     },
     {
@@ -1297,7 +1297,7 @@
       "einstieg_datum": "2026-04-22",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 136,
+      "tage_seit_einstieg": 137,
       "link": "https://www.youtube.com/watch?v=DfNYhvq4ToU"
     },
     {
@@ -1308,7 +1308,7 @@
       "einstieg_datum": "2026-04-20",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 138,
+      "tage_seit_einstieg": 139,
       "link": "https://www.youtube.com/watch?v=V-_BEIgsBcg"
     },
     {
@@ -1319,7 +1319,7 @@
       "einstieg_datum": "2026-04-18",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 140,
+      "tage_seit_einstieg": 141,
       "link": "https://www.youtube.com/watch?v=EvFnRhT-teY"
     },
     {
@@ -1330,7 +1330,7 @@
       "einstieg_datum": "2026-04-18",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 140,
+      "tage_seit_einstieg": 141,
       "link": "https://www.youtube.com/watch?v=EvFnRhT-teY"
     },
     {
@@ -1341,7 +1341,7 @@
       "einstieg_datum": "2026-04-17",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 141,
+      "tage_seit_einstieg": 142,
       "link": "https://www.youtube.com/watch?v=EvFnRhT-teY"
     },
     {
@@ -1352,7 +1352,7 @@
       "einstieg_datum": "2026-04-16",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 142,
+      "tage_seit_einstieg": 143,
       "link": "https://www.youtube.com/watch?v=pQMAATNC8FM"
     },
     {
@@ -1363,7 +1363,7 @@
       "einstieg_datum": "2026-04-16",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 142,
+      "tage_seit_einstieg": 143,
       "link": "https://www.youtube.com/watch?v=pQMAATNC8FM"
     },
     {
@@ -1374,7 +1374,7 @@
       "einstieg_datum": "2026-04-15",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 143,
+      "tage_seit_einstieg": 144,
       "link": "https://www.youtube.com/watch?v=7BwPZJM1o68"
     },
     {
@@ -1385,7 +1385,7 @@
       "einstieg_datum": "2026-04-14",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 144,
+      "tage_seit_einstieg": 145,
       "link": "https://www.youtube.com/watch?v=cECBw5K63Ao"
     },
     {
@@ -1396,7 +1396,7 @@
       "einstieg_datum": "2026-04-12",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 146,
+      "tage_seit_einstieg": 147,
       "link": "https://www.youtube.com/watch?v=EilLgULjTk4"
     },
     {
@@ -1407,7 +1407,7 @@
       "einstieg_datum": "2026-04-12",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 146,
+      "tage_seit_einstieg": 147,
       "link": "https://www.youtube.com/watch?v=EilLgULjTk4"
     },
     {
@@ -1418,7 +1418,7 @@
       "einstieg_datum": "2026-04-10",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 148,
+      "tage_seit_einstieg": 149,
       "link": "https://www.youtube.com/watch?v=KDKGRsvvk30"
     },
     {
@@ -1429,7 +1429,7 @@
       "einstieg_datum": "2026-04-10",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 148,
+      "tage_seit_einstieg": 149,
       "link": "https://www.youtube.com/watch?v=KDKGRsvvk30"
     },
     {
@@ -1440,7 +1440,7 @@
       "einstieg_datum": "2026-04-05",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 153,
+      "tage_seit_einstieg": 154,
       "link": "https://www.youtube.com/watch?v=cyQ8S1iDZXY"
     },
     {
@@ -1451,7 +1451,7 @@
       "einstieg_datum": "2026-04-01",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 157,
+      "tage_seit_einstieg": 158,
       "link": "https://www.youtube.com/watch?v=6MRPcMMN07A"
     },
     {
@@ -1462,7 +1462,7 @@
       "einstieg_datum": "2026-03-31",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 158,
+      "tage_seit_einstieg": 159,
       "link": "https://www.youtube.com/watch?v=7SBM8dFAPew"
     },
     {
@@ -1473,7 +1473,7 @@
       "einstieg_datum": "2026-03-30",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 159,
+      "tage_seit_einstieg": 160,
       "link": "https://www.youtube.com/watch?v=7SBM8dFAPew"
     },
     {
@@ -1484,7 +1484,7 @@
       "einstieg_datum": "2026-03-29",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 160,
+      "tage_seit_einstieg": 161,
       "link": "https://www.youtube.com/watch?v=WhF7a2xZN_A"
     },
     {
@@ -1495,7 +1495,7 @@
       "einstieg_datum": "2026-03-29",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 160,
+      "tage_seit_einstieg": 161,
       "link": "https://www.youtube.com/watch?v=WhF7a2xZN_A"
     },
     {
@@ -1506,7 +1506,7 @@
       "einstieg_datum": "2026-03-28",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 161,
+      "tage_seit_einstieg": 162,
       "link": "https://www.youtube.com/watch?v=Q8SxYNNrObU"
     },
     {
@@ -1517,7 +1517,7 @@
       "einstieg_datum": "2026-03-28",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 161,
+      "tage_seit_einstieg": 162,
       "link": "https://www.youtube.com/watch?v=Q8SxYNNrObU"
     },
     {
@@ -1528,7 +1528,7 @@
       "einstieg_datum": "2026-03-28",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 161,
+      "tage_seit_einstieg": 162,
       "link": "https://www.youtube.com/watch?v=Q8SxYNNrObU"
     },
     {
@@ -1539,7 +1539,7 @@
       "einstieg_datum": "2026-03-27",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 162,
+      "tage_seit_einstieg": 163,
       "link": "https://www.youtube.com/watch?v=GpoqEwqDASo"
     },
     {
@@ -1550,7 +1550,7 @@
       "einstieg_datum": "2026-03-26",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 163,
+      "tage_seit_einstieg": 164,
       "link": "https://www.youtube.com/watch?v=GpoqEwqDASo"
     },
     {
@@ -1561,7 +1561,7 @@
       "einstieg_datum": "2026-03-26",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 163,
+      "tage_seit_einstieg": 164,
       "link": "https://www.youtube.com/watch?v=GpoqEwqDASo"
     },
     {
@@ -1572,7 +1572,7 @@
       "einstieg_datum": "2026-03-25",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 164,
+      "tage_seit_einstieg": 165,
       "link": "https://www.youtube.com/watch?v=smhUlWDMQHE"
     },
     {
@@ -1583,7 +1583,7 @@
       "einstieg_datum": "2026-03-25",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 164,
+      "tage_seit_einstieg": 165,
       "link": "https://www.youtube.com/watch?v=smhUlWDMQHE"
     },
     {
@@ -1594,7 +1594,7 @@
       "einstieg_datum": "2026-03-23",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 166,
+      "tage_seit_einstieg": 167,
       "link": "https://www.youtube.com/watch?v=5w2TdpRu6Zg"
     },
     {
@@ -1605,7 +1605,7 @@
       "einstieg_datum": "2026-03-23",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 166,
+      "tage_seit_einstieg": 167,
       "link": "https://www.youtube.com/watch?v=5w2TdpRu6Zg"
     },
     {
@@ -1616,7 +1616,7 @@
       "einstieg_datum": "2026-03-23",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 166,
+      "tage_seit_einstieg": 167,
       "link": "https://www.youtube.com/watch?v=5w2TdpRu6Zg"
     },
     {
@@ -1627,7 +1627,7 @@
       "einstieg_datum": "2026-03-23",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 166,
+      "tage_seit_einstieg": 167,
       "link": "https://www.youtube.com/watch?v=6GVuyfySB1Q"
     },
     {
@@ -1638,7 +1638,7 @@
       "einstieg_datum": "2026-03-23",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 166,
+      "tage_seit_einstieg": 167,
       "link": "https://www.youtube.com/watch?v=6GVuyfySB1Q"
     },
     {
@@ -1649,7 +1649,7 @@
       "einstieg_datum": "2026-03-20",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 169,
+      "tage_seit_einstieg": 170,
       "link": "https://www.youtube.com/watch?v=fRdfi5rg2Yw"
     },
     {
@@ -1660,7 +1660,7 @@
       "einstieg_datum": "2026-03-20",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 169,
+      "tage_seit_einstieg": 170,
       "link": "https://www.youtube.com/watch?v=fRdfi5rg2Yw"
     },
     {
@@ -1671,7 +1671,7 @@
       "einstieg_datum": "2026-03-20",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 169,
+      "tage_seit_einstieg": 170,
       "link": "https://www.youtube.com/watch?v=fRdfi5rg2Yw"
     },
     {
@@ -1682,7 +1682,7 @@
       "einstieg_datum": "2026-03-17",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 172,
+      "tage_seit_einstieg": 173,
       "link": "https://www.youtube.com/watch?v=y76HwUbfAak"
     },
     {
@@ -1693,7 +1693,7 @@
       "einstieg_datum": "2026-03-16",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 173,
+      "tage_seit_einstieg": 174,
       "link": "https://www.youtube.com/watch?v=HDCLDnwkyhE"
     },
     {
@@ -1704,7 +1704,7 @@
       "einstieg_datum": "2026-03-16",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 173,
+      "tage_seit_einstieg": 174,
       "link": "https://www.youtube.com/watch?v=HDCLDnwkyhE"
     },
     {
@@ -1715,7 +1715,7 @@
       "einstieg_datum": "2026-03-12",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 177,
+      "tage_seit_einstieg": 178,
       "link": "https://www.youtube.com/watch?v=D7hKeNZP-wE"
     },
     {
@@ -1726,7 +1726,7 @@
       "einstieg_datum": "2026-03-11",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 178,
+      "tage_seit_einstieg": 179,
       "link": "https://www.youtube.com/watch?v=HT-alWgsB0c"
     },
     {
@@ -1737,7 +1737,7 @@
       "einstieg_datum": "2026-03-08",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 181,
+      "tage_seit_einstieg": 182,
       "link": "https://www.youtube.com/watch?v=hSx5lKm96J4"
     },
     {
@@ -1748,7 +1748,7 @@
       "einstieg_datum": "2026-03-07",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 182,
+      "tage_seit_einstieg": 183,
       "link": "https://www.youtube.com/watch?v=gxv4F_Lnhb4"
     },
     {
@@ -1759,7 +1759,7 @@
       "einstieg_datum": "2026-03-05",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 184,
+      "tage_seit_einstieg": 185,
       "link": "https://www.youtube.com/watch?v=hyZNSwT5iMw"
     },
     {
@@ -1770,7 +1770,7 @@
       "einstieg_datum": "2026-03-05",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 184,
+      "tage_seit_einstieg": 185,
       "link": "https://www.youtube.com/watch?v=hyZNSwT5iMw"
     },
     {
@@ -1781,7 +1781,7 @@
       "einstieg_datum": "2026-03-05",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 184,
+      "tage_seit_einstieg": 185,
       "link": "https://www.youtube.com/watch?v=hyZNSwT5iMw"
     },
     {
@@ -1792,7 +1792,7 @@
       "einstieg_datum": "2026-03-05",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 184,
+      "tage_seit_einstieg": 185,
       "link": "https://www.youtube.com/watch?v=hyZNSwT5iMw"
     },
     {
@@ -1803,7 +1803,7 @@
       "einstieg_datum": "2026-03-05",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 184,
+      "tage_seit_einstieg": 185,
       "link": "https://www.youtube.com/watch?v=hyZNSwT5iMw"
     },
     {
@@ -1814,7 +1814,7 @@
       "einstieg_datum": "2026-03-05",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 184,
+      "tage_seit_einstieg": 185,
       "link": "https://www.youtube.com/watch?v=hyZNSwT5iMw"
     },
     {
@@ -1825,7 +1825,7 @@
       "einstieg_datum": "2026-03-04",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 185,
+      "tage_seit_einstieg": 186,
       "link": "https://www.youtube.com/watch?v=slFGeV9y4aI"
     },
     {
@@ -1836,7 +1836,7 @@
       "einstieg_datum": "2026-03-02",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 187,
+      "tage_seit_einstieg": 188,
       "link": "https://www.youtube.com/watch?v=ERC20R6hS6k"
     },
     {
@@ -1847,7 +1847,7 @@
       "einstieg_datum": "2026-03-01",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 188,
+      "tage_seit_einstieg": 189,
       "link": "https://www.youtube.com/watch?v=UCtksEuwkKM"
     },
     {
@@ -1858,7 +1858,7 @@
       "einstieg_datum": "2026-03-01",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 188,
+      "tage_seit_einstieg": 189,
       "link": "https://www.youtube.com/watch?v=UCtksEuwkKM"
     },
     {
@@ -1869,7 +1869,7 @@
       "einstieg_datum": "2026-02-25",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 192,
+      "tage_seit_einstieg": 193,
       "link": "https://www.youtube.com/watch?v=-Zx-Dty_9IM"
     },
     {
@@ -1880,7 +1880,7 @@
       "einstieg_datum": "2026-02-25",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 192,
+      "tage_seit_einstieg": 193,
       "link": "https://www.youtube.com/watch?v=-Zx-Dty_9IM"
     },
     {
@@ -1891,7 +1891,7 @@
       "einstieg_datum": "2026-02-25",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 192,
+      "tage_seit_einstieg": 193,
       "link": "https://www.youtube.com/watch?v=-Zx-Dty_9IM"
     },
     {
@@ -1902,7 +1902,7 @@
       "einstieg_datum": "2026-02-23",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 194,
+      "tage_seit_einstieg": 195,
       "link": "https://www.youtube.com/watch?v=FRKmVlPYoz8"
     },
     {
@@ -1913,7 +1913,7 @@
       "einstieg_datum": "2026-02-21",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 196,
+      "tage_seit_einstieg": 197,
       "link": "https://www.youtube.com/watch?v=yp2XRoS7MLg"
     },
     {
@@ -1924,7 +1924,7 @@
       "einstieg_datum": "2026-02-21",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 196,
+      "tage_seit_einstieg": 197,
       "link": "https://www.youtube.com/watch?v=yp2XRoS7MLg"
     },
     {
@@ -1935,7 +1935,7 @@
       "einstieg_datum": "2026-02-19",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 198,
+      "tage_seit_einstieg": 199,
       "link": "https://www.youtube.com/watch?v=I9Fm1Erk66I"
     },
     {
@@ -1946,7 +1946,7 @@
       "einstieg_datum": "2026-02-19",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 198,
+      "tage_seit_einstieg": 199,
       "link": "https://www.youtube.com/watch?v=I9Fm1Erk66I"
     },
     {
@@ -1957,7 +1957,7 @@
       "einstieg_datum": "2026-02-14",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 203,
+      "tage_seit_einstieg": 204,
       "link": "https://www.youtube.com/watch?v=WXeglFkiZUI"
     },
     {
@@ -1968,7 +1968,7 @@
       "einstieg_datum": "2026-02-10",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 207,
+      "tage_seit_einstieg": 208,
       "link": "https://www.youtube.com/watch?v=uOtPXvPLH_o"
     },
     {
@@ -1979,7 +1979,7 @@
       "einstieg_datum": "2026-02-10",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 207,
+      "tage_seit_einstieg": 208,
       "link": "https://www.youtube.com/watch?v=uOtPXvPLH_o"
     },
     {
@@ -1990,7 +1990,7 @@
       "einstieg_datum": "2026-02-10",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 207,
+      "tage_seit_einstieg": 208,
       "link": "https://www.youtube.com/watch?v=uOtPXvPLH_o"
     },
     {
@@ -2001,7 +2001,7 @@
       "einstieg_datum": "2026-02-07",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 210,
+      "tage_seit_einstieg": 211,
       "link": "https://www.youtube.com/watch?v=OnepjgKyvpE"
     },
     {
@@ -2012,7 +2012,7 @@
       "einstieg_datum": "2026-02-07",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 210,
+      "tage_seit_einstieg": 211,
       "link": "https://www.youtube.com/watch?v=OnepjgKyvpE"
     },
     {
@@ -2023,7 +2023,7 @@
       "einstieg_datum": "2026-02-07",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 210,
+      "tage_seit_einstieg": 211,
       "link": "https://www.youtube.com/watch?v=OnepjgKyvpE"
     },
     {
@@ -2034,7 +2034,7 @@
       "einstieg_datum": "2026-02-05",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 212,
+      "tage_seit_einstieg": 213,
       "link": "https://www.youtube.com/watch?v=ihAHcgwQG2M"
     },
     {
@@ -2045,7 +2045,7 @@
       "einstieg_datum": "2026-02-05",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 212,
+      "tage_seit_einstieg": 213,
       "link": "https://www.youtube.com/watch?v=7wn97nEm0ig"
     },
     {
@@ -2056,7 +2056,7 @@
       "einstieg_datum": "2026-02-03",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 214,
+      "tage_seit_einstieg": 215,
       "link": "https://www.youtube.com/watch?v=KH9EyfWWdHI"
     },
     {
@@ -2067,7 +2067,7 @@
       "einstieg_datum": "2026-02-03",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 214,
+      "tage_seit_einstieg": 215,
       "link": "https://www.youtube.com/watch?v=KH9EyfWWdHI"
     },
     {
@@ -2078,7 +2078,7 @@
       "einstieg_datum": "2026-02-02",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 215,
+      "tage_seit_einstieg": 216,
       "link": "https://www.youtube.com/watch?v=TV0r3KpPmjI"
     },
     {
@@ -2089,7 +2089,7 @@
       "einstieg_datum": "2026-02-02",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 215,
+      "tage_seit_einstieg": 216,
       "link": "https://www.youtube.com/watch?v=TV0r3KpPmjI"
     },
     {
@@ -2100,7 +2100,7 @@
       "einstieg_datum": "2026-01-31",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 217,
+      "tage_seit_einstieg": 218,
       "link": "https://www.youtube.com/watch?v=n0Pb3z4vkLk"
     },
     {
@@ -2111,7 +2111,7 @@
       "einstieg_datum": "2026-01-31",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 217,
+      "tage_seit_einstieg": 218,
       "link": "https://www.youtube.com/watch?v=19sK2GuHpg8"
     },
     {
@@ -2122,7 +2122,7 @@
       "einstieg_datum": "2026-01-31",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 217,
+      "tage_seit_einstieg": 218,
       "link": "https://www.youtube.com/watch?v=19sK2GuHpg8"
     },
     {
@@ -2133,7 +2133,7 @@
       "einstieg_datum": "2026-01-27",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 221,
+      "tage_seit_einstieg": 222,
       "link": "https://www.youtube.com/watch?v=HtLQVVBWOJQ"
     },
     {
@@ -2144,7 +2144,7 @@
       "einstieg_datum": "2026-01-26",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 222,
+      "tage_seit_einstieg": 223,
       "link": "https://www.youtube.com/watch?v=MCE5dYre_Lg"
     },
     {
@@ -2155,7 +2155,7 @@
       "einstieg_datum": "2026-01-26",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 222,
+      "tage_seit_einstieg": 223,
       "link": "https://www.youtube.com/watch?v=MCE5dYre_Lg"
     },
     {
@@ -2166,7 +2166,7 @@
       "einstieg_datum": "2026-01-22",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 226,
+      "tage_seit_einstieg": 227,
       "link": "https://www.youtube.com/watch?v=DgEtf2EjciA"
     },
     {
@@ -2177,7 +2177,7 @@
       "einstieg_datum": "2026-01-19",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 229,
+      "tage_seit_einstieg": 230,
       "link": "https://www.youtube.com/watch?v=Mhv-BYwTwSQ"
     },
     {
@@ -2188,7 +2188,7 @@
       "einstieg_datum": "2026-01-15",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 233,
+      "tage_seit_einstieg": 234,
       "link": "https://www.youtube.com/watch?v=Zsa1U3eS3RI"
     },
     {
@@ -2199,7 +2199,7 @@
       "einstieg_datum": "2026-01-15",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 233,
+      "tage_seit_einstieg": 234,
       "link": "https://www.youtube.com/watch?v=Zsa1U3eS3RI"
     },
     {
@@ -2210,7 +2210,7 @@
       "einstieg_datum": "2026-01-15",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 233,
+      "tage_seit_einstieg": 234,
       "link": "https://www.youtube.com/watch?v=cgq64X_wplQ"
     },
     {
@@ -2221,7 +2221,7 @@
       "einstieg_datum": "2026-01-15",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 233,
+      "tage_seit_einstieg": 234,
       "link": "https://www.youtube.com/watch?v=cgq64X_wplQ"
     },
     {
@@ -2232,7 +2232,7 @@
       "einstieg_datum": "2026-01-15",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 233,
+      "tage_seit_einstieg": 234,
       "link": "https://www.youtube.com/watch?v=cgq64X_wplQ"
     },
     {
@@ -2243,7 +2243,7 @@
       "einstieg_datum": "2026-01-15",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 233,
+      "tage_seit_einstieg": 234,
       "link": "https://www.youtube.com/watch?v=cgq64X_wplQ"
     },
     {
@@ -2254,7 +2254,7 @@
       "einstieg_datum": "2026-01-15",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 233,
+      "tage_seit_einstieg": 234,
       "link": "https://www.youtube.com/watch?v=cgq64X_wplQ"
     },
     {
@@ -2265,7 +2265,7 @@
       "einstieg_datum": "2026-01-14",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 234,
+      "tage_seit_einstieg": 235,
       "link": "https://www.youtube.com/watch?v=cgq64X_wplQ"
     },
     {
@@ -2276,7 +2276,7 @@
       "einstieg_datum": "2026-01-14",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 234,
+      "tage_seit_einstieg": 235,
       "link": "https://www.youtube.com/watch?v=Rf5wMhpIlb4"
     },
     {
@@ -2287,7 +2287,7 @@
       "einstieg_datum": "2026-01-14",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 234,
+      "tage_seit_einstieg": 235,
       "link": "https://www.youtube.com/watch?v=Rf5wMhpIlb4"
     },
     {
@@ -2298,7 +2298,7 @@
       "einstieg_datum": "2026-01-12",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 236,
+      "tage_seit_einstieg": 237,
       "link": "https://www.youtube.com/watch?v=7iZ3vQUkIxY"
     },
     {
@@ -2309,7 +2309,7 @@
       "einstieg_datum": "2026-01-12",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 236,
+      "tage_seit_einstieg": 237,
       "link": "https://www.youtube.com/watch?v=7iZ3vQUkIxY"
     },
     {
@@ -2320,7 +2320,7 @@
       "einstieg_datum": "2026-01-09",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 239,
+      "tage_seit_einstieg": 240,
       "link": "https://www.youtube.com/watch?v=PDIQdwevVxw"
     },
     {
@@ -2331,7 +2331,7 @@
       "einstieg_datum": "2026-01-08",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 240,
+      "tage_seit_einstieg": 241,
       "link": "https://www.youtube.com/watch?v=yLW6M4-3-vQ"
     },
     {
@@ -2342,7 +2342,7 @@
       "einstieg_datum": "2026-01-07",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 241,
+      "tage_seit_einstieg": 242,
       "link": "https://www.youtube.com/watch?v=QwP4E4dxImc"
     },
     {
@@ -2353,7 +2353,7 @@
       "einstieg_datum": "2026-01-05",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 243,
+      "tage_seit_einstieg": 244,
       "link": "https://www.youtube.com/watch?v=izsatjmuRko"
     },
     {
@@ -2364,7 +2364,7 @@
       "einstieg_datum": "2026-01-05",
       "sk_score_zum_zeitpunkt": null,
       "status": "WIN",
-      "tage_seit_einstieg": 243,
+      "tage_seit_einstieg": 244,
       "link": "https://www.youtube.com/watch?v=r5rzlUs3LcE"
     },
     {
@@ -2375,7 +2375,7 @@
       "einstieg_datum": "2026-01-05",
       "sk_score_zum_zeitpunkt": null,
       "status": "LOSS",
-      "tage_seit_einstieg": 243,
+      "tage_seit_einstieg": 244,
       "link": "https://www.youtube.com/watch?v=r5rzlUs3LcE"
     }
   ]
