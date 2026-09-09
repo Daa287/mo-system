@@ -1,5 +1,5 @@
 {
-  "generiert": "2026-09-09T19:20:04",
+  "generiert": "2026-09-09T19:50:04",
   "symbol": "BTC",
   "anzahl": 28,
   "zonen": [
@@ -341,20 +341,6 @@
     },
     {
       "symbol": "BTC",
-      "tf": "D1",
-      "richtung": "LONG",
-      "zone_bereich": "$73,855–$78,853",
-      "ziel_bei_halten": 78852.53683,
-      "ziel_bei_nicht_halten": 69704.97679,
-      "erkannt_datum": "2026-09-09",
-      "erkannt_ts": "2026-09-09 17:37:11",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "kategorie": null,
-      "unbestaetigt": false
-    },
-    {
-      "symbol": "BTC",
       "tf": "H4",
       "richtung": "SHORT",
       "zone_bereich": "$78,871–$79,742",
@@ -380,6 +366,20 @@
       "status_label": "OFFEN",
       "kategorie": "KANDIDAT_GUELTIG",
       "unbestaetigt": true
+    },
+    {
+      "symbol": "BTC",
+      "tf": "D1",
+      "richtung": "LONG",
+      "zone_bereich": "$73,855–$78,853",
+      "ziel_bei_halten": 78852.53683,
+      "ziel_bei_nicht_halten": 69704.97679,
+      "erkannt_datum": "2026-09-09",
+      "erkannt_ts": "2026-09-09 17:37:11",
+      "status": "GEHALTEN",
+      "status_label": "GEHALTEN / ZIEL ERREICHT",
+      "kategorie": null,
+      "unbestaetigt": false
     },
     {
       "symbol": "BTC",
