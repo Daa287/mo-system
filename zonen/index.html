@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>SK-Zonen — Live-Tracking</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { --accent: #2563eb; --accent-dark: #1e3a8a; }
+  body { font-family: -apple-system, Segoe UI, Roboto, sans-serif; max-width: 950px;
+          margin: 2rem auto; padding: 0 1rem; color: #222; }
+  h1 { margin-bottom: 0.2rem; }
+  .sub { color: #666; margin-top: 0; margin-bottom: 1rem; font-size: 0.9rem; }
+  .summary { margin-bottom: 1.5rem; font-size: 0.95rem; }
+  table { border-collapse: collapse; width: 100%; }
+  th, td { text-align: left; padding: 0.5rem 0.7rem; border-bottom: 1px solid #ddd; }
+  th { background: #eef2ff; color: var(--accent-dark); font-weight: 600; }
+  tr:hover { background: #fafafa; }
+
+  .badge { display: inline-block; font-weight: 600; padding: 0.1rem 0.55rem;
+            border-radius: 4px; font-size: 0.92em; white-space: nowrap; }
+  .badge.gehalten { color: #1a7f37; background: #e6f4ea; }
+  .badge.nicht_gehalten { color: #cf222e; background: #fde8e8; }
+  .badge.offen { color: #9a6700; background: #fff6e0; }
+
+  .tag { display: inline-block; font-size: 0.75em; font-weight: 600; color: #6b7280;
+          background: #f3f4f6; border-radius: 4px; padding: 0.05rem 0.4rem; margin-left: 0.3rem; }
+  .tag.kat { color: #4338ca; background: #eef2ff; }
+
+  @media (max-width: 650px) {
+    .zonen-table thead { display: none; }
+    .zonen-table, .zonen-table tbody, .zonen-table tr, .zonen-table td { display: block; width: 100%; }
+    .zonen-table { border: none; }
+    .zonen-table tr {
+      margin-bottom: 1rem; border: 1px solid #ddd; border-radius: 8px;
+      padding: 0.4rem 0.8rem; box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    }
+    .zonen-table td {
+      display: flex; justify-content: space-between; align-items: center;
+      gap: 1rem; text-align: right; padding: 0.4rem 0; border-bottom: 1px solid #eee;
+    }
+    .zonen-table td:last-child { border-bottom: none; }
+    .zonen-table td::before {
+      content: attr(data-label); font-weight: 600; color: #555;
+      text-align: left; flex-shrink: 0;
+    }
+  }
+</style>
+</head>
+<body>
+  <h1>SK-Zonen — Live-Tracking</h1>
+  <p class="sub">BTC · Fibonacci-Zonen (SK-Methode) mit Status-Nachverfolgung · generiert 2026-09-09 15:13</p>
+  <p class="summary">25 Zonen (letzte 14 Tage) — ⏳ 24 OFFEN &nbsp;|&nbsp;
+  ✅ 1 GEHALTEN &nbsp;|&nbsp; ❌ 0 NICHT GEHALTEN</p>
+  <table class="zonen-table">
+    <thead>
+      <tr><th>Symbol/TF</th><th>Richtung</th><th>Zone</th><th>Erkannt</th><th>Status</th><th>Nächste Ziele</th></tr>
+    </thead>
+    <tbody>
+      <tr><td data-label="Symbol/TF">BTC W1</td><td data-label="Richtung">LONG</td><td data-label="Zone">$77,206–$82,377</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $82,377 | hält nicht → $77,206</td></tr>
+      <tr><td data-label="Symbol/TF">BTC D1</td><td data-label="Richtung">LONG</td><td data-label="Zone">$78,853–$83,850</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $83,850 | hält nicht → $78,853</td></tr>
+      <tr><td data-label="Symbol/TF">BTC H4</td><td data-label="Richtung">LONG</td><td data-label="Zone">$71,425–$82,850</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $82,850 | hält nicht → $71,425</td></tr>
+      <tr><td data-label="Symbol/TF">BTC H1</td><td data-label="Richtung">LONG</td><td data-label="Zone">$79,233–$84,190</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $84,190 | hält nicht → $79,233</td></tr>
+      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">IN_ZONE_KANDIDAT</span></td><td data-label="Richtung">LONG</td><td data-label="Zone">$78,274–$79,282</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $87,386 | hält nicht → $77,556</td></tr>
+      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">IN_ZONE_KANDIDAT</span></td><td data-label="Richtung">SHORT</td><td data-label="Zone">$78,871–$79,742</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $72,006 | hält nicht → $80,363</td></tr>
+      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">IN_ZONE_KANDIDAT</span></td><td data-label="Richtung">SHORT</td><td data-label="Zone">$78,949–$79,794</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $72,259 | hält nicht → $80,396</td></tr>
+      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">KANDIDAT_GUELTIG</span></td><td data-label="Richtung">SHORT</td><td data-label="Zone">$79,183–$79,950</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $73,016 | hält nicht → $80,496</td></tr>
+      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">KANDIDAT_GUELTIG</span></td><td data-label="Richtung">SHORT</td><td data-label="Zone">$79,435–$80,118</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $73,831 | hält nicht → $80,604</td></tr>
+      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">KANDIDAT_GUELTIG</span></td><td data-label="Richtung">SHORT</td><td data-label="Zone">$79,453–$80,060</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $74,554 | hält nicht → $80,494</td></tr>
+      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">KANDIDAT_GUELTIG</span></td><td data-label="Richtung">SHORT</td><td data-label="Zone">$79,562–$80,133</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $74,908 | hält nicht → $80,540</td></tr>
+      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">KANDIDAT_GUELTIG</span></td><td data-label="Richtung">LONG</td><td data-label="Zone">$77,656–$78,354</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $84,383 | hält nicht → $77,159</td></tr>
+      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">KANDIDAT_GUELTIG</span></td><td data-label="Richtung">LONG</td><td data-label="Zone">$77,575–$78,232</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $83,988 | hält nicht → $77,106</td></tr>
+      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">KANDIDAT_GUELTIG</span></td><td data-label="Richtung">LONG</td><td data-label="Zone">$77,724–$78,144</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $81,684 | hält nicht → $77,426</td></tr>
+      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">BEOBACHTEN</span></td><td data-label="Richtung">SHORT</td><td data-label="Zone">$79,960–$80,742</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $72,188 | hält nicht → $81,298</td></tr>
+      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">BEOBACHTEN</span></td><td data-label="Richtung">SHORT</td><td data-label="Zone">$80,480–$81,088</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $74,554 | hält nicht → $81,521</td></tr>
+      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">KANDIDAT_GUELTIG</span></td><td data-label="Richtung">SHORT</td><td data-label="Zone">$78,949–$79,794</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $72,259 | hält nicht → $80,396</td></tr>
+      <tr><td data-label="Symbol/TF">BTC H1 <span class="tag">unbestätigt</span> <span class="tag kat">IN_ZONE_KANDIDAT</span></td><td data-label="Richtung">SHORT</td><td data-label="Zone">$79,149–$79,582</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $75,525 | hält nicht → $79,890</td></tr>
+      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">IN_ZONE_KANDIDAT</span></td><td data-label="Richtung">SHORT</td><td data-label="Zone">$79,183–$79,950</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $73,016 | hält nicht → $80,496</td></tr>
+      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">KANDIDAT_GUELTIG</span></td><td data-label="Richtung">LONG</td><td data-label="Zone">$78,274–$79,282</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $87,386 | hält nicht → $77,556</td></tr>
+      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">IN_ZONE_KANDIDAT</span></td><td data-label="Richtung">SHORT</td><td data-label="Zone">$79,435–$80,118</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $73,831 | hält nicht → $80,604</td></tr>
+      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">IN_ZONE_KANDIDAT</span></td><td data-label="Richtung">SHORT</td><td data-label="Zone">$79,453–$80,060</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $74,554 | hält nicht → $80,494</td></tr>
+      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">IN_ZONE_KANDIDAT</span></td><td data-label="Richtung">SHORT</td><td data-label="Zone">$79,562–$80,133</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $74,908 | hält nicht → $80,540</td></tr>
+      <tr><td data-label="Symbol/TF">BTC H1 <span class="tag">unbestätigt</span> <span class="tag kat">KANDIDAT_GUELTIG</span></td><td data-label="Richtung">SHORT</td><td data-label="Zone">$79,149–$79,582</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $75,525 | hält nicht → $79,890</td></tr>
+      <tr><td data-label="Symbol/TF">BTC H1</td><td data-label="Richtung">LONG</td><td data-label="Zone">$74,276–$79,233</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge gehalten">✅ GEHALTEN / ZIEL ERREICHT</span></td><td data-label="Nächste Ziele">–</td></tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
