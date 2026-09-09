@@ -5,84 +5,399 @@
 <title>SK-Zonen — Live-Tracking</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+  * { box-sizing: border-box; }
   :root { --accent: #2563eb; --accent-dark: #1e3a8a; }
-  body { font-family: -apple-system, Segoe UI, Roboto, sans-serif; max-width: 950px;
-          margin: 2rem auto; padding: 0 1rem; color: #222; }
-  h1 { margin-bottom: 0.2rem; }
-  .sub { color: #666; margin-top: 0; margin-bottom: 1rem; font-size: 0.9rem; }
-  .summary { margin-bottom: 1.5rem; font-size: 0.95rem; }
-  table { border-collapse: collapse; width: 100%; }
-  th, td { text-align: left; padding: 0.5rem 0.7rem; border-bottom: 1px solid #ddd; }
-  th { background: #eef2ff; color: var(--accent-dark); font-weight: 600; }
-  tr:hover { background: #fafafa; }
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { font-family: -apple-system, Segoe UI, Roboto, sans-serif; max-width: 600px;
+          margin: 1.5rem auto; padding: 0 0.9rem; color: #222; font-size: 15px; }
+  h1 { margin-bottom: 0.2rem; font-size: 1.3rem; }
+  .sub { color: #666; margin-top: 0; margin-bottom: 1rem; font-size: 0.82rem; }
+  .summary { margin-bottom: 1.3rem; font-size: 0.85rem; line-height: 1.6; }
 
-  .badge { display: inline-block; font-weight: 600; padding: 0.1rem 0.55rem;
-            border-radius: 4px; font-size: 0.92em; white-space: nowrap; }
+  .tf-titel { font-size: 0.95rem; color: var(--accent-dark); border-bottom: 2px solid var(--accent);
+               padding-bottom: 0.25rem; margin: 1.3rem 0 0.4rem 0; }
+  .tf-titel:first-of-type { margin-top: 0; }
+  .tf-count { color: #888; font-weight: 400; font-size: 0.85em; }
+
+  .zone-row { width: 100%; max-width: 100%; border: 1px solid #e2e2e2; border-radius: 6px;
+               margin-bottom: 0.4rem; overflow: hidden; }
+  .zone-row summary { list-style: none; cursor: pointer; padding: 0.45rem 0.6rem;
+                        display: flex; align-items: center; gap: 0.4rem; width: 100%;
+                        max-width: 100%; overflow: hidden; }
+  .zone-row summary::-webkit-details-marker { display: none; }
+  .zone-row summary::after { content: "▾"; margin-left: auto; color: #999; flex-shrink: 0; }
+  .zone-row[open] summary::after { content: "▴"; }
+  .zone-row summary:hover { background: #fafafa; }
+
+  .cell { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+  .cell.tf { flex: 0 0 auto; font-weight: 600; color: #444; font-size: 0.8rem;
+              background: #f3f4f6; border-radius: 4px; padding: 0.05rem 0.35rem; }
+  .cell.zone { flex: 1 1 auto; font-size: 0.83rem; font-variant-numeric: tabular-nums; }
+  .cell.status { flex: 0 0 auto; }
+
+  .richtung { flex: 0 0 auto; font-weight: 700; font-size: 0.78rem; padding: 0.05rem 0.4rem;
+               border-radius: 4px; }
+  .richtung.long  { color: #1a7f37; background: #e6f4ea; }
+  .richtung.short { color: #cf222e; background: #fde8e8; }
+
+  .badge { display: inline-block; font-weight: 600; padding: 0.05rem 0.45rem;
+            border-radius: 4px; font-size: 0.78rem; white-space: nowrap; }
   .badge.gehalten { color: #1a7f37; background: #e6f4ea; }
   .badge.nicht_gehalten { color: #cf222e; background: #fde8e8; }
   .badge.offen { color: #9a6700; background: #fff6e0; }
 
-  .tag { display: inline-block; font-size: 0.75em; font-weight: 600; color: #6b7280;
-          background: #f3f4f6; border-radius: 4px; padding: 0.05rem 0.4rem; margin-left: 0.3rem; }
+  .tag { display: inline-block; font-size: 0.72rem; font-weight: 600; color: #6b7280;
+          background: #f3f4f6; border-radius: 4px; padding: 0.05rem 0.4rem; margin-left: 0.3rem;
+          white-space: normal; word-break: break-word; }
   .tag.kat { color: #4338ca; background: #eef2ff; }
 
-  @media (max-width: 650px) {
-    .zonen-table thead { display: none; }
-    .zonen-table, .zonen-table tbody, .zonen-table tr, .zonen-table td { display: block; width: 100%; }
-    .zonen-table { border: none; }
-    .zonen-table tr {
-      margin-bottom: 1rem; border: 1px solid #ddd; border-radius: 8px;
-      padding: 0.4rem 0.8rem; box-shadow: 0 1px 2px rgba(0,0,0,0.05);
-    }
-    .zonen-table td {
-      display: flex; justify-content: space-between; align-items: center;
-      gap: 1rem; text-align: right; padding: 0.4rem 0; border-bottom: 1px solid #eee;
-    }
-    .zonen-table td:last-child { border-bottom: none; }
-    .zonen-table td::before {
-      content: attr(data-label); font-weight: 600; color: #555;
-      text-align: left; flex-shrink: 0;
-    }
+  .zone-detail { padding: 0.1rem 0.7rem 0.6rem 0.7rem; font-size: 0.83rem; color: #444;
+                   border-top: 1px solid #eee; word-break: break-word; overflow-wrap: anywhere; }
+  .ziel-zeile { margin-top: 0.25rem; }
+
+  @media (max-width: 380px) {
+    body { font-size: 14px; padding: 0 0.6rem; }
+    .cell.zone { font-size: 0.78rem; }
   }
 </style>
 </head>
 <body>
   <h1>SK-Zonen — Live-Tracking</h1>
-  <p class="sub">BTC · Fibonacci-Zonen (SK-Methode) mit Status-Nachverfolgung · generiert 2026-09-09 15:20</p>
+  <p class="sub">BTC · Fibonacci-Zonen (SK-Methode) mit Status-Nachverfolgung · generiert 2026-09-09 15:26</p>
   <p class="summary">25 Zonen (letzte 14 Tage) — ⏳ 24 OFFEN &nbsp;|&nbsp;
   ✅ 1 GEHALTEN &nbsp;|&nbsp; ❌ 0 NICHT GEHALTEN</p>
-  <table class="zonen-table">
-    <thead>
-      <tr><th>Symbol/TF</th><th>Richtung</th><th>Zone</th><th>Erkannt</th><th>Status</th><th>Nächste Ziele</th></tr>
-    </thead>
-    <tbody>
-      <tr><td data-label="Symbol/TF">BTC W1</td><td data-label="Richtung">LONG</td><td data-label="Zone">$77,206–$82,377</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $82,377 | hält nicht → $77,206</td></tr>
-      <tr><td data-label="Symbol/TF">BTC D1</td><td data-label="Richtung">LONG</td><td data-label="Zone">$78,853–$83,850</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $83,850 | hält nicht → $78,853</td></tr>
-      <tr><td data-label="Symbol/TF">BTC H4</td><td data-label="Richtung">LONG</td><td data-label="Zone">$71,425–$82,850</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $82,850 | hält nicht → $71,425</td></tr>
-      <tr><td data-label="Symbol/TF">BTC H1</td><td data-label="Richtung">LONG</td><td data-label="Zone">$79,233–$84,190</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $84,190 | hält nicht → $79,233</td></tr>
-      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">IN_ZONE_KANDIDAT</span></td><td data-label="Richtung">LONG</td><td data-label="Zone">$78,274–$79,282</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $87,386 | hält nicht → $77,556</td></tr>
-      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">IN_ZONE_KANDIDAT</span></td><td data-label="Richtung">SHORT</td><td data-label="Zone">$78,871–$79,742</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $72,006 | hält nicht → $80,363</td></tr>
-      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">IN_ZONE_KANDIDAT</span></td><td data-label="Richtung">SHORT</td><td data-label="Zone">$78,949–$79,794</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $72,259 | hält nicht → $80,396</td></tr>
-      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">KANDIDAT_GUELTIG</span></td><td data-label="Richtung">SHORT</td><td data-label="Zone">$79,183–$79,950</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $73,016 | hält nicht → $80,496</td></tr>
-      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">KANDIDAT_GUELTIG</span></td><td data-label="Richtung">SHORT</td><td data-label="Zone">$79,435–$80,118</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $73,831 | hält nicht → $80,604</td></tr>
-      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">KANDIDAT_GUELTIG</span></td><td data-label="Richtung">SHORT</td><td data-label="Zone">$79,453–$80,060</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $74,554 | hält nicht → $80,494</td></tr>
-      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">KANDIDAT_GUELTIG</span></td><td data-label="Richtung">SHORT</td><td data-label="Zone">$79,562–$80,133</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $74,908 | hält nicht → $80,540</td></tr>
-      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">KANDIDAT_GUELTIG</span></td><td data-label="Richtung">LONG</td><td data-label="Zone">$77,656–$78,354</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $84,383 | hält nicht → $77,159</td></tr>
-      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">KANDIDAT_GUELTIG</span></td><td data-label="Richtung">LONG</td><td data-label="Zone">$77,575–$78,232</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $83,988 | hält nicht → $77,106</td></tr>
-      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">KANDIDAT_GUELTIG</span></td><td data-label="Richtung">LONG</td><td data-label="Zone">$77,724–$78,144</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $81,684 | hält nicht → $77,426</td></tr>
-      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">BEOBACHTEN</span></td><td data-label="Richtung">SHORT</td><td data-label="Zone">$79,960–$80,742</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $72,188 | hält nicht → $81,298</td></tr>
-      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">BEOBACHTEN</span></td><td data-label="Richtung">SHORT</td><td data-label="Zone">$80,480–$81,088</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $74,554 | hält nicht → $81,521</td></tr>
-      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">KANDIDAT_GUELTIG</span></td><td data-label="Richtung">SHORT</td><td data-label="Zone">$78,949–$79,794</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $72,259 | hält nicht → $80,396</td></tr>
-      <tr><td data-label="Symbol/TF">BTC H1 <span class="tag">unbestätigt</span> <span class="tag kat">IN_ZONE_KANDIDAT</span></td><td data-label="Richtung">SHORT</td><td data-label="Zone">$79,149–$79,582</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $75,525 | hält nicht → $79,890</td></tr>
-      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">IN_ZONE_KANDIDAT</span></td><td data-label="Richtung">SHORT</td><td data-label="Zone">$79,183–$79,950</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $73,016 | hält nicht → $80,496</td></tr>
-      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">KANDIDAT_GUELTIG</span></td><td data-label="Richtung">LONG</td><td data-label="Zone">$78,274–$79,282</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $87,386 | hält nicht → $77,556</td></tr>
-      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">IN_ZONE_KANDIDAT</span></td><td data-label="Richtung">SHORT</td><td data-label="Zone">$79,435–$80,118</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $73,831 | hält nicht → $80,604</td></tr>
-      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">IN_ZONE_KANDIDAT</span></td><td data-label="Richtung">SHORT</td><td data-label="Zone">$79,453–$80,060</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $74,554 | hält nicht → $80,494</td></tr>
-      <tr><td data-label="Symbol/TF">BTC H4 <span class="tag">unbestätigt</span> <span class="tag kat">IN_ZONE_KANDIDAT</span></td><td data-label="Richtung">SHORT</td><td data-label="Zone">$79,562–$80,133</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $74,908 | hält nicht → $80,540</td></tr>
-      <tr><td data-label="Symbol/TF">BTC H1 <span class="tag">unbestätigt</span> <span class="tag kat">KANDIDAT_GUELTIG</span></td><td data-label="Richtung">SHORT</td><td data-label="Zone">$79,149–$79,582</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td><td data-label="Nächste Ziele">hält → $75,525 | hält nicht → $79,890</td></tr>
-      <tr><td data-label="Symbol/TF">BTC H1</td><td data-label="Richtung">LONG</td><td data-label="Zone">$74,276–$79,233</td><td data-label="Erkannt">09.09.2026</td><td data-label="Status"><span class="badge gehalten">✅ GEHALTEN / ZIEL ERREICHT</span></td><td data-label="Nächste Ziele">–</td></tr>
-    </tbody>
-  </table>
+  <h2 class="tf-titel">W1 <span class="tf-count">(1)</span></h2>
+    <details class="zone-row">
+      <summary>
+        <span class="cell tf">W1</span>
+        <span class="richtung long">LONG</span>
+        <span class="cell zone">$77,206–$82,377</span>
+        <span class="cell status"><span class="badge offen">⏳ OFFEN</span></span>
+      </summary>
+      <div class="zone-detail">
+        <div>Zone: $77,206–$82,377</div>
+        <div>Erkannt: 09.09.2026</div>
+        <div class="ziel-zeile">↗ hält → <strong>$82,377</strong></div><div class="ziel-zeile">↘ hält nicht → <strong>$77,206</strong></div>
+      </div>
+    </details>
+
+  <h2 class="tf-titel">D1 <span class="tf-count">(1)</span></h2>
+    <details class="zone-row">
+      <summary>
+        <span class="cell tf">D1</span>
+        <span class="richtung long">LONG</span>
+        <span class="cell zone">$78,853–$83,850</span>
+        <span class="cell status"><span class="badge offen">⏳ OFFEN</span></span>
+      </summary>
+      <div class="zone-detail">
+        <div>Zone: $78,853–$83,850</div>
+        <div>Erkannt: 09.09.2026</div>
+        <div class="ziel-zeile">↗ hält → <strong>$83,850</strong></div><div class="ziel-zeile">↘ hält nicht → <strong>$78,853</strong></div>
+      </div>
+    </details>
+
+  <h2 class="tf-titel">H4 <span class="tf-count">(19)</span></h2>
+    <details class="zone-row">
+      <summary>
+        <span class="cell tf">H4</span>
+        <span class="richtung long">LONG</span>
+        <span class="cell zone">$71,425–$82,850</span>
+        <span class="cell status"><span class="badge offen">⏳ OFFEN</span></span>
+      </summary>
+      <div class="zone-detail">
+        <div>Zone: $71,425–$82,850</div>
+        <div>Erkannt: 09.09.2026</div>
+        <div class="ziel-zeile">↗ hält → <strong>$82,850</strong></div><div class="ziel-zeile">↘ hält nicht → <strong>$71,425</strong></div>
+      </div>
+    </details>
+    <details class="zone-row">
+      <summary>
+        <span class="cell tf">H4</span>
+        <span class="richtung long">LONG</span>
+        <span class="cell zone">$78,274–$79,282</span>
+        <span class="cell status"><span class="badge offen">⏳ OFFEN</span></span>
+      </summary>
+      <div class="zone-detail">
+        <div>Zone: $78,274–$79,282</div>
+        <div>Erkannt: 09.09.2026 <span class="tag">unbestätigt</span> <span class="tag kat">IN_ZONE_KANDIDAT</span></div>
+        <div class="ziel-zeile">↗ hält → <strong>$87,386</strong></div><div class="ziel-zeile">↘ hält nicht → <strong>$77,556</strong></div>
+      </div>
+    </details>
+    <details class="zone-row">
+      <summary>
+        <span class="cell tf">H4</span>
+        <span class="richtung short">SHORT</span>
+        <span class="cell zone">$78,871–$79,742</span>
+        <span class="cell status"><span class="badge offen">⏳ OFFEN</span></span>
+      </summary>
+      <div class="zone-detail">
+        <div>Zone: $78,871–$79,742</div>
+        <div>Erkannt: 09.09.2026 <span class="tag">unbestätigt</span> <span class="tag kat">IN_ZONE_KANDIDAT</span></div>
+        <div class="ziel-zeile">↗ hält → <strong>$72,006</strong></div><div class="ziel-zeile">↘ hält nicht → <strong>$80,363</strong></div>
+      </div>
+    </details>
+    <details class="zone-row">
+      <summary>
+        <span class="cell tf">H4</span>
+        <span class="richtung short">SHORT</span>
+        <span class="cell zone">$78,949–$79,794</span>
+        <span class="cell status"><span class="badge offen">⏳ OFFEN</span></span>
+      </summary>
+      <div class="zone-detail">
+        <div>Zone: $78,949–$79,794</div>
+        <div>Erkannt: 09.09.2026 <span class="tag">unbestätigt</span> <span class="tag kat">IN_ZONE_KANDIDAT</span></div>
+        <div class="ziel-zeile">↗ hält → <strong>$72,259</strong></div><div class="ziel-zeile">↘ hält nicht → <strong>$80,396</strong></div>
+      </div>
+    </details>
+    <details class="zone-row">
+      <summary>
+        <span class="cell tf">H4</span>
+        <span class="richtung short">SHORT</span>
+        <span class="cell zone">$79,183–$79,950</span>
+        <span class="cell status"><span class="badge offen">⏳ OFFEN</span></span>
+      </summary>
+      <div class="zone-detail">
+        <div>Zone: $79,183–$79,950</div>
+        <div>Erkannt: 09.09.2026 <span class="tag">unbestätigt</span> <span class="tag kat">KANDIDAT_GUELTIG</span></div>
+        <div class="ziel-zeile">↗ hält → <strong>$73,016</strong></div><div class="ziel-zeile">↘ hält nicht → <strong>$80,496</strong></div>
+      </div>
+    </details>
+    <details class="zone-row">
+      <summary>
+        <span class="cell tf">H4</span>
+        <span class="richtung short">SHORT</span>
+        <span class="cell zone">$79,435–$80,118</span>
+        <span class="cell status"><span class="badge offen">⏳ OFFEN</span></span>
+      </summary>
+      <div class="zone-detail">
+        <div>Zone: $79,435–$80,118</div>
+        <div>Erkannt: 09.09.2026 <span class="tag">unbestätigt</span> <span class="tag kat">KANDIDAT_GUELTIG</span></div>
+        <div class="ziel-zeile">↗ hält → <strong>$73,831</strong></div><div class="ziel-zeile">↘ hält nicht → <strong>$80,604</strong></div>
+      </div>
+    </details>
+    <details class="zone-row">
+      <summary>
+        <span class="cell tf">H4</span>
+        <span class="richtung short">SHORT</span>
+        <span class="cell zone">$79,453–$80,060</span>
+        <span class="cell status"><span class="badge offen">⏳ OFFEN</span></span>
+      </summary>
+      <div class="zone-detail">
+        <div>Zone: $79,453–$80,060</div>
+        <div>Erkannt: 09.09.2026 <span class="tag">unbestätigt</span> <span class="tag kat">KANDIDAT_GUELTIG</span></div>
+        <div class="ziel-zeile">↗ hält → <strong>$74,554</strong></div><div class="ziel-zeile">↘ hält nicht → <strong>$80,494</strong></div>
+      </div>
+    </details>
+    <details class="zone-row">
+      <summary>
+        <span class="cell tf">H4</span>
+        <span class="richtung short">SHORT</span>
+        <span class="cell zone">$79,562–$80,133</span>
+        <span class="cell status"><span class="badge offen">⏳ OFFEN</span></span>
+      </summary>
+      <div class="zone-detail">
+        <div>Zone: $79,562–$80,133</div>
+        <div>Erkannt: 09.09.2026 <span class="tag">unbestätigt</span> <span class="tag kat">KANDIDAT_GUELTIG</span></div>
+        <div class="ziel-zeile">↗ hält → <strong>$74,908</strong></div><div class="ziel-zeile">↘ hält nicht → <strong>$80,540</strong></div>
+      </div>
+    </details>
+    <details class="zone-row">
+      <summary>
+        <span class="cell tf">H4</span>
+        <span class="richtung long">LONG</span>
+        <span class="cell zone">$77,656–$78,354</span>
+        <span class="cell status"><span class="badge offen">⏳ OFFEN</span></span>
+      </summary>
+      <div class="zone-detail">
+        <div>Zone: $77,656–$78,354</div>
+        <div>Erkannt: 09.09.2026 <span class="tag">unbestätigt</span> <span class="tag kat">KANDIDAT_GUELTIG</span></div>
+        <div class="ziel-zeile">↗ hält → <strong>$84,383</strong></div><div class="ziel-zeile">↘ hält nicht → <strong>$77,159</strong></div>
+      </div>
+    </details>
+    <details class="zone-row">
+      <summary>
+        <span class="cell tf">H4</span>
+        <span class="richtung long">LONG</span>
+        <span class="cell zone">$77,575–$78,232</span>
+        <span class="cell status"><span class="badge offen">⏳ OFFEN</span></span>
+      </summary>
+      <div class="zone-detail">
+        <div>Zone: $77,575–$78,232</div>
+        <div>Erkannt: 09.09.2026 <span class="tag">unbestätigt</span> <span class="tag kat">KANDIDAT_GUELTIG</span></div>
+        <div class="ziel-zeile">↗ hält → <strong>$83,988</strong></div><div class="ziel-zeile">↘ hält nicht → <strong>$77,106</strong></div>
+      </div>
+    </details>
+    <details class="zone-row">
+      <summary>
+        <span class="cell tf">H4</span>
+        <span class="richtung long">LONG</span>
+        <span class="cell zone">$77,724–$78,144</span>
+        <span class="cell status"><span class="badge offen">⏳ OFFEN</span></span>
+      </summary>
+      <div class="zone-detail">
+        <div>Zone: $77,724–$78,144</div>
+        <div>Erkannt: 09.09.2026 <span class="tag">unbestätigt</span> <span class="tag kat">KANDIDAT_GUELTIG</span></div>
+        <div class="ziel-zeile">↗ hält → <strong>$81,684</strong></div><div class="ziel-zeile">↘ hält nicht → <strong>$77,426</strong></div>
+      </div>
+    </details>
+    <details class="zone-row">
+      <summary>
+        <span class="cell tf">H4</span>
+        <span class="richtung short">SHORT</span>
+        <span class="cell zone">$79,960–$80,742</span>
+        <span class="cell status"><span class="badge offen">⏳ OFFEN</span></span>
+      </summary>
+      <div class="zone-detail">
+        <div>Zone: $79,960–$80,742</div>
+        <div>Erkannt: 09.09.2026 <span class="tag">unbestätigt</span> <span class="tag kat">BEOBACHTEN</span></div>
+        <div class="ziel-zeile">↗ hält → <strong>$72,188</strong></div><div class="ziel-zeile">↘ hält nicht → <strong>$81,298</strong></div>
+      </div>
+    </details>
+    <details class="zone-row">
+      <summary>
+        <span class="cell tf">H4</span>
+        <span class="richtung short">SHORT</span>
+        <span class="cell zone">$80,480–$81,088</span>
+        <span class="cell status"><span class="badge offen">⏳ OFFEN</span></span>
+      </summary>
+      <div class="zone-detail">
+        <div>Zone: $80,480–$81,088</div>
+        <div>Erkannt: 09.09.2026 <span class="tag">unbestätigt</span> <span class="tag kat">BEOBACHTEN</span></div>
+        <div class="ziel-zeile">↗ hält → <strong>$74,554</strong></div><div class="ziel-zeile">↘ hält nicht → <strong>$81,521</strong></div>
+      </div>
+    </details>
+    <details class="zone-row">
+      <summary>
+        <span class="cell tf">H4</span>
+        <span class="richtung short">SHORT</span>
+        <span class="cell zone">$78,949–$79,794</span>
+        <span class="cell status"><span class="badge offen">⏳ OFFEN</span></span>
+      </summary>
+      <div class="zone-detail">
+        <div>Zone: $78,949–$79,794</div>
+        <div>Erkannt: 09.09.2026 <span class="tag">unbestätigt</span> <span class="tag kat">KANDIDAT_GUELTIG</span></div>
+        <div class="ziel-zeile">↗ hält → <strong>$72,259</strong></div><div class="ziel-zeile">↘ hält nicht → <strong>$80,396</strong></div>
+      </div>
+    </details>
+    <details class="zone-row">
+      <summary>
+        <span class="cell tf">H4</span>
+        <span class="richtung short">SHORT</span>
+        <span class="cell zone">$79,183–$79,950</span>
+        <span class="cell status"><span class="badge offen">⏳ OFFEN</span></span>
+      </summary>
+      <div class="zone-detail">
+        <div>Zone: $79,183–$79,950</div>
+        <div>Erkannt: 09.09.2026 <span class="tag">unbestätigt</span> <span class="tag kat">IN_ZONE_KANDIDAT</span></div>
+        <div class="ziel-zeile">↗ hält → <strong>$73,016</strong></div><div class="ziel-zeile">↘ hält nicht → <strong>$80,496</strong></div>
+      </div>
+    </details>
+    <details class="zone-row">
+      <summary>
+        <span class="cell tf">H4</span>
+        <span class="richtung long">LONG</span>
+        <span class="cell zone">$78,274–$79,282</span>
+        <span class="cell status"><span class="badge offen">⏳ OFFEN</span></span>
+      </summary>
+      <div class="zone-detail">
+        <div>Zone: $78,274–$79,282</div>
+        <div>Erkannt: 09.09.2026 <span class="tag">unbestätigt</span> <span class="tag kat">KANDIDAT_GUELTIG</span></div>
+        <div class="ziel-zeile">↗ hält → <strong>$87,386</strong></div><div class="ziel-zeile">↘ hält nicht → <strong>$77,556</strong></div>
+      </div>
+    </details>
+    <details class="zone-row">
+      <summary>
+        <span class="cell tf">H4</span>
+        <span class="richtung short">SHORT</span>
+        <span class="cell zone">$79,435–$80,118</span>
+        <span class="cell status"><span class="badge offen">⏳ OFFEN</span></span>
+      </summary>
+      <div class="zone-detail">
+        <div>Zone: $79,435–$80,118</div>
+        <div>Erkannt: 09.09.2026 <span class="tag">unbestätigt</span> <span class="tag kat">IN_ZONE_KANDIDAT</span></div>
+        <div class="ziel-zeile">↗ hält → <strong>$73,831</strong></div><div class="ziel-zeile">↘ hält nicht → <strong>$80,604</strong></div>
+      </div>
+    </details>
+    <details class="zone-row">
+      <summary>
+        <span class="cell tf">H4</span>
+        <span class="richtung short">SHORT</span>
+        <span class="cell zone">$79,453–$80,060</span>
+        <span class="cell status"><span class="badge offen">⏳ OFFEN</span></span>
+      </summary>
+      <div class="zone-detail">
+        <div>Zone: $79,453–$80,060</div>
+        <div>Erkannt: 09.09.2026 <span class="tag">unbestätigt</span> <span class="tag kat">IN_ZONE_KANDIDAT</span></div>
+        <div class="ziel-zeile">↗ hält → <strong>$74,554</strong></div><div class="ziel-zeile">↘ hält nicht → <strong>$80,494</strong></div>
+      </div>
+    </details>
+    <details class="zone-row">
+      <summary>
+        <span class="cell tf">H4</span>
+        <span class="richtung short">SHORT</span>
+        <span class="cell zone">$79,562–$80,133</span>
+        <span class="cell status"><span class="badge offen">⏳ OFFEN</span></span>
+      </summary>
+      <div class="zone-detail">
+        <div>Zone: $79,562–$80,133</div>
+        <div>Erkannt: 09.09.2026 <span class="tag">unbestätigt</span> <span class="tag kat">IN_ZONE_KANDIDAT</span></div>
+        <div class="ziel-zeile">↗ hält → <strong>$74,908</strong></div><div class="ziel-zeile">↘ hält nicht → <strong>$80,540</strong></div>
+      </div>
+    </details>
+
+  <h2 class="tf-titel">H1 <span class="tf-count">(4)</span></h2>
+    <details class="zone-row">
+      <summary>
+        <span class="cell tf">H1</span>
+        <span class="richtung long">LONG</span>
+        <span class="cell zone">$79,233–$84,190</span>
+        <span class="cell status"><span class="badge offen">⏳ OFFEN</span></span>
+      </summary>
+      <div class="zone-detail">
+        <div>Zone: $79,233–$84,190</div>
+        <div>Erkannt: 09.09.2026</div>
+        <div class="ziel-zeile">↗ hält → <strong>$84,190</strong></div><div class="ziel-zeile">↘ hält nicht → <strong>$79,233</strong></div>
+      </div>
+    </details>
+    <details class="zone-row">
+      <summary>
+        <span class="cell tf">H1</span>
+        <span class="richtung short">SHORT</span>
+        <span class="cell zone">$79,149–$79,582</span>
+        <span class="cell status"><span class="badge offen">⏳ OFFEN</span></span>
+      </summary>
+      <div class="zone-detail">
+        <div>Zone: $79,149–$79,582</div>
+        <div>Erkannt: 09.09.2026 <span class="tag">unbestätigt</span> <span class="tag kat">IN_ZONE_KANDIDAT</span></div>
+        <div class="ziel-zeile">↗ hält → <strong>$75,525</strong></div><div class="ziel-zeile">↘ hält nicht → <strong>$79,890</strong></div>
+      </div>
+    </details>
+    <details class="zone-row">
+      <summary>
+        <span class="cell tf">H1</span>
+        <span class="richtung short">SHORT</span>
+        <span class="cell zone">$79,149–$79,582</span>
+        <span class="cell status"><span class="badge offen">⏳ OFFEN</span></span>
+      </summary>
+      <div class="zone-detail">
+        <div>Zone: $79,149–$79,582</div>
+        <div>Erkannt: 09.09.2026 <span class="tag">unbestätigt</span> <span class="tag kat">KANDIDAT_GUELTIG</span></div>
+        <div class="ziel-zeile">↗ hält → <strong>$75,525</strong></div><div class="ziel-zeile">↘ hält nicht → <strong>$79,890</strong></div>
+      </div>
+    </details>
+    <details class="zone-row">
+      <summary>
+        <span class="cell tf">H1</span>
+        <span class="richtung long">LONG</span>
+        <span class="cell zone">$74,276–$79,233</span>
+        <span class="cell status"><span class="badge gehalten">✅ GEHALTEN</span></span>
+      </summary>
+      <div class="zone-detail">
+        <div>Zone: $74,276–$79,233</div>
+        <div>Erkannt: 09.09.2026</div>
+        <div class="ziel-zeile">Status: GEHALTEN / ZIEL ERREICHT</div>
+      </div>
+    </details>
 
 </body>
 </html>
