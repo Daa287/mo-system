@@ -1,7 +1,7 @@
 {
-  "generiert": "2026-09-10T13:50:04",
+  "generiert": "2026-09-10T14:20:04",
   "symbol": "BTC",
-  "anzahl": 48,
+  "anzahl": 49,
   "zonen": [
     {
       "symbol": "BTC",
@@ -631,6 +631,20 @@
       "status": "OFFEN",
       "status_label": "OFFEN",
       "kategorie": "KANDIDAT_GUELTIG",
+      "unbestaetigt": true
+    },
+    {
+      "symbol": "BTC",
+      "tf": "H4",
+      "richtung": "LONG",
+      "zone_bereich": "$77,428–$78,012",
+      "ziel_bei_halten": 83344.53,
+      "ziel_bei_nicht_halten": 77012.14,
+      "erkannt_datum": "2026-09-10",
+      "erkannt_ts": "2026-09-10 14:10:05",
+      "status": "OFFEN",
+      "status_label": "OFFEN",
+      "kategorie": "IN_ZONE_KANDIDAT",
       "unbestaetigt": true
     },
     {
