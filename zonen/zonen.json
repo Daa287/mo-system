@@ -1,5 +1,5 @@
 {
-  "generiert": "2026-09-11T11:20:04",
+  "generiert": "2026-09-11T11:50:04",
   "symbol": "BTC",
   "anzahl": 56,
   "zonen": [
@@ -404,8 +404,8 @@
       "ziel_bei_nicht_halten": 77158.52,
       "erkannt_datum": "2026-09-11",
       "erkannt_ts": "2026-09-11 10:10:06",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
       "kategorie": "KANDIDAT_GUELTIG",
       "unbestaetigt": true
     },
