@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Trade-Chance-Archiv — SK-System</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  * { box-sizing: border-box; }
+  :root { --accent: #2563eb; --accent-dark: #1e3a8a; }
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { font-family: -apple-system, Segoe UI, Roboto, sans-serif; max-width: 700px;
+          margin: 1.5rem auto; padding: 0 0.9rem; color: #222; font-size: 15px; }
+  h1 { margin-bottom: 0.2rem; font-size: 1.3rem; }
+  .sub { color: #666; margin-top: 0; margin-bottom: 0.5rem; font-size: 0.82rem; }
+  .nav { font-size: 0.85rem; margin: 0 0 1rem 0; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .summary { margin-bottom: 1.3rem; font-size: 0.85rem; line-height: 1.6; }
+
+  table { border-collapse: collapse; width: 100%; }
+  th, td { text-align: left; padding: 0.45rem 0.5rem; border-bottom: 1px solid #eee; font-size: 0.85rem; }
+  th { background: #eef2ff; color: var(--accent-dark); font-weight: 600; }
+  tr:hover { background: #fafafa; }
+
+  .tf-chip { font-weight: 600; color: #444; background: #f3f4f6; border-radius: 4px;
+              padding: 0.05rem 0.35rem; font-size: 0.8rem; }
+  .richtung { font-weight: 700; font-size: 0.78rem; padding: 0.05rem 0.4rem; border-radius: 4px; }
+  .richtung.long  { color: #1a7f37; background: #e6f4ea; }
+  .richtung.short { color: #cf222e; background: #fde8e8; }
+  .badge { display: inline-block; font-weight: 600; padding: 0.05rem 0.45rem;
+            border-radius: 4px; font-size: 0.78rem; white-space: nowrap; }
+  .badge.gehalten { color: #1a7f37; background: #e6f4ea; }
+  .badge.nicht_gehalten { color: #cf222e; background: #fde8e8; }
+  .badge.offen { color: #9a6700; background: #fff6e0; }
+
+  @media (max-width: 600px) {
+    .archiv-tabelle thead { display: none; }
+    .archiv-tabelle, .archiv-tabelle tbody, .archiv-tabelle tr, .archiv-tabelle td { display: block; width: 100%; }
+    .archiv-tabelle { border: none; }
+    .archiv-tabelle tr {
+      margin-bottom: 0.8rem; border: 1px solid #e2e2e2; border-radius: 8px;
+      padding: 0.3rem 0.7rem; box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    }
+    .archiv-tabelle td {
+      display: flex; justify-content: space-between; align-items: center;
+      gap: 0.8rem; text-align: right; padding: 0.35rem 0; border-bottom: 1px solid #eee;
+      word-break: break-word;
+    }
+    .archiv-tabelle td:last-child { border-bottom: none; }
+    .archiv-tabelle td::before {
+      content: attr(data-label); font-weight: 600; color: #555; text-align: left; flex-shrink: 0;
+    }
+  }
+</style>
+</head>
+<body>
+  <h1>Trade-Chance-Archiv</h1>
+  <p class="sub">BTC · Historie aller ausgewaehlten Trade-Chancen · generiert 2026-09-13 08:27</p>
+  <p class="nav"><a href="../">← Trade-Chance des Tages</a> &nbsp;·&nbsp; <a href="../../">Mo's System</a>
+  &nbsp;·&nbsp; <a href="../../zonen/">SK-Zonen</a></p>
+  <p class="summary">1 Chancen gesamt — ✅ 0 GEHALTEN &nbsp;|&nbsp;
+  ❌ 0 NICHT GEHALTEN &nbsp;|&nbsp; ⏳ 1 OFFEN</p>
+  <table class="archiv-tabelle">
+    <thead><tr><th>Datum</th><th>TF</th><th>Richtung</th><th>Stufe</th><th>Entry-Zone</th><th>Status</th></tr></thead>
+    <tbody>
+    <tr>
+      <td data-label="Datum">13.09.2026</td>
+      <td data-label="TF"><span class="tf-chip">H4</span></td>
+      <td data-label="Richtung"><span class="richtung long">LONG</span></td>
+      <td data-label="Stufe">KANDIDAT_GUELTIG</td>
+      <td data-label="Entry-Zone">$77,428–$78,012</td>
+      <td data-label="Status"><span class="badge offen">⏳ OFFEN</span></td>
+    </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
