@@ -1,7 +1,18 @@
 {
-  "generiert": "2026-09-13T14:05:05",
-  "anzahl": 216,
+  "generiert": "2026-09-13T14:35:04",
+  "anzahl": 217,
   "trades": [
+    {
+      "quelle": "youtube",
+      "asset": "BTC",
+      "richtung": "short",
+      "einstieg_preis": 81500.0,
+      "einstieg_datum": "2026-09-04",
+      "sk_score_zum_zeitpunkt": 6.0,
+      "status": "WIN",
+      "tage_seit_einstieg": 9,
+      "link": "https://www.youtube.com/watch?v=0eFcOlaz54U"
+    },
     {
       "quelle": "youtube",
       "asset": "BNB",
