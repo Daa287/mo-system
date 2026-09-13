@@ -1,5 +1,5 @@
 {
-  "generiert": "2026-09-13T11:27:14",
+  "generiert": "2026-09-13T11:57:14",
   "symbol": "BTC",
   "chance": {
     "tf": "H4",
@@ -9,10 +9,10 @@
     "zone_low": 77471.458,
     "zone_high": 78077.0,
     "sl": 77039.96,
-    "tp1": 82529.19,
-    "tp2": 83221.75,
-    "ftp": 83914.32,
-    "crv": 11.72,
+    "tp1": 82436.87,
+    "tp2": 83129.43,
+    "ftp": 83822.0,
+    "crv": 11.51,
     "begruendung": "Kein TRADEBAR-Signal und kein IN_ZONE_KANDIDAT aktiv - hoechste verfuegbare Stufe: KANDIDAT_GUELTIG (B-Retracement>=50% bestaetigt, Kurs aktuell noch ausserhalb der Einstiegszone) auf H4 (unter 2 Kandidaten dieser Stufe, hoechste TF gewaehlt)."
   }
 }
