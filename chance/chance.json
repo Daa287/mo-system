@@ -1,7 +1,7 @@
 {
-  "generiert": "2026-09-14T14:27:15",
+  "generiert": "2026-09-14T14:57:20",
   "symbol": "BTC",
-  "aktueller_kurs": 77964.01,
+  "aktueller_kurs": 77690.0,
   "kurs_zeitstempel": "2026-09-14 14:00",
   "chance": {
     "tf": "H4",
@@ -14,7 +14,7 @@
     "tp1": 83151.94,
     "tp2": 83950.32,
     "ftp": 84748.7,
-    "crv": 7.53,
+    "crv": 11.05,
     "begruendung": "Kein aktives TRADEBAR-Signal - hoechste verfuegbare Stufe: IN_ZONE_KANDIDAT (B-Retracement>=50% bestaetigt, Kurs aktuell in der Einstiegszone) auf H4 (unter 5 Kandidaten dieser Stufe, hoechste TF gewaehlt)."
   }
 }
