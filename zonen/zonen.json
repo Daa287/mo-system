@@ -1,9 +1,9 @@
 {
-  "generiert": "2026-09-14T15:50:04",
+  "generiert": "2026-09-14T16:20:05",
   "symbol": "BTC",
-  "aktueller_kurs": 77878.55,
-  "kurs_zeitstempel": "2026-09-14 15:00",
-  "anzahl": 112,
+  "aktueller_kurs": 78214.24,
+  "kurs_zeitstempel": "2026-09-14 16:00",
+  "anzahl": 116,
   "zonen": [
     {
       "symbol": "BTC",
@@ -773,6 +773,62 @@
       "status": "OFFEN",
       "status_label": "OFFEN",
       "kategorie": "BEOBACHTEN",
+      "unbestaetigt": true
+    },
+    {
+      "symbol": "BTC",
+      "tf": "H1",
+      "richtung": "SHORT",
+      "zone_bereich": "$78,195–$78,761",
+      "ziel_bei_halten": 72888.99,
+      "ziel_bei_nicht_halten": 79164.54,
+      "erkannt_datum": "2026-09-14",
+      "erkannt_ts": "2026-09-14 16:10:05",
+      "status": "OFFEN",
+      "status_label": "OFFEN",
+      "kategorie": "IN_ZONE_KANDIDAT",
+      "unbestaetigt": true
+    },
+    {
+      "symbol": "BTC",
+      "tf": "H1",
+      "richtung": "LONG",
+      "zone_bereich": "$77,605–$78,177",
+      "ziel_bei_halten": 82922.68,
+      "ziel_bei_nicht_halten": 77197.16,
+      "erkannt_datum": "2026-09-14",
+      "erkannt_ts": "2026-09-14 16:10:06",
+      "status": "OFFEN",
+      "status_label": "OFFEN",
+      "kategorie": "KANDIDAT_GUELTIG",
+      "unbestaetigt": true
+    },
+    {
+      "symbol": "BTC",
+      "tf": "H4",
+      "richtung": "LONG",
+      "zone_bereich": "$77,471–$78,077",
+      "ziel_bei_halten": 82255.59,
+      "ziel_bei_nicht_halten": 77039.96,
+      "erkannt_datum": "2026-09-14",
+      "erkannt_ts": "2026-09-14 16:10:06",
+      "status": "OFFEN",
+      "status_label": "OFFEN",
+      "kategorie": "KANDIDAT_GUELTIG",
+      "unbestaetigt": true
+    },
+    {
+      "symbol": "BTC",
+      "tf": "H4",
+      "richtung": "LONG",
+      "zone_bereich": "$77,428–$78,012",
+      "ziel_bei_halten": 82045.25,
+      "ziel_bei_nicht_halten": 77012.14,
+      "erkannt_datum": "2026-09-14",
+      "erkannt_ts": "2026-09-14 16:10:07",
+      "status": "OFFEN",
+      "status_label": "OFFEN",
+      "kategorie": "KANDIDAT_GUELTIG",
       "unbestaetigt": true
     },
     {
