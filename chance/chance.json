@@ -1,8 +1,8 @@
 {
-  "generiert": "2026-09-14T19:57:16",
+  "generiert": "2026-09-14T20:27:18",
   "symbol": "BTC",
-  "aktueller_kurs": 78995.77,
-  "kurs_zeitstempel": "2026-09-14 19:00",
+  "aktueller_kurs": 79166.01,
+  "kurs_zeitstempel": "2026-09-14 20:00",
   "chance": {
     "tf": "D1",
     "richtung": "SHORT",
@@ -15,6 +15,6 @@
     "tp2": 70456.3,
     "ftp": 69460.26,
     "crv": 6.53,
-    "begruendung": "Kein aktives TRADEBAR-Signal - hoechste verfuegbare Stufe: IN_ZONE_KANDIDAT (B-Retracement>=50% bestaetigt, Kurs aktuell in der Einstiegszone) auf D1 (unter 3 Kandidaten dieser Stufe, hoechste TF gewaehlt)."
+    "begruendung": "Kein aktives TRADEBAR-Signal - hoechste verfuegbare Stufe: IN_ZONE_KANDIDAT (B-Retracement>=50% bestaetigt, Kurs aktuell in der Einstiegszone) auf D1 (unter 2 Kandidaten dieser Stufe, hoechste TF gewaehlt)."
   }
 }
