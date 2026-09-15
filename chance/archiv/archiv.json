@@ -1,11 +1,21 @@
 {
-  "generiert": "2026-09-15T06:57:21",
+  "generiert": "2026-09-15T07:27:16",
   "symbol": "BTC",
-  "anzahl": 38,
+  "anzahl": 39,
   "gehalten": 0,
-  "nicht_gehalten": 5,
-  "offen": 33,
+  "nicht_gehalten": 8,
+  "offen": 31,
   "eintraege": [
+    {
+      "ts": "2026-09-15 07:27:15",
+      "tf": "D1",
+      "richtung": "SHORT",
+      "stufe": "KANDIDAT_GUELTIG",
+      "zone_bereich": "$79,173–$80,218",
+      "status": "OFFEN",
+      "status_label": "OFFEN",
+      "status_updated_ts": null
+    },
     {
       "ts": "2026-09-15 06:27:19",
       "tf": "H4",
@@ -92,9 +102,9 @@
       "richtung": "LONG",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$78,274–$79,282",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-09-15 07:27:15"
     },
     {
       "ts": "2026-09-14 23:27:15",
@@ -152,9 +162,9 @@
       "richtung": "LONG",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$78,274–$79,282",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-09-15 07:27:15"
     },
     {
       "ts": "2026-09-14 15:57:15",
@@ -212,9 +222,9 @@
       "richtung": "LONG",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$78,274–$79,282",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-09-15 07:27:15"
     },
     {
       "ts": "2026-09-14 10:57:15",
