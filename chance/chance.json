@@ -1,20 +1,20 @@
 {
-  "generiert": "2026-09-18T15:57:18",
+  "generiert": "2026-09-18T16:27:17",
   "symbol": "BTC",
-  "aktueller_kurs": 80103.06,
-  "kurs_zeitstempel": "2026-09-18 15:00",
+  "aktueller_kurs": 80942.74,
+  "kurs_zeitstempel": "2026-09-18 16:00",
   "chance": {
     "tf": "D1",
     "richtung": "SHORT",
-    "tier": "IN_ZONE_KANDIDAT",
-    "tier_label": "KANDIDAT (Kurs in Zone)",
-    "zone_low": 79173.29000000001,
-    "zone_high": 80217.61114,
-    "sl": 80961.77,
-    "tp1": 70381.97,
-    "tp2": 69187.56,
-    "ftp": 67993.16,
-    "crv": 13.22,
-    "begruendung": "Kein aktives TRADEBAR-Signal - hoechste verfuegbare Stufe: IN_ZONE_KANDIDAT (B-Retracement>=50% bestaetigt, Kurs aktuell in der Einstiegszone) auf D1 (unter 6 Kandidaten dieser Stufe, hoechste TF gewaehlt)."
+    "tier": "KANDIDAT_GUELTIG",
+    "tier_label": "KANDIDAT (valide, Kurs ausserhalb Zone)",
+    "zone_low": 78871.435,
+    "zone_high": 79742.31829,
+    "sl": 80362.89,
+    "tp1": 71452.34,
+    "tp2": 70456.3,
+    "ftp": 69460.26,
+    "crv": 13.36,
+    "begruendung": "Kein TRADEBAR-Signal und kein IN_ZONE_KANDIDAT aktiv - hoechste verfuegbare Stufe: KANDIDAT_GUELTIG (B-Retracement>=50% bestaetigt, Kurs aktuell noch ausserhalb der Einstiegszone) auf D1 (unter 18 Kandidaten dieser Stufe, hoechste TF gewaehlt)."
   }
 }

@@ -1,11 +1,21 @@
 {
-  "generiert": "2026-09-18T15:57:18",
+  "generiert": "2026-09-18T16:27:17",
   "symbol": "BTC",
-  "anzahl": 47,
+  "anzahl": 48,
   "gehalten": 0,
-  "nicht_gehalten": 38,
-  "offen": 9,
+  "nicht_gehalten": 42,
+  "offen": 6,
   "eintraege": [
+    {
+      "ts": "2026-09-18 16:27:17",
+      "tf": "D1",
+      "richtung": "SHORT",
+      "stufe": "KANDIDAT_GUELTIG",
+      "zone_bereich": "$78,871–$79,742",
+      "status": "OFFEN",
+      "status_label": "OFFEN",
+      "status_updated_ts": null
+    },
     {
       "ts": "2026-09-18 15:57:17",
       "tf": "D1",
@@ -192,9 +202,9 @@
       "richtung": "SHORT",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$78,871–$79,742",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-09-18 16:27:16"
     },
     {
       "ts": "2026-09-14 22:57:16",
@@ -212,9 +222,9 @@
       "richtung": "SHORT",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$78,871–$79,742",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-09-18 16:27:16"
     },
     {
       "ts": "2026-09-14 20:57:17",
@@ -232,9 +242,9 @@
       "richtung": "SHORT",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$78,871–$79,742",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-09-18 16:27:16"
     },
     {
       "ts": "2026-09-14 16:27:16",
@@ -422,9 +432,9 @@
       "richtung": "SHORT",
       "stufe": "KANDIDAT_GUELTIG",
       "zone_bereich": "$78,871–$79,742",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-09-18 16:27:16"
     },
     {
       "ts": "2026-09-13 23:57:14",
