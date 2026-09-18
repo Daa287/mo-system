@@ -1,10 +1,10 @@
 {
-  "generiert": "2026-09-18T16:57:18",
+  "generiert": "2026-09-18T17:27:18",
   "symbol": "BTC",
   "anzahl": 48,
   "gehalten": 0,
-  "nicht_gehalten": 43,
-  "offen": 5,
+  "nicht_gehalten": 48,
+  "offen": 0,
   "eintraege": [
     {
       "ts": "2026-09-18 16:27:17",
@@ -22,9 +22,9 @@
       "richtung": "SHORT",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$79,173–$80,218",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-09-18 17:27:18"
     },
     {
       "ts": "2026-09-18 14:27:17",
@@ -72,9 +72,9 @@
       "richtung": "SHORT",
       "stufe": "KANDIDAT_GUELTIG",
       "zone_bereich": "$79,173–$80,218",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-09-18 17:27:18"
     },
     {
       "ts": "2026-09-15 08:27:15",
@@ -102,9 +102,9 @@
       "richtung": "SHORT",
       "stufe": "KANDIDAT_GUELTIG",
       "zone_bereich": "$79,173–$80,218",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-09-18 17:27:18"
     },
     {
       "ts": "2026-09-15 06:27:19",
@@ -212,9 +212,9 @@
       "richtung": "SHORT",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$79,173–$80,218",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-09-18 17:27:18"
     },
     {
       "ts": "2026-09-14 21:57:14",
@@ -232,9 +232,9 @@
       "richtung": "SHORT",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$79,173–$80,218",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-09-18 17:27:18"
     },
     {
       "ts": "2026-09-14 19:27:16",
