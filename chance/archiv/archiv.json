@@ -1,20 +1,30 @@
 {
-  "generiert": "2026-09-18T15:27:17",
+  "generiert": "2026-09-18T15:57:18",
   "symbol": "BTC",
-  "anzahl": 46,
+  "anzahl": 47,
   "gehalten": 0,
-  "nicht_gehalten": 34,
-  "offen": 12,
+  "nicht_gehalten": 38,
+  "offen": 9,
   "eintraege": [
+    {
+      "ts": "2026-09-18 15:57:17",
+      "tf": "D1",
+      "richtung": "SHORT",
+      "stufe": "IN_ZONE_KANDIDAT",
+      "zone_bereich": "$79,173–$80,218",
+      "status": "OFFEN",
+      "status_label": "OFFEN",
+      "status_updated_ts": null
+    },
     {
       "ts": "2026-09-18 14:27:17",
       "tf": "H1",
       "richtung": "SHORT",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$77,370–$78,115",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-09-18 15:57:17"
     },
     {
       "ts": "2026-09-18 13:27:16",
@@ -22,9 +32,9 @@
       "richtung": "SHORT",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$77,930–$78,488",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-09-18 15:57:17"
     },
     {
       "ts": "2026-09-18 11:57:16",
@@ -32,9 +42,9 @@
       "richtung": "SHORT",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$77,800–$78,401",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-09-18 15:57:17"
     },
     {
       "ts": "2026-09-18 10:27:16",
@@ -42,9 +52,9 @@
       "richtung": "SHORT",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$77,930–$78,488",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-09-18 15:57:17"
     },
     {
       "ts": "2026-09-15 08:57:16",
