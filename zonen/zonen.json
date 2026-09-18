@@ -1,9 +1,9 @@
 {
-  "generiert": "2026-09-18T10:20:04",
+  "generiert": "2026-09-18T10:50:05",
   "symbol": "BTC",
-  "aktueller_kurs": 77804.3,
+  "aktueller_kurs": 77932.64,
   "kurs_zeitstempel": "2026-09-18 10:00",
-  "anzahl": 193,
+  "anzahl": 195,
   "zonen": [
     {
       "symbol": "BTC",
@@ -1095,6 +1095,34 @@
       "status": "OFFEN",
       "status_label": "OFFEN",
       "kategorie": "BEOBACHTEN",
+      "unbestaetigt": true
+    },
+    {
+      "symbol": "BTC",
+      "tf": "H1",
+      "richtung": "SHORT",
+      "zone_bereich": "$77,800–$78,401",
+      "ziel_bei_halten": 72241.85,
+      "ziel_bei_nicht_halten": 78829.6,
+      "erkannt_datum": "2026-09-18",
+      "erkannt_ts": "2026-09-18 10:40:05",
+      "status": "OFFEN",
+      "status_label": "OFFEN",
+      "kategorie": "IN_ZONE_KANDIDAT",
+      "unbestaetigt": true
+    },
+    {
+      "symbol": "BTC",
+      "tf": "H1",
+      "richtung": "SHORT",
+      "zone_bereich": "$77,930–$78,488",
+      "ziel_bei_halten": 72662.5,
+      "ziel_bei_nicht_halten": 78885.24,
+      "erkannt_datum": "2026-09-18",
+      "erkannt_ts": "2026-09-18 10:40:05",
+      "status": "OFFEN",
+      "status_label": "OFFEN",
+      "kategorie": "IN_ZONE_KANDIDAT",
       "unbestaetigt": true
     },
     {
