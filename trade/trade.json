@@ -1,8 +1,8 @@
 {
-  "generiert": "2026-09-21T21:56:17",
+  "generiert": "2026-09-21T22:24:59",
   "symbol": "BTC",
-  "aktueller_kurs": 86495.2,
-  "kurs_zeitstempel": "2026-09-21 21:52:50 CEST",
+  "aktueller_kurs": 86956.3,
+  "kurs_zeitstempel": "2026-09-21 22:22:26 CEST",
   "position": {
     "asset": "BTC",
     "richtung": "SHORT",
@@ -11,7 +11,7 @@
   "bewertung": {
     "einstufung": "KEIN_SETUP",
     "einstufung_label": "Keine aktive Sequenz — in keiner Richtung",
-    "lauf_pct": -2.87,
+    "lauf_pct": -3.42,
     "pro_anzahl": 0,
     "contra_anzahl": 0,
     "pro_tfs": [],
@@ -28,6 +28,11 @@
     ],
     "levels_darunter": [
       {
+        "wert": 86895.7,
+        "name": "H4/GELB A (Extrem)",
+        "anzahl": 1
+      },
+      {
         "wert": 86344.7,
         "name": "H1/ROT A (Extrem)",
         "anzahl": 1
@@ -35,11 +40,6 @@
       {
         "wert": 84190.2,
         "name": "H1/GELB 50%",
-        "anzahl": 1
-      },
-      {
-        "wert": 83849.82,
-        "name": "D1/ROT 50%",
         "anzahl": 1
       }
     ],
@@ -51,6 +51,6 @@
       }
     ]
   },
-  "ki_kommentar": "Deine BTC-Short-Position bei $84,083 befindet sich aktuell in keiner aktiven Fibonacci-Sequenz nach der Stefan-Kassing-Methode – weder in Positionsrichtung noch in Gegenrichtung liegt ein bestätigtes Setup vor. Strukturell heißt das: Es gibt derzeit keine validierten Einstiegs- oder Zielzonen (55,9–66,7% bzw. 161,8–200%), die die aktuelle Kursbewegung technisch einordnen. Es existiert eine noch nicht aktivierte Sequenz in Positionsrichtung, die erst nach Bruch von Punkt A relevant würde, während in Gegenrichtung gleich vier solcher wartenden Sequenzen vorliegen – ein Hinweis auf potenziell mehr Struktur oberhalb des aktuellen Kurses. Die nächstgelegenen Levels sind $86,345 (H1/ROT A Extrem) direkt oberhalb des aktuellen Kurses sowie $84,190 (H1/GELB 50%) und $83,850 (D1/ROT 50%) unterhalb; ein Bruch dieser Marken könnte über die Aktivierung einer der wartenden Sequenzen entscheiden. Nach oben liegt als nächstes relevantes Level erst $126,200 (W1/ROT A Extrem), was die aktuelle Distanz zu übergeord",
-  "struktur_stand": "2026-09-21 21:52:49"
+  "ki_kommentar": null,
+  "struktur_stand": "2026-09-21 22:22:24"
 }
