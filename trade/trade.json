@@ -1,8 +1,8 @@
 {
-  "generiert": "2026-09-21T21:24:47",
+  "generiert": "2026-09-21T21:56:17",
   "symbol": "BTC",
-  "aktueller_kurs": 86318.3,
-  "kurs_zeitstempel": "2026-09-21 21:22:16 CEST",
+  "aktueller_kurs": 86495.2,
+  "kurs_zeitstempel": "2026-09-21 21:52:50 CEST",
   "position": {
     "asset": "BTC",
     "richtung": "SHORT",
@@ -11,7 +11,7 @@
   "bewertung": {
     "einstufung": "KEIN_SETUP",
     "einstufung_label": "Keine aktive Sequenz — in keiner Richtung",
-    "lauf_pct": -2.66,
+    "lauf_pct": -2.87,
     "pro_anzahl": 0,
     "contra_anzahl": 0,
     "pro_tfs": [],
@@ -28,6 +28,11 @@
     ],
     "levels_darunter": [
       {
+        "wert": 86344.7,
+        "name": "H1/ROT A (Extrem)",
+        "anzahl": 1
+      },
+      {
         "wert": 84190.2,
         "name": "H1/GELB 50%",
         "anzahl": 1
@@ -36,19 +41,9 @@
         "wert": 83849.82,
         "name": "D1/ROT 50%",
         "anzahl": 1
-      },
-      {
-        "wert": 83474.82,
-        "name": "H4/ROT 50%",
-        "anzahl": 1
       }
     ],
     "levels_darueber": [
-      {
-        "wert": 86344.7,
-        "name": "H4/GELB A (Extrem) +1 weitere",
-        "anzahl": 2
-      },
       {
         "wert": 126199.63,
         "name": "W1/ROT A (Extrem) +4 weitere",
@@ -56,6 +51,6 @@
       }
     ]
   },
-  "ki_kommentar": "Deine SHORT-Position läuft aktuell mit -2,66% gegen dich, befindet sich aber strukturell in keinem aktiven Setup nach der Kassing-Methode — es gibt weder in Positions- noch in Gegenrichtung eine aktivierte Sequenz mit offenem Ziel. Das bedeutet, der Markt bewegt sich derzeit außerhalb eines klar definierten Fibonacci-Rahmens, was die aktuelle Einstufung KEIN_SETUP erklärt. Auffällig ist die deutliche Asymmetrie bei den unbestätigten Sequenzen: nur 1 wartet in deiner Positionsrichtung auf den A-Bruch, während 4 in der Gegenrichtung auf Aktivierung lauern. Nach oben ist $86,345 (H4/GELB, Extrem-A) das nächste strukturell relevante Level, dessen Bruch eine der gegenläufigen Sequenzen aktivieren könnte, während nach unten $84,190 (H1/GELB 50%) als nächste Zone im Fokus steht. Die Levels darunter ($83,850 D1/ROT, $83,475 H4/ROT) sowie das weit entfernte $126,200 (W1/ROT) markieren die groben Ecken, innerhalb derer sich die aktuelle Struktur bewegt.",
-  "struktur_stand": "2026-09-21 21:22:14"
+  "ki_kommentar": "Deine BTC-Short-Position bei $84,083 befindet sich aktuell in keiner aktiven Fibonacci-Sequenz nach der Stefan-Kassing-Methode – weder in Positionsrichtung noch in Gegenrichtung liegt ein bestätigtes Setup vor. Strukturell heißt das: Es gibt derzeit keine validierten Einstiegs- oder Zielzonen (55,9–66,7% bzw. 161,8–200%), die die aktuelle Kursbewegung technisch einordnen. Es existiert eine noch nicht aktivierte Sequenz in Positionsrichtung, die erst nach Bruch von Punkt A relevant würde, während in Gegenrichtung gleich vier solcher wartenden Sequenzen vorliegen – ein Hinweis auf potenziell mehr Struktur oberhalb des aktuellen Kurses. Die nächstgelegenen Levels sind $86,345 (H1/ROT A Extrem) direkt oberhalb des aktuellen Kurses sowie $84,190 (H1/GELB 50%) und $83,850 (D1/ROT 50%) unterhalb; ein Bruch dieser Marken könnte über die Aktivierung einer der wartenden Sequenzen entscheiden. Nach oben liegt als nächstes relevantes Level erst $126,200 (W1/ROT A Extrem), was die aktuelle Distanz zu übergeord",
+  "struktur_stand": "2026-09-21 21:52:49"
 }
