@@ -1,8 +1,8 @@
 {
-  "generiert": "2026-09-21T17:24:49",
+  "generiert": "2026-09-21T17:54:48",
   "symbol": "BTC",
-  "aktueller_kurs": 85987.3,
-  "kurs_zeitstempel": "2026-09-21 17:22:16 CEST",
+  "aktueller_kurs": 86003.4,
+  "kurs_zeitstempel": "2026-09-21 17:52:16 CEST",
   "position": {
     "asset": "BTC",
     "richtung": "SHORT",
@@ -11,7 +11,7 @@
   "bewertung": {
     "einstufung": "KEIN_SETUP",
     "einstufung_label": "Keine aktive Sequenz — in keiner Richtung",
-    "lauf_pct": -2.26,
+    "lauf_pct": -2.28,
     "pro_anzahl": 0,
     "contra_anzahl": 0,
     "pro_tfs": [],
@@ -51,6 +51,6 @@
       }
     ]
   },
-  "ki_kommentar": "Deine BTC-Short-Position bei $84,083 befindet sich aktuell strukturell im Niemandsland: Es liegt laut Stefan-Kassing-Methode KEIN_SETUP vor, da keine Fibonacci-Sequenz – weder in Positionsrichtung noch in Gegenrichtung – aktiv ist. Es existieren zwar vorgemerkte Sequenzen (1 in Positionsrichtung, 4 in Gegenrichtung), diese warten aber noch auf den Bruch ihres jeweiligen Punktes A und sind damit ohne Gültigkeit für Einstiegszonen oder Ziele. Nach unten sind die nächsten relevanten Marken $84,190 (H1/GELB 50%), $83,850 (D1/ROT 50%) und $83,475 (H4/ROT 50%) – hier könnte sich potenziell eine Aktivierung in Positionsrichtung ergeben. Nach oben steht als nächster größerer Referenzpunkt $126,200 (W1/ROT A Extrem) mit weiteren Levels dahinter, was die Struktur der Gegenrichtung markiert. Aktuell liefert der Kurs von $85,987 selbst noch kein strukturelles Signal im Sinne der Methode.",
-  "struktur_stand": "2026-09-21 17:22:14"
+  "ki_kommentar": "Deine BTC-Short-Position bei $84,083 liegt aktuell mit -2.28% im Minus, bei einem Kurs von $86,003 — strukturell befindet sich der Markt aber laut Regelwerk in keiner aktiven Fibonacci-Sequenz, weder in Positions- noch in Gegenrichtung. Es existiert also aktuell kein gültiges Kassing-Setup, das die Position stützen oder gegen sie sprechen würde. Es gibt lediglich unaktivierte Sequenzen: eine potenziell in deiner Richtung (Short) und vier in Gegenrichtung, die jeweils erst nach Bruch ihres A-Punkts relevant würden. Nach unten sind die nächsten Levels $84,190 (H1/GELB 50%), $83,850 (D1/ROT 50%) und $83,475 (H4/ROT 50%), nach oben steht $126,200 (W1/ROT, Extrempunkt A) als nächstes größeres Level, mit vier weiteren darüber. Die Lage bleibt damit strukturell offen, bis eine dieser Sequenzen durch Bruch ihres jeweiligen A-Punkts aktiviert wird.",
+  "struktur_stand": "2026-09-21 17:52:14"
 }
