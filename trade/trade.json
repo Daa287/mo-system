@@ -1,8 +1,8 @@
 {
-  "generiert": "2026-09-22T00:54:42",
+  "generiert": "2026-09-22T01:24:40",
   "symbol": "BTC",
-  "aktueller_kurs": 86312.5,
-  "kurs_zeitstempel": "2026-09-22 00:52:16 CEST",
+  "aktueller_kurs": 86554.0,
+  "kurs_zeitstempel": "2026-09-22 01:22:15 CEST",
   "position": {
     "asset": "BTC",
     "richtung": "SHORT",
@@ -11,7 +11,7 @@
   "bewertung": {
     "einstufung": "KEIN_SETUP",
     "einstufung_label": "Keine aktive Sequenz — in keiner Richtung",
-    "lauf_pct": -2.65,
+    "lauf_pct": -2.94,
     "pro_anzahl": 0,
     "contra_anzahl": 0,
     "pro_tfs": [],
@@ -45,7 +45,7 @@
     ],
     "levels_darueber": [
       {
-        "wert": 86344.7,
+        "wert": 87395.67,
         "name": "H1/ROT A (Extrem)",
         "anzahl": 1
       },
@@ -57,5 +57,5 @@
     ]
   },
   "ki_kommentar": null,
-  "struktur_stand": "2026-09-22 00:52:14"
+  "struktur_stand": "2026-09-22 01:22:13"
 }
