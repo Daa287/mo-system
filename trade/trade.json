@@ -1,8 +1,8 @@
 {
-  "generiert": "2026-09-21T19:55:19",
+  "generiert": "2026-09-21T20:24:51",
   "symbol": "BTC",
-  "aktueller_kurs": 85800.8,
-  "kurs_zeitstempel": "2026-09-21 19:52:24 CEST",
+  "aktueller_kurs": 85979.3,
+  "kurs_zeitstempel": "2026-09-21 20:22:18 CEST",
   "position": {
     "asset": "BTC",
     "richtung": "SHORT",
@@ -11,7 +11,7 @@
   "bewertung": {
     "einstufung": "KEIN_SETUP",
     "einstufung_label": "Keine aktive Sequenz — in keiner Richtung",
-    "lauf_pct": -2.04,
+    "lauf_pct": -2.25,
     "pro_anzahl": 0,
     "contra_anzahl": 0,
     "pro_tfs": [],
@@ -46,8 +46,8 @@
     "levels_darueber": [
       {
         "wert": 86344.7,
-        "name": "H4/GELB A (Extrem)",
-        "anzahl": 1
+        "name": "H4/GELB A (Extrem) +1 weitere",
+        "anzahl": 2
       },
       {
         "wert": 126199.63,
@@ -56,6 +56,6 @@
       }
     ]
   },
-  "ki_kommentar": "Deine BTC-Short-Position bei $84,083 befindet sich aktuell bei $85,801 in einem Bereich, in dem nach der Stefan-Kassing-Methode keine aktive Sequenz vorliegt – weder in Positionsrichtung noch in Gegenrichtung existiert derzeit ein gültiges, bereits ausgelöstes Setup. Es gibt lediglich eine noch nicht aktivierte Sequenz in Positionsrichtung, die erst durch einen Bruch ihres jeweiligen A-Punktes aktiviert würde, während gegenläufig gleich vier solcher wartenden Sequenzen bestehen, was auf eine strukturelle Mehrheit potenzieller Gegenbewegungen hindeutet. Entscheidend nach unten sind die Levels $84,190 (H1/GELB 50%), $83,850 (D1/ROT 50%) und $83,475 (H4/ROT 50%), die als nächste Reaktionszonen fungieren. Nach oben markiert $86,345 (H4/GELB, Extrempunkt A) die nächste relevante Schwelle, gefolgt von der weit entfernten Zone um $126,200 (W1/ROT, Extrempunkt A) samt weiterer Levels. Insgesamt befindet sich der Kurs somit in einer Übergangszone ohne aktives Fibonacci-Signal, in der die genannten A-Punkte auf beiden",
-  "struktur_stand": "2026-09-21 19:52:22"
+  "ki_kommentar": "Deine Short-Position steht aktuell ohne strukturelle Rückendeckung: Die Einstufung KEIN_SETUP bedeutet, dass weder in Positionsrichtung noch in Gegenrichtung eine aktive Fibonacci-Sequenz mit offenem Ziel existiert – die Position bewegt sich also außerhalb eines validierten Setups. Es gibt lediglich eine wartende Sequenz in deine Richtung, die erst nach Bruch ihres Punktes A aktiv würde, während gleich vier wartende Sequenzen in die Gegenrichtung existieren, was auf ein potenziell asymmetrisches Bild bei Aktivierung hindeutet. Nach unten sind $84,190, $83,850 und $83,475 die nächsten relevanten Marken, die für die Aktivierung deiner Richtungssequenz oder als Reaktionszonen der roten/gelben Levels dienen könnten. Nach oben steht mit $86,345 (H4/GELB, Extrempunkt A) das nächste Level, dessen Bruch eine der gegenläufigen Sequenzen aktivieren würde, während $126,200 auf der W1-Ebene ein weit entferntes Extrem markiert. Insgesamt befindet sich der Kurs aktuell in einer Zone ohne bestätigte Sequenzstruktur, in der die nächsten Kursbewegungen relativ zu diesen Levels ze",
+  "struktur_stand": "2026-09-21 20:22:16"
 }
