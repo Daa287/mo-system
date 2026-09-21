@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Mein Trade — SK-Analyse</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  * { box-sizing: border-box; }
+  :root { --accent: #2563eb; --accent-dark: #1e3a8a; }
+  html, body { max-width: 100%; overflow-x: hidden; }
+  body { font-family: -apple-system, Segoe UI, Roboto, sans-serif; max-width: 600px;
+          margin: 1.5rem auto; padding: 0 0.9rem; color: #222; font-size: 15px; }
+  h1 { margin-bottom: 0.2rem; font-size: 1.3rem; }
+  .kurs-live { font-size: 0.95rem; font-weight: 600; color: #1e3a8a; margin: 0.2rem 0 0.5rem 0; }
+  .kurs-live .kurs-zeit { font-weight: 400; color: #888; font-size: 0.82rem; }
+  .sub { color: #666; margin-top: 0; margin-bottom: 0.5rem; font-size: 0.82rem; }
+  .nav { font-size: 0.85rem; margin: 0 0 1.3rem 0; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .pos-card { border: 1px solid #e2e2e2; border-radius: 10px; padding: 1rem;
+               box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+  .pos-kopf { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem;
+               margin-bottom: 0.8rem; }
+  .asset { font-weight: 700; }
+  .richtung { font-weight: 700; font-size: 0.85rem; padding: 0.15rem 0.5rem; border-radius: 6px; }
+  .richtung.long  { color: #1a7f37; background: #e6f4ea; }
+  .richtung.short { color: #cf222e; background: #fde8e8; }
+  .badge { font-weight: 700; padding: 0.2rem 0.6rem; border-radius: 6px; font-size: 0.8rem; }
+  .badge.gut { color: #1a7f37; background: #e6f4ea; }
+  .badge.neutral { color: #6b7280; background: #f3f4f6; }
+  .badge.warn { color: #b45309; background: #fef3c7; }
+
+  .werte { width: 100%; border-collapse: collapse; margin-bottom: 0.9rem; }
+  .werte td { padding: 0.35rem 0.2rem; border-bottom: 1px solid #eee; font-size: 0.9rem;
+               word-break: break-word; }
+  .werte td:first-child { color: #666; }
+  .werte td:last-child { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
+  .werte tr:last-child td { border-bottom: none; }
+  .plus { color: #1a7f37; }
+  .minus { color: #cf222e; }
+
+  .levels { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-bottom: 0.9rem; }
+  .lvl-block { flex: 1 1 45%; min-width: 0; border: 1px solid #eee; border-radius: 6px;
+                padding: 0.4rem 0.5rem; }
+  .lvl-titel { font-size: 0.76rem; color: #666; font-weight: 600; margin-bottom: 0.25rem; }
+  .lvl-zeile { display: flex; justify-content: space-between; gap: 0.5rem;
+                font-size: 0.8rem; padding: 0.12rem 0; font-variant-numeric: tabular-nums; }
+  .lvl-zeile span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .lvl-leer { font-size: 0.8rem; color: #999; }
+
+  .ki-block { background: #f8faff; border: 1px solid #c7d2fe; border-radius: 6px;
+               padding: 0.5rem 0.6rem; margin-bottom: 0.9rem; }
+  .ki-titel { font-size: 0.74rem; font-weight: 700; color: var(--accent-dark);
+               margin-bottom: 0.25rem; }
+  .ki-text { font-size: 0.85rem; line-height: 1.5; margin: 0; }
+
+  .hinweis { font-size: 0.76rem; color: #888; margin: 0; line-height: 1.5; }
+  .keine-pos { border: 1px dashed #ccc; border-radius: 10px; padding: 1.2rem; text-align: center; }
+  .keine-pos-titel { font-weight: 700; color: #666; margin-bottom: 0.4rem; }
+  @media (max-width: 380px) { body { font-size: 14px; padding: 0 0.6rem; } }
+</style>
+</head>
+<body>
+  <h1>Mein Trade — SK-Analyse</h1>
+  <p class="kurs-live">BTC aktuell: <strong>$85,120</strong>
+  <span class="kurs-zeit">(Stand: 2026-09-21 15:13:14 CEST)</span></p>
+  <p class="sub">Offene BingX-Position gegenüber der erkannten SK-Struktur ·
+  Strukturen berechnet 2026-09-21 14:52:48 · generiert 2026-09-21 15:16</p>
+  <p class="nav"><a href="../">← Mo's System</a> &nbsp;·&nbsp; <a href="../zonen/">SK-Zonen</a>
+  &nbsp;·&nbsp; <a href="../chance/">Trade-Chance</a></p>
+  <div class="pos-card">
+    <div class="pos-kopf">
+      <span class="richtung short">SHORT</span>
+      <span class="asset">BTC</span>
+      <span class="badge neutral">Keine aktive Sequenz — in keiner Richtung</span>
+    </div>
+    <table class="werte">
+      <tr><td>Einstieg</td><td>$80,956</td></tr>
+      <tr><td>Aktueller Kurs</td><td>$85,120</td></tr>
+      <tr><td>Lauf seit Einstieg</td><td class="minus">-5.14%</td></tr>
+      <tr><td>Aktive Sequenzen dafür</td><td>0 (keine)</td></tr>
+      <tr><td>Aktive Sequenzen dagegen</td><td>0 (keine)</td></tr>
+      <tr><td>Noch nicht aktiviert (dafür / dagegen)</td><td>1 / 5</td></tr>
+    </table>
+    <div class="levels">
+<div class="lvl-block"><div class="lvl-titel">Nächste Levels darüber</div><div class="lvl-zeile"><span>W1/ROT A (Extrem) +4 weitere</span><strong>$126,200</strong></div></div>
+<div class="lvl-block"><div class="lvl-titel">Nächste Levels darunter</div><div class="lvl-zeile"><span>H1/GELB 50%</span><strong>$84,190</strong></div>
+<div class="lvl-zeile"><span>D1/ROT 50%</span><strong>$83,850</strong></div>
+<div class="lvl-zeile"><span>H4/ROT 50%</span><strong>$83,475</strong></div></div>
+    </div>
+      <div class="ki-block"><div class="ki-titel">KI-Erläuterung (erklärt die Regel-Einstufung, entscheidet nichts)</div><p class="ki-text">Deine BTC-SHORT-Position läuft aktuell mit -5,14% gegen dich, befindet sich strukturell jedoch außerhalb einer aktiven Fibonacci-Sequenz – die Einstufung KEIN_SETUP bestätigt, dass weder in Positionsrichtung noch in Gegenrichtung derzeit eine aktivierte Sequenz mit offenem Ziel vorliegt. Es existiert eine Sequenz in Positionsrichtung, die noch auf den Bruch von Punkt A wartet, während in Gegenrichtung gleich fünf potenzielle Sequenzen auf ihre Aktivierung warten, was auf ein Übergewicht an Struktur oberhalb des aktuellen Kurses hindeutet. Unterhalb des Kurses liegen die nächsten relevanten Levels bei $84,190, $83,850 und $83,475, die als mögliche Reaktionszonen im 50%-Bereich (GELB/ROT) fungieren. Oberhalb ist das nächste bedeutende Level erst bei $126,200 als W1/ROT-Extrempunkt A verzeichnet, mit vier weiteren Levels in diesem Bereich. Die aktuelle Marktlage befindet sich somit in einer Zone ohne aktives Setup, wobei die genannten Levels als nächste strukturelle Orientierungspunkte für eine mögliche Sequenzaktivierung d</p></div>
+    <p class="hinweis">Beschreibung der Lage gegenüber der erkannten SK-Struktur —
+    ausdrücklich <strong>keine Handelsempfehlung</strong>. Positionsgröße, Hebel und
+    Ergebnis werden bewusst nicht angezeigt.</p>
+  </div>
+
+</body>
+</html>

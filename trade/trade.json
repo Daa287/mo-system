@@ -1,0 +1,57 @@
+{
+  "generiert": "2026-09-21T15:16:37",
+  "symbol": "BTC",
+  "aktueller_kurs": 85119.8,
+  "kurs_zeitstempel": "2026-09-21 15:13:14 CEST",
+  "position": {
+    "asset": "BTC",
+    "richtung": "SHORT",
+    "entry": 80956.0
+  },
+  "bewertung": {
+    "einstufung": "KEIN_SETUP",
+    "einstufung_label": "Keine aktive Sequenz — in keiner Richtung",
+    "lauf_pct": -5.14,
+    "pro_anzahl": 0,
+    "contra_anzahl": 0,
+    "pro_tfs": [],
+    "contra_tfs": [],
+    "pro_potenziell": 1,
+    "contra_potenziell": 5,
+    "pro_potenziell_tfs": [
+      "H4"
+    ],
+    "contra_potenziell_tfs": [
+      "D1",
+      "H1",
+      "H4",
+      "W1"
+    ],
+    "levels_darunter": [
+      {
+        "wert": 84190.2,
+        "name": "H1/GELB 50%",
+        "anzahl": 1
+      },
+      {
+        "wert": 83849.82,
+        "name": "D1/ROT 50%",
+        "anzahl": 1
+      },
+      {
+        "wert": 83474.82,
+        "name": "H4/ROT 50%",
+        "anzahl": 1
+      }
+    ],
+    "levels_darueber": [
+      {
+        "wert": 126199.63,
+        "name": "W1/ROT A (Extrem) +4 weitere",
+        "anzahl": 5
+      }
+    ]
+  },
+  "ki_kommentar": "Deine BTC-SHORT-Position läuft aktuell mit -5,14% gegen dich, befindet sich strukturell jedoch außerhalb einer aktiven Fibonacci-Sequenz – die Einstufung KEIN_SETUP bestätigt, dass weder in Positionsrichtung noch in Gegenrichtung derzeit eine aktivierte Sequenz mit offenem Ziel vorliegt. Es existiert eine Sequenz in Positionsrichtung, die noch auf den Bruch von Punkt A wartet, während in Gegenrichtung gleich fünf potenzielle Sequenzen auf ihre Aktivierung warten, was auf ein Übergewicht an Struktur oberhalb des aktuellen Kurses hindeutet. Unterhalb des Kurses liegen die nächsten relevanten Levels bei $84,190, $83,850 und $83,475, die als mögliche Reaktionszonen im 50%-Bereich (GELB/ROT) fungieren. Oberhalb ist das nächste bedeutende Level erst bei $126,200 als W1/ROT-Extrempunkt A verzeichnet, mit vier weiteren Levels in diesem Bereich. Die aktuelle Marktlage befindet sich somit in einer Zone ohne aktives Setup, wobei die genannten Levels als nächste strukturelle Orientierungspunkte für eine mögliche Sequenzaktivierung d",
+  "struktur_stand": "2026-09-21 14:52:48"
+}
