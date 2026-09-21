@@ -1,17 +1,17 @@
 {
-  "generiert": "2026-09-21T16:54:48",
+  "generiert": "2026-09-21T17:24:49",
   "symbol": "BTC",
-  "aktueller_kurs": 85977.1,
-  "kurs_zeitstempel": "2026-09-21 16:52:16 CEST",
+  "aktueller_kurs": 85987.3,
+  "kurs_zeitstempel": "2026-09-21 17:22:16 CEST",
   "position": {
     "asset": "BTC",
     "richtung": "SHORT",
-    "entry": 80956.0
+    "entry": 84083.3
   },
   "bewertung": {
     "einstufung": "KEIN_SETUP",
     "einstufung_label": "Keine aktive Sequenz — in keiner Richtung",
-    "lauf_pct": -6.2,
+    "lauf_pct": -2.26,
     "pro_anzahl": 0,
     "contra_anzahl": 0,
     "pro_tfs": [],
@@ -51,6 +51,6 @@
       }
     ]
   },
-  "ki_kommentar": "Deine BTC-Short-Position bei $80,956 liegt aktuell mit -6.20% im Minus, während der Kurs bei $85,977 notiert. Strukturell befindest du dich gemäß der Kassing-Methode in keiner aktiven Sequenz – weder in Positionsrichtung noch in Gegenrichtung liegt ein gültiges, aktiviertes Setup vor, weshalb die Einstufung KEIN_SETUP lautet. In Positionsrichtung wartet eine Sequenz noch auf den Bruch von Punkt A, während in Gegenrichtung gleich vier Sequenzen auf diese Aktivierung warten, was auf eine strukturelle Dominanz der Gegenrichtung hinweist. Nach unten sind die nächsten relevanten Levels $84,190 (H1/GELB 50%), $83,850 (D1/ROT 50%) und $83,475 (H4/ROT 50%), nach oben markiert $126,200 (W1/ROT A Extrem) das nächste größere Level mit vier weiteren dahinter. Die aktuelle Marktlage ist somit strukturell unentschieden, da keine der vorhandenen Sequenzen bereits einen validierten Einstieg oder ein aktives Ziel liefert.",
-  "struktur_stand": "2026-09-21 16:52:14"
+  "ki_kommentar": "Deine BTC-Short-Position bei $84,083 befindet sich aktuell strukturell im Niemandsland: Es liegt laut Stefan-Kassing-Methode KEIN_SETUP vor, da keine Fibonacci-Sequenz – weder in Positionsrichtung noch in Gegenrichtung – aktiv ist. Es existieren zwar vorgemerkte Sequenzen (1 in Positionsrichtung, 4 in Gegenrichtung), diese warten aber noch auf den Bruch ihres jeweiligen Punktes A und sind damit ohne Gültigkeit für Einstiegszonen oder Ziele. Nach unten sind die nächsten relevanten Marken $84,190 (H1/GELB 50%), $83,850 (D1/ROT 50%) und $83,475 (H4/ROT 50%) – hier könnte sich potenziell eine Aktivierung in Positionsrichtung ergeben. Nach oben steht als nächster größerer Referenzpunkt $126,200 (W1/ROT A Extrem) mit weiteren Levels dahinter, was die Struktur der Gegenrichtung markiert. Aktuell liefert der Kurs von $85,987 selbst noch kein strukturelles Signal im Sinne der Methode.",
+  "struktur_stand": "2026-09-21 17:22:14"
 }
