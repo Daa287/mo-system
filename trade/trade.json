@@ -1,20 +1,23 @@
 {
-  "generiert": "2026-09-21T20:24:51",
+  "generiert": "2026-09-21T20:53:38",
   "symbol": "BTC",
-  "aktueller_kurs": 85979.3,
-  "kurs_zeitstempel": "2026-09-21 20:22:18 CEST",
+  "aktueller_kurs": 85953.9,
+  "kurs_zeitstempel": "2026-09-21 20:51:43 CEST",
   "position": {
     "asset": "BTC",
     "richtung": "SHORT",
     "entry": 84083.3
   },
   "bewertung": {
-    "einstufung": "KEIN_SETUP",
-    "einstufung_label": "Keine aktive Sequenz — in keiner Richtung",
-    "lauf_pct": -2.25,
-    "pro_anzahl": 0,
+    "einstufung": "RUECKENWIND",
+    "einstufung_label": "Aktive Sequenz stützt die Position",
+    "lauf_pct": -2.22,
+    "pro_anzahl": 3,
     "contra_anzahl": 0,
-    "pro_tfs": [],
+    "pro_tfs": [
+      "D1",
+      "W1"
+    ],
     "contra_tfs": [],
     "pro_potenziell": 1,
     "contra_potenziell": 4,
@@ -50,12 +53,17 @@
         "anzahl": 2
       },
       {
-        "wert": 126199.63,
-        "name": "W1/ROT A (Extrem) +4 weitere",
-        "anzahl": 5
+        "wert": 86991.5,
+        "name": "W1/GELB 50%",
+        "anzahl": 1
+      },
+      {
+        "wert": 88464.55,
+        "name": "W1/GELB E1 55,9%",
+        "anzahl": 1
       }
     ]
   },
-  "ki_kommentar": "Deine Short-Position steht aktuell ohne strukturelle Rückendeckung: Die Einstufung KEIN_SETUP bedeutet, dass weder in Positionsrichtung noch in Gegenrichtung eine aktive Fibonacci-Sequenz mit offenem Ziel existiert – die Position bewegt sich also außerhalb eines validierten Setups. Es gibt lediglich eine wartende Sequenz in deine Richtung, die erst nach Bruch ihres Punktes A aktiv würde, während gleich vier wartende Sequenzen in die Gegenrichtung existieren, was auf ein potenziell asymmetrisches Bild bei Aktivierung hindeutet. Nach unten sind $84,190, $83,850 und $83,475 die nächsten relevanten Marken, die für die Aktivierung deiner Richtungssequenz oder als Reaktionszonen der roten/gelben Levels dienen könnten. Nach oben steht mit $86,345 (H4/GELB, Extrempunkt A) das nächste Level, dessen Bruch eine der gegenläufigen Sequenzen aktivieren würde, während $126,200 auf der W1-Ebene ein weit entferntes Extrem markiert. Insgesamt befindet sich der Kurs aktuell in einer Zone ohne bestätigte Sequenzstruktur, in der die nächsten Kursbewegungen relativ zu diesen Levels ze",
-  "struktur_stand": "2026-09-21 20:22:16"
+  "ki_kommentar": "Ihre BTC-Short-Position bei $84,083 notiert aktuell mit -2,22% im Minus, doch strukturell besteht laut Einstufung Rückenwind: drei aktive Sequenzen auf D1- und W1-Ebene stützen die Positionsrichtung, während in Gegenrichtung keine aktive Sequenz existiert. Nach oben ist $86,345 (H4/GELB A Extrem) das nächste kritische Level, dessen Bruch weitere Gegensequenzen aktivieren könnte, gefolgt von $86,992 (W1/GELB 50%) und $88,465 (W1/GELB E1 55,9%) als tieferliegende Zonen der Gegenseite. Nach unten liegen mit $84,190 (H1/GELB 50%), $83,850 (D1/ROT 50%) und $83,475 (H4/ROT 50%) die nächsten Levels, die im Sinne der aktiven Sequenzen relevant sind. Die vier noch nicht aktivierten Gegensequenzen warten auf einen Bruch ihrer jeweiligen A-Punkte und stellen damit ein latentes, aber aktuell nicht wirksames Gegengewicht dar.",
+  "struktur_stand": "2026-09-21 20:51:40"
 }
