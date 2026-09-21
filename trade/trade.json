@@ -1,5 +1,5 @@
 {
-  "generiert": "2026-09-21T15:16:37",
+  "generiert": "2026-09-21T15:24:56",
   "symbol": "BTC",
   "aktueller_kurs": 85119.8,
   "kurs_zeitstempel": "2026-09-21 15:13:14 CEST",
@@ -52,6 +52,6 @@
       }
     ]
   },
-  "ki_kommentar": "Deine BTC-SHORT-Position läuft aktuell mit -5,14% gegen dich, befindet sich strukturell jedoch außerhalb einer aktiven Fibonacci-Sequenz – die Einstufung KEIN_SETUP bestätigt, dass weder in Positionsrichtung noch in Gegenrichtung derzeit eine aktivierte Sequenz mit offenem Ziel vorliegt. Es existiert eine Sequenz in Positionsrichtung, die noch auf den Bruch von Punkt A wartet, während in Gegenrichtung gleich fünf potenzielle Sequenzen auf ihre Aktivierung warten, was auf ein Übergewicht an Struktur oberhalb des aktuellen Kurses hindeutet. Unterhalb des Kurses liegen die nächsten relevanten Levels bei $84,190, $83,850 und $83,475, die als mögliche Reaktionszonen im 50%-Bereich (GELB/ROT) fungieren. Oberhalb ist das nächste bedeutende Level erst bei $126,200 als W1/ROT-Extrempunkt A verzeichnet, mit vier weiteren Levels in diesem Bereich. Die aktuelle Marktlage befindet sich somit in einer Zone ohne aktives Setup, wobei die genannten Levels als nächste strukturelle Orientierungspunkte für eine mögliche Sequenzaktivierung d",
-  "struktur_stand": "2026-09-21 14:52:48"
+  "ki_kommentar": "Deine BTC-Short-Position läuft aktuell mit -5,14% gegen dich, befindet sich aber strukturell in der Einstufung KEIN_SETUP – es liegt derzeit weder in Positionsrichtung noch in Gegenrichtung eine aktive Fibonacci-Sequenz mit offenem Ziel vor. In Positionsrichtung wartet eine Sequenz noch auf den Bruch von Punkt A, während in Gegenrichtung gleich fünf Sequenzen auf Aktivierung warten, was auf ein Übergewicht potenzieller Struktur nach oben hindeutet. Die nächsten relevanten Level unterhalb des aktuellen Kurses liegen bei $84.190 (H1/GELB 50%), $83.850 (D1/ROT 50%) und $83.475 (H4/ROT 50%) – hier könnte sich zeigen, ob sich eine Struktur in deiner Richtung überhaupt erst bildet. Oberhalb ist $126.200 (W1/ROT A Extrem) das nächste markante Level, das mit vier weiteren Punkten verknüpft ist und die Gegenrichtung strukturell dominiert. Insgesamt bleibt die Lage ohne aktives Setup in beide Richtungen unbestätigt und rein beobachtend zu betrachten.",
+  "struktur_stand": "2026-09-21 15:22:24"
 }
