@@ -64,15 +64,461 @@
     body { font-size: 14px; padding: 0 0.6rem; }
     .cell.zone { font-size: 0.78rem; }
   }
+
+  /* "Wo stehe ich gerade"-Box (Auftrag Rene 21.09.2026) */
+  .lage-box { border: 1px solid #c7d2fe; background: #f8faff; border-radius: 8px;
+               margin-bottom: 1.4rem; overflow: hidden; }
+  .lage-titel { cursor: pointer; padding: 0.55rem 0.7rem; font-weight: 700;
+                 font-size: 0.92rem; color: var(--accent-dark); list-style: none;
+                 display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.3rem; }
+  .lage-titel::-webkit-details-marker { display: none; }
+  .lage-titel::after { content: "▾"; margin-left: auto; color: #999; }
+  .lage-box[open] .lage-titel::after { content: "▴"; }
+  .lage-stand { font-weight: 400; color: #888; font-size: 0.76rem; }
+  .lage-inhalt { padding: 0 0.6rem 0.6rem 0.6rem; }
+
+  .struktur { border: 1px solid #e2e8f0; background: #fff; border-radius: 6px;
+               margin-bottom: 0.35rem; overflow: hidden; }
+  .struktur summary { list-style: none; cursor: pointer; padding: 0.4rem 0.55rem;
+                        display: flex; flex-wrap: wrap; align-items: center; gap: 0.3rem; }
+  .struktur summary::-webkit-details-marker { display: none; }
+  .struktur summary::after { content: "▾"; margin-left: auto; color: #999; }
+  .struktur[open] summary::after { content: "▴"; }
+  .struktur-detail { padding: 0.1rem 0.55rem 0.55rem 0.55rem; border-top: 1px solid #eee;
+                       font-size: 0.83rem; }
+
+  .leiter { margin: 0.4rem 0 0.6rem 0; font-variant-numeric: tabular-nums; }
+  .leiter-zeile { display: flex; justify-content: space-between; gap: 0.8rem;
+                    padding: 0.16rem 0.35rem; border-left: 2px solid #e2e8f0; }
+  .leiter-zeile.inzone { background: #f0fdf4; border-left-color: #1a7f37; }
+  .leiter-zeile.kurs { background: #1e3a8a; color: #fff; border-left-color: #1e3a8a;
+                         border-radius: 3px; margin: 0.15rem 0; }
+  .leiter-zeile.kurs strong { color: #fff; }
+
+  .struktur-zone, .struktur-ziele, .struktur-wartet { margin-top: 0.3rem;
+                    word-break: break-word; overflow-wrap: anywhere; }
+  .struktur-wartet { color: #9a6700; }
+  .tag.alt { color: #b45309; background: #fef3c7; }
+  .tag.inzone-tag { color: #1a7f37; background: #e6f4ea; }
+
+  .dv-block { margin-top: 0.7rem; padding-top: 0.5rem; border-top: 1px solid #dbeafe; }
+  .dv-titel { font-weight: 700; font-size: 0.84rem; color: var(--accent-dark);
+               margin-bottom: 0.35rem; }
+  .dv-treffer { background: #fff; border: 1px solid #bbf7d0; border-radius: 5px;
+                  padding: 0.35rem 0.5rem; margin-bottom: 0.3rem; font-size: 0.82rem;
+                  word-break: break-word; }
+  .dv-leer { font-size: 0.82rem; color: #555; }
+  .dv-hinweis { font-size: 0.76rem; color: #888; margin-top: 0.35rem; }
 </style>
 </head>
 <body>
   <h1>SK-Zonen — Live-Tracking</h1>
-  <p class="kurs-live">BTC aktuell: <strong>$85,261</strong> <span class="kurs-zeit">(Stand: 2026-09-21 14:39:23 CEST)</span></p>
-  <p class="sub">BTC · Fibonacci-Zonen (SK-Methode) mit Status-Nachverfolgung · generiert 2026-09-21 14:50</p>
+  <p class="kurs-live">BTC aktuell: <strong>$85,246</strong> <span class="kurs-zeit">(Stand: 2026-09-21 14:54:54 CEST)</span></p>
+  <p class="sub">BTC · Fibonacci-Zonen (SK-Methode) mit Status-Nachverfolgung · generiert 2026-09-21 14:54</p>
   <p class="nav"><a href="../">← Mo's System</a> &nbsp;·&nbsp; <a href="../chance/">Trade-Chance des Tages</a></p>
   <p class="summary">281 Zonen (letzte 14 Tage) — ⏳ 4 OFFEN &nbsp;|&nbsp;
   ✅ 12 GEHALTEN &nbsp;|&nbsp; ❌ 265 NICHT GEHALTEN</p>
+  <details class="lage-box" open>
+    <summary class="lage-titel">Wo stehe ich gerade? &nbsp;<span class="lage-stand">Strukturen berechnet 2026-09-21 14:52:48</span></summary>
+    <div class="lage-inhalt">
+      <details class="struktur">
+        <summary>
+          <span class="cell tf">W1</span>
+          <span class="richtung long">LONG</span>
+          <span class="tag">ROT</span>
+          <span class="tag">sucht B</span>
+          
+        </summary>
+        <div class="struktur-detail">
+          <div class="leiter">
+<div class="leiter-zeile"><span>A (Extrem)</span><span>$126,200</span></div>
+<div class="leiter-zeile kurs"><span>KURS</span><strong>$85,246</strong></div>
+<div class="leiter-zeile"><span>50%</span><span>$82,377</span></div>
+<div class="leiter-zeile inzone"><span>E1 55,9%</span><span>$77,206</span></div>
+<div class="leiter-zeile inzone"><span>E2 61,8%</span><span>$72,035</span></div>
+<div class="leiter-zeile inzone"><span>E3 66,7%</span><span>$67,741</span></div>
+<div class="leiter-zeile"><span>Z (Start)</span><span>$38,555</span></div>
+          </div>
+          <div class="struktur-zone">Einstiegszone (ZA-Zone):
+            <strong>$67,741 – $77,206</strong>
+            
+          </div>
+          <div class="struktur-ziele">Ziele: TP1 161,8%: <strong>$199,609</strong> &nbsp;·&nbsp; TP2 180,9%: <strong>$216,349</strong> &nbsp;·&nbsp; FTP 200%: <strong>$233,089</strong></div>
+          <div class="struktur-wartet">wartet auf: Bruch von A ($126,200)</div>
+        </div>
+      </details>
+      <details class="struktur">
+        <summary>
+          <span class="cell tf">W1</span>
+          <span class="richtung long">LONG</span>
+          <span class="tag">GELB</span>
+          <span class="tag">sucht B</span>
+          
+        </summary>
+        <div class="struktur-detail">
+          <div class="leiter">
+<div class="leiter-zeile"><span>A (Extrem)</span><span>$126,200</span></div>
+<div class="leiter-zeile kurs"><span>KURS</span><strong>$85,246</strong></div>
+<div class="leiter-zeile"><span>50%</span><span>$82,377</span></div>
+<div class="leiter-zeile inzone"><span>E1 55,9%</span><span>$77,206</span></div>
+<div class="leiter-zeile inzone"><span>E2 61,8%</span><span>$72,035</span></div>
+<div class="leiter-zeile inzone"><span>E3 66,7%</span><span>$67,741</span></div>
+<div class="leiter-zeile"><span>Z (Start)</span><span>$38,555</span></div>
+          </div>
+          <div class="struktur-zone">Einstiegszone (ZA-Zone):
+            <strong>$67,741 – $77,206</strong>
+            
+          </div>
+          <div class="struktur-ziele">Ziele: TP1 161,8%: <strong>$216,777</strong> &nbsp;·&nbsp; TP2 180,9%: <strong>$233,517</strong> &nbsp;·&nbsp; FTP 200%: <strong>$250,257</strong></div>
+          <div class="struktur-wartet">wartet auf: Bruch von A ($126,200)</div>
+        </div>
+      </details>
+      <details class="struktur">
+        <summary>
+          <span class="cell tf">W1</span>
+          <span class="richtung short">SHORT</span>
+          <span class="tag">GELB</span>
+          <span class="tag">sucht B</span>
+          <span class="tag alt">veraltet · 73.8% vom Kurs</span>
+        </summary>
+        <div class="struktur-detail">
+          <div class="leiter">
+<div class="leiter-zeile kurs"><span>KURS</span><strong>$85,246</strong></div>
+<div class="leiter-zeile"><span>Z (Start)</span><span>$48,969</span></div>
+<div class="leiter-zeile inzone"><span>E3 66,7%</span><span>$45,501</span></div>
+<div class="leiter-zeile inzone"><span>E2 61,8%</span><span>$44,991</span></div>
+<div class="leiter-zeile inzone"><span>E1 55,9%</span><span>$44,377</span></div>
+<div class="leiter-zeile"><span>50%</span><span>$43,762</span></div>
+<div class="leiter-zeile"><span>A (Extrem)</span><span>$38,555</span></div>
+          </div>
+          <div class="struktur-zone">Einstiegszone (ZA-Zone):
+            <strong>$44,377 – $45,501</strong>
+            
+          </div>
+          <div class="struktur-ziele">Ziele: TP1 161,8%: <strong>$65,449</strong> &nbsp;·&nbsp; TP2 180,9%: <strong>$63,460</strong> &nbsp;·&nbsp; FTP 200%: <strong>$61,471</strong></div>
+          <div class="struktur-wartet">wartet auf: Bruch von A ($38,555)</div>
+        </div>
+      </details>
+      <details class="struktur">
+        <summary>
+          <span class="cell tf">D1</span>
+          <span class="richtung long">LONG</span>
+          <span class="tag">ROT</span>
+          <span class="tag">sucht B</span>
+          
+        </summary>
+        <div class="struktur-detail">
+          <div class="leiter">
+<div class="leiter-zeile"><span>A (Extrem)</span><span>$126,200</span></div>
+<div class="leiter-zeile kurs"><span>KURS</span><strong>$85,246</strong></div>
+<div class="leiter-zeile"><span>50%</span><span>$83,850</span></div>
+<div class="leiter-zeile inzone"><span>E1 55,9%</span><span>$78,853</span></div>
+<div class="leiter-zeile inzone"><span>E2 61,8%</span><span>$73,855</span></div>
+<div class="leiter-zeile inzone"><span>E3 66,7%</span><span>$69,705</span></div>
+<div class="leiter-zeile"><span>Z (Start)</span><span>$41,500</span></div>
+          </div>
+          <div class="struktur-zone">Einstiegszone (ZA-Zone):
+            <strong>$69,705 – $78,853</strong>
+            
+          </div>
+          <div class="struktur-ziele">Ziele: TP1 161,8%: <strong>$212,012</strong> &nbsp;·&nbsp; TP2 180,9%: <strong>$228,190</strong> &nbsp;·&nbsp; FTP 200%: <strong>$244,367</strong></div>
+          <div class="struktur-wartet">wartet auf: Bruch von A ($126,200)</div>
+        </div>
+      </details>
+      <details class="struktur">
+        <summary>
+          <span class="cell tf">D1</span>
+          <span class="richtung long">LONG</span>
+          <span class="tag">GELB</span>
+          <span class="tag">aktiviert</span>
+          <span class="tag alt">veraltet · 32.5% vom Kurs</span>
+        </summary>
+        <div class="struktur-detail">
+          <div class="leiter">
+<div class="leiter-zeile kurs"><span>KURS</span><strong>$85,246</strong></div>
+<div class="leiter-zeile"><span>A (Extrem)</span><span>$64,235</span></div>
+<div class="leiter-zeile"><span>50%</span><span>$61,683</span></div>
+<div class="leiter-zeile"><span>E1 55,9%</span><span>$61,382</span></div>
+<div class="leiter-zeile"><span>E2 61,8%</span><span>$61,081</span></div>
+<div class="leiter-zeile"><span>E3 66,7%</span><span>$60,830</span></div>
+<div class="leiter-zeile"><span>Z (Start)</span><span>$59,131</span></div>
+          </div>
+          <div class="struktur-zone">Einstiegszone (BC-Korrekturlevel):
+            <strong>$68,986 – $71,656</strong>
+            
+          </div>
+          <div class="struktur-ziele">Ziele: TP1 161,8%: <strong>$69,013</strong> &nbsp;·&nbsp; TP2 180,9%: <strong>$69,988</strong> &nbsp;·&nbsp; FTP 200%: <strong>$70,963</strong></div>
+          
+        </div>
+      </details>
+      <details class="struktur">
+        <summary>
+          <span class="cell tf">D1</span>
+          <span class="richtung short">SHORT</span>
+          <span class="tag">ROT</span>
+          <span class="tag">sucht B</span>
+          <span class="tag alt">veraltet · 73.8% vom Kurs</span>
+        </summary>
+        <div class="struktur-detail">
+          <div class="leiter">
+<div class="leiter-zeile kurs"><span>KURS</span><strong>$85,246</strong></div>
+<div class="leiter-zeile"><span>Z (Start)</span><span>$48,969</span></div>
+<div class="leiter-zeile inzone"><span>E3 66,7%</span><span>$45,501</span></div>
+<div class="leiter-zeile inzone"><span>E2 61,8%</span><span>$44,991</span></div>
+<div class="leiter-zeile inzone"><span>E1 55,9%</span><span>$44,377</span></div>
+<div class="leiter-zeile"><span>50%</span><span>$43,762</span></div>
+<div class="leiter-zeile"><span>A (Extrem)</span><span>$38,555</span></div>
+          </div>
+          <div class="struktur-zone">Einstiegszone (ZA-Zone):
+            <strong>$44,377 – $45,501</strong>
+            
+          </div>
+          <div class="struktur-ziele">Ziele: TP1 161,8%: <strong>$63,039</strong> &nbsp;·&nbsp; TP2 180,9%: <strong>$61,050</strong> &nbsp;·&nbsp; FTP 200%: <strong>$59,061</strong></div>
+          <div class="struktur-wartet">wartet auf: Bruch von A ($38,555)</div>
+        </div>
+      </details>
+      <details class="struktur">
+        <summary>
+          <span class="cell tf">D1</span>
+          <span class="richtung short">SHORT</span>
+          <span class="tag">GELB</span>
+          <span class="tag">sucht B</span>
+          <span class="tag alt">veraltet · 85.5% vom Kurs</span>
+        </summary>
+        <div class="struktur-detail">
+          <div class="leiter">
+<div class="leiter-zeile kurs"><span>KURS</span><strong>$85,246</strong></div>
+<div class="leiter-zeile"><span>Z (Start)</span><span>$45,880</span></div>
+<div class="leiter-zeile inzone"><span>E3 66,7%</span><span>$43,441</span></div>
+<div class="leiter-zeile inzone"><span>E2 61,8%</span><span>$43,082</span></div>
+<div class="leiter-zeile inzone"><span>E1 55,9%</span><span>$42,649</span></div>
+<div class="leiter-zeile"><span>50%</span><span>$42,217</span></div>
+<div class="leiter-zeile"><span>A (Extrem)</span><span>$38,555</span></div>
+          </div>
+          <div class="struktur-zone">Einstiegszone (ZA-Zone):
+            <strong>$42,649 – $43,441</strong>
+            
+          </div>
+          <div class="struktur-ziele">Ziele: TP1 161,8%: <strong>$70,100</strong> &nbsp;·&nbsp; TP2 180,9%: <strong>$68,701</strong> &nbsp;·&nbsp; FTP 200%: <strong>$67,302</strong></div>
+          <div class="struktur-wartet">wartet auf: Bruch von A ($38,555)</div>
+        </div>
+      </details>
+      <details class="struktur">
+        <summary>
+          <span class="cell tf">H4</span>
+          <span class="richtung long">LONG</span>
+          <span class="tag">ROT</span>
+          <span class="tag">sucht B</span>
+          
+        </summary>
+        <div class="struktur-detail">
+          <div class="leiter">
+<div class="leiter-zeile"><span>A (Extrem)</span><span>$126,200</span></div>
+<div class="leiter-zeile kurs"><span>KURS</span><strong>$85,246</strong></div>
+<div class="leiter-zeile"><span>50%</span><span>$83,475</span></div>
+<div class="leiter-zeile inzone"><span>E1 55,9%</span><span>$78,433</span></div>
+<div class="leiter-zeile inzone"><span>E2 61,8%</span><span>$73,392</span></div>
+<div class="leiter-zeile inzone"><span>E3 66,7%</span><span>$69,205</span></div>
+<div class="leiter-zeile"><span>Z (Start)</span><span>$40,750</span></div>
+          </div>
+          <div class="struktur-zone">Einstiegszone (ZA-Zone):
+            <strong>$69,205 – $78,433</strong>
+            
+          </div>
+          <div class="struktur-ziele">Ziele: TP1 161,8%: <strong>$218,384</strong> &nbsp;·&nbsp; TP2 180,9%: <strong>$234,704</strong> &nbsp;·&nbsp; FTP 200%: <strong>$251,025</strong></div>
+          <div class="struktur-wartet">wartet auf: Bruch von A ($126,200)</div>
+        </div>
+      </details>
+      <details class="struktur">
+        <summary>
+          <span class="cell tf">H4</span>
+          <span class="richtung long">LONG</span>
+          <span class="tag">GELB</span>
+          <span class="tag">sucht B</span>
+          
+        </summary>
+        <div class="struktur-detail">
+          <div class="leiter">
+<div class="leiter-zeile kurs"><span>KURS</span><strong>$85,246</strong></div>
+<div class="leiter-zeile"><span>A (Extrem)</span><span>$82,850</span></div>
+<div class="leiter-zeile"><span>50%</span><span>$71,425</span></div>
+<div class="leiter-zeile inzone"><span>E1 55,9%</span><span>$70,077</span></div>
+<div class="leiter-zeile inzone"><span>E2 61,8%</span><span>$68,729</span></div>
+<div class="leiter-zeile inzone"><span>E3 66,7%</span><span>$67,609</span></div>
+<div class="leiter-zeile"><span>Z (Start)</span><span>$60,000</span></div>
+          </div>
+          <div class="struktur-zone">Einstiegszone (ZA-Zone):
+            <strong>$67,609 – $70,077</strong>
+            
+          </div>
+          <div class="struktur-ziele">Ziele: noch nicht berechenbar (kein gültiges B)</div>
+          <div class="struktur-wartet">wartet auf: gueltiges B (Korrektur &gt;=50%)</div>
+        </div>
+      </details>
+      <details class="struktur">
+        <summary>
+          <span class="cell tf">H4</span>
+          <span class="richtung short">SHORT</span>
+          <span class="tag">GELB</span>
+          <span class="tag">sucht B</span>
+          
+        </summary>
+        <div class="struktur-detail">
+          <div class="leiter">
+<div class="leiter-zeile kurs"><span>KURS</span><strong>$85,246</strong></div>
+<div class="leiter-zeile"><span>Z (Start)</span><span>$71,751</span></div>
+<div class="leiter-zeile inzone"><span>E3 66,7%</span><span>$67,106</span></div>
+<div class="leiter-zeile inzone"><span>E2 61,8%</span><span>$66,422</span></div>
+<div class="leiter-zeile inzone"><span>E1 55,9%</span><span>$65,599</span></div>
+<div class="leiter-zeile"><span>50%</span><span>$64,776</span></div>
+<div class="leiter-zeile"><span>A (Extrem)</span><span>$57,800</span></div>
+          </div>
+          <div class="struktur-zone">Einstiegszone (ZA-Zone):
+            <strong>$65,599 – $67,106</strong>
+            
+          </div>
+          <div class="struktur-ziele">Ziele: TP1 161,8%: <strong>$59,527</strong> &nbsp;·&nbsp; TP2 180,9%: <strong>$56,862</strong> &nbsp;·&nbsp; FTP 200%: <strong>$54,198</strong></div>
+          <div class="struktur-wartet">wartet auf: Bruch von A ($57,800)</div>
+        </div>
+      </details>
+      <details class="struktur">
+        <summary>
+          <span class="cell tf">H4</span>
+          <span class="richtung short">SHORT</span>
+          <span class="tag">ROT</span>
+          <span class="tag">sucht B</span>
+          <span class="tag alt">veraltet · 85.5% vom Kurs</span>
+        </summary>
+        <div class="struktur-detail">
+          <div class="leiter">
+<div class="leiter-zeile kurs"><span>KURS</span><strong>$85,246</strong></div>
+<div class="leiter-zeile"><span>Z (Start)</span><span>$45,880</span></div>
+<div class="leiter-zeile inzone"><span>E3 66,7%</span><span>$43,441</span></div>
+<div class="leiter-zeile inzone"><span>E2 61,8%</span><span>$43,082</span></div>
+<div class="leiter-zeile inzone"><span>E1 55,9%</span><span>$42,649</span></div>
+<div class="leiter-zeile"><span>50%</span><span>$42,217</span></div>
+<div class="leiter-zeile"><span>A (Extrem)</span><span>$38,555</span></div>
+          </div>
+          <div class="struktur-zone">Einstiegszone (ZA-Zone):
+            <strong>$42,649 – $43,441</strong>
+            
+          </div>
+          <div class="struktur-ziele">Ziele: TP1 161,8%: <strong>$70,100</strong> &nbsp;·&nbsp; TP2 180,9%: <strong>$68,701</strong> &nbsp;·&nbsp; FTP 200%: <strong>$67,302</strong></div>
+          <div class="struktur-wartet">wartet auf: Bruch von A ($38,555)</div>
+        </div>
+      </details>
+      <details class="struktur">
+        <summary>
+          <span class="cell tf">H1</span>
+          <span class="richtung long">LONG</span>
+          <span class="tag">ROT</span>
+          <span class="tag">sucht B</span>
+          
+        </summary>
+        <div class="struktur-detail">
+          <div class="leiter">
+<div class="leiter-zeile kurs"><span>KURS</span><strong>$85,246</strong></div>
+<div class="leiter-zeile"><span>A (Extrem)</span><span>$82,850</span></div>
+<div class="leiter-zeile"><span>50%</span><span>$71,425</span></div>
+<div class="leiter-zeile inzone"><span>E1 55,9%</span><span>$70,077</span></div>
+<div class="leiter-zeile inzone"><span>E2 61,8%</span><span>$68,729</span></div>
+<div class="leiter-zeile inzone"><span>E3 66,7%</span><span>$67,609</span></div>
+<div class="leiter-zeile"><span>Z (Start)</span><span>$60,000</span></div>
+          </div>
+          <div class="struktur-zone">Einstiegszone (ZA-Zone):
+            <strong>$67,609 – $70,077</strong>
+            
+          </div>
+          <div class="struktur-ziele">Ziele: noch nicht berechenbar (kein gültiges B)</div>
+          <div class="struktur-wartet">wartet auf: gueltiges B (Korrektur &gt;=50%)</div>
+        </div>
+      </details>
+      <details class="struktur">
+        <summary>
+          <span class="cell tf">H1</span>
+          <span class="richtung long">LONG</span>
+          <span class="tag">GELB</span>
+          <span class="tag">sucht B</span>
+          
+        </summary>
+        <div class="struktur-detail">
+          <div class="leiter">
+<div class="leiter-zeile"><span>A (Extrem)</span><span>$126,200</span></div>
+<div class="leiter-zeile kurs"><span>KURS</span><strong>$85,246</strong></div>
+<div class="leiter-zeile"><span>50%</span><span>$84,190</span></div>
+<div class="leiter-zeile inzone"><span>E1 55,9%</span><span>$79,233</span></div>
+<div class="leiter-zeile inzone"><span>E2 61,8%</span><span>$74,276</span></div>
+<div class="leiter-zeile inzone"><span>E3 66,7%</span><span>$70,159</span></div>
+<div class="leiter-zeile"><span>Z (Start)</span><span>$42,181</span></div>
+          </div>
+          <div class="struktur-zone">Einstiegszone (ZA-Zone):
+            <strong>$70,159 – $79,233</strong>
+            
+          </div>
+          <div class="struktur-ziele">Ziele: TP1 161,8%: <strong>$217,171</strong> &nbsp;·&nbsp; TP2 180,9%: <strong>$233,218</strong> &nbsp;·&nbsp; FTP 200%: <strong>$249,266</strong></div>
+          <div class="struktur-wartet">wartet auf: Bruch von A ($126,200)</div>
+        </div>
+      </details>
+      <details class="struktur">
+        <summary>
+          <span class="cell tf">H1</span>
+          <span class="richtung short">SHORT</span>
+          <span class="tag">ROT</span>
+          <span class="tag">aktiviert</span>
+          
+        </summary>
+        <div class="struktur-detail">
+          <div class="leiter">
+<div class="leiter-zeile kurs"><span>KURS</span><strong>$85,246</strong></div>
+<div class="leiter-zeile"><span>Z (Start)</span><span>$66,826</span></div>
+<div class="leiter-zeile"><span>E3 66,7%</span><span>$66,052</span></div>
+<div class="leiter-zeile"><span>E2 61,8%</span><span>$65,938</span></div>
+<div class="leiter-zeile"><span>E1 55,9%</span><span>$65,801</span></div>
+<div class="leiter-zeile"><span>50%</span><span>$65,663</span></div>
+<div class="leiter-zeile"><span>A (Extrem)</span><span>$64,500</span></div>
+          </div>
+          <div class="struktur-zone">Einstiegszone (BC-Korrekturlevel):
+            <strong>$63,363 – $64,438</strong>
+            
+          </div>
+          <div class="struktur-ziele">Ziele: TP1 161,8%: <strong>$63,987</strong> &nbsp;·&nbsp; TP2 180,9%: <strong>$63,543</strong> &nbsp;·&nbsp; FTP 200%: <strong>$63,098</strong></div>
+          
+        </div>
+      </details>
+      <details class="struktur">
+        <summary>
+          <span class="cell tf">H1</span>
+          <span class="richtung short">SHORT</span>
+          <span class="tag">GELB</span>
+          <span class="tag">sucht B</span>
+          <span class="tag alt">veraltet · 98.9% vom Kurs</span>
+        </summary>
+        <div class="struktur-detail">
+          <div class="leiter">
+<div class="leiter-zeile kurs"><span>KURS</span><strong>$85,246</strong></div>
+<div class="leiter-zeile"><span>Z (Start)</span><span>$42,775</span></div>
+<div class="leiter-zeile inzone"><span>E3 66,7%</span><span>$41,370</span></div>
+<div class="leiter-zeile inzone"><span>E2 61,8%</span><span>$41,163</span></div>
+<div class="leiter-zeile inzone"><span>E1 55,9%</span><span>$40,914</span></div>
+<div class="leiter-zeile"><span>50%</span><span>$40,665</span></div>
+<div class="leiter-zeile"><span>A (Extrem)</span><span>$38,555</span></div>
+          </div>
+          <div class="struktur-zone">Einstiegszone (ZA-Zone):
+            <strong>$40,914 – $41,370</strong>
+            
+          </div>
+          <div class="struktur-ziele">Ziele: TP1 161,8%: <strong>$78,472</strong> &nbsp;·&nbsp; TP2 180,9%: <strong>$77,666</strong> &nbsp;·&nbsp; FTP 200%: <strong>$76,860</strong></div>
+          <div class="struktur-wartet">wartet auf: Bruch von A ($38,555)</div>
+        </div>
+      </details>
+      <div class="dv-block">
+        <div class="dv-titel">Doppelter Vorteil (Überlappung Einstiegszone × Gegenrichtungs-Ziel)</div>
+<div class="dv-leer">Aktuell keine belastbare Überlappung zwischen Einstiegszone und Gegenrichtungs-Zielzone (alle Zeitebenen geprüft).</div>
+<div class="dv-hinweis">15 weitere Überlappung(en) beruhen auf Sequenzen, die weit vom aktuellen Kurs entfernt liegen und deshalb nicht belastbar sind — bewusst nicht mitgezählt.</div>
+      </div>
+    </div>
+  </details>
+
   <h2 class="tf-titel">W1 <span class="tf-count">(3)</span></h2>
     <details class="zone-row">
       <summary>
