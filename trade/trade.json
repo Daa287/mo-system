@@ -1,8 +1,8 @@
 {
-  "generiert": "2026-09-21T18:24:48",
+  "generiert": "2026-09-21T18:54:48",
   "symbol": "BTC",
-  "aktueller_kurs": 85813.3,
-  "kurs_zeitstempel": "2026-09-21 18:22:16 CEST",
+  "aktueller_kurs": 85876.1,
+  "kurs_zeitstempel": "2026-09-21 18:52:15 CEST",
   "position": {
     "asset": "BTC",
     "richtung": "SHORT",
@@ -11,7 +11,7 @@
   "bewertung": {
     "einstufung": "KEIN_SETUP",
     "einstufung_label": "Keine aktive Sequenz — in keiner Richtung",
-    "lauf_pct": -2.06,
+    "lauf_pct": -2.13,
     "pro_anzahl": 0,
     "contra_anzahl": 0,
     "pro_tfs": [],
@@ -56,6 +56,6 @@
       }
     ]
   },
-  "ki_kommentar": "Deine BTC-Short-Position bei $84,083 befindet sich aktuell außerhalb jeder aktiven Fibonacci-Sequenz – die Einstufung KEIN_SETUP bestätigt, dass weder in Positionsrichtung noch in Gegenrichtung eine bestätigte Z/A/B-Struktur mit gültiger Einstiegszone oder offenem Ziel vorliegt. Strukturell überwiegt dabei die Gegenrichtung deutlich: vier unbestätigte Sequenzen warten dort auf den Bruch ihres A-Punkts, gegenüber nur einer in deiner Positionsrichtung, was auf ein höheres Aktivierungspotenzial nach oben hindeutet. Nach unten sind die nächsten relevanten Marken $84,190 (H1/GELB 50%), $83,850 (D1/ROT 50%) und $83,475 (H4/ROT 50%), nach oben $86,345 (H4/GELB, Extrem-Level A) sowie deutlich darüber $126,200 (W1/ROT, Extrem-Level A) als langfristiger Referenzpunkt. Der aktuelle Kurs von $85,813 liegt somit zwischen diesen unbestätigten Zonen, ohne dass eine der Sequenzen bereits durch einen A-Bruch aktiviert wurde. Die nächste strukturelle Entscheidung fällt daher an diesen A",
-  "struktur_stand": "2026-09-21 18:22:14"
+  "ki_kommentar": "Deine Position befindet sich aktuell in keiner aktiven Fibonacci-Sequenz – weder in Positionsrichtung noch in Gegenrichtung liegt ein bestätigtes Setup vor, die Einstufung KEIN_SETUP ist damit strukturell korrekt. Bemerkenswert ist die klare Asymmetrie bei den unaktivierten Sequenzen: nur eine wartet auf Bruch von A in Short-Richtung, während vier Sequenzen in Gegenrichtung (also long) auf Aktivierung warten – das zeigt ein Übergewicht potenzieller Aufwärtsstruktur. Nach oben ist $86,345 (H4/GELB, Extrem von A) das nächste relevante Level, dessen Bruch mehrere gegenläufige Sequenzen aktivieren könnte; darüber liegt weit entfernt die große W1/ROT-Marke bei $126,200. Nach unten bilden $84,190, $83,850 und $83,475 eine Level-Cluster-Zone, deren Verhalten Aufschluss darüber geben wird, ob sich die einzige Short-seitige Sequenz überhaupt aktiviert. Aktuell bleibt der Kurs zwischen diesen Zonen ohne bestätigte Struktur in Bewegung.",
+  "struktur_stand": "2026-09-21 18:52:13"
 }
