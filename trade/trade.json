@@ -1,8 +1,8 @@
 {
-  "generiert": "2026-09-21T19:24:55",
+  "generiert": "2026-09-21T19:55:19",
   "symbol": "BTC",
-  "aktueller_kurs": 85772.5,
-  "kurs_zeitstempel": "2026-09-21 19:22:16 CEST",
+  "aktueller_kurs": 85800.8,
+  "kurs_zeitstempel": "2026-09-21 19:52:24 CEST",
   "position": {
     "asset": "BTC",
     "richtung": "SHORT",
@@ -11,7 +11,7 @@
   "bewertung": {
     "einstufung": "KEIN_SETUP",
     "einstufung_label": "Keine aktive Sequenz — in keiner Richtung",
-    "lauf_pct": -2.01,
+    "lauf_pct": -2.04,
     "pro_anzahl": 0,
     "contra_anzahl": 0,
     "pro_tfs": [],
@@ -56,6 +56,6 @@
       }
     ]
   },
-  "ki_kommentar": "Deine BTC-Short-Position bei $84,083 befindet sich aktuell außerhalb jeder aktiven Fibonacci-Sequenz – die Einstufung KEIN_SETUP bestätigt, dass weder in Positions- noch in Gegenrichtung ein gültiges Z/A/B-Muster mit offenem Ziel vorliegt. Strukturell bedeutet das: Es gibt aktuell keine regelbasierte Zone (55,9-66,7%) oder Zielprojektion (161,8-200%), die diese Position stützt oder bestätigt. Die vier unbestätigten Sequenzen in Gegenrichtung deuten auf ein gewisses Übergewicht potenzieller Bruch-Szenarien oberhalb des aktuellen Kurses hin, insbesondere mit Blick auf das nahe Level $86,345 (H4/GELB, Extrem A) sowie das weiter entfernte $126,200 (W1/ROT, Extrem A). Unterhalb liegen die nächsten relevanten Marken bei $84,190, $83,850 und $83,475 als mögliche Reaktionspunkte innerhalb der noch nicht aktivierten Sequenz in Positionsrichtung. Die Lage ist damit strukturell als \"wartend\" einzuordnen, bis eine dieser A-Marken gebrochen wird und dadurch eine Sequenz aktiviert.",
-  "struktur_stand": "2026-09-21 19:22:13"
+  "ki_kommentar": "Deine BTC-Short-Position bei $84,083 befindet sich aktuell bei $85,801 in einem Bereich, in dem nach der Stefan-Kassing-Methode keine aktive Sequenz vorliegt – weder in Positionsrichtung noch in Gegenrichtung existiert derzeit ein gültiges, bereits ausgelöstes Setup. Es gibt lediglich eine noch nicht aktivierte Sequenz in Positionsrichtung, die erst durch einen Bruch ihres jeweiligen A-Punktes aktiviert würde, während gegenläufig gleich vier solcher wartenden Sequenzen bestehen, was auf eine strukturelle Mehrheit potenzieller Gegenbewegungen hindeutet. Entscheidend nach unten sind die Levels $84,190 (H1/GELB 50%), $83,850 (D1/ROT 50%) und $83,475 (H4/ROT 50%), die als nächste Reaktionszonen fungieren. Nach oben markiert $86,345 (H4/GELB, Extrempunkt A) die nächste relevante Schwelle, gefolgt von der weit entfernten Zone um $126,200 (W1/ROT, Extrempunkt A) samt weiterer Levels. Insgesamt befindet sich der Kurs somit in einer Übergangszone ohne aktives Fibonacci-Signal, in der die genannten A-Punkte auf beiden",
+  "struktur_stand": "2026-09-21 19:52:22"
 }
