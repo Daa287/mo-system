@@ -1,8 +1,8 @@
 {
-  "generiert": "2026-09-21T15:24:56",
+  "generiert": "2026-09-21T15:54:50",
   "symbol": "BTC",
-  "aktueller_kurs": 85119.8,
-  "kurs_zeitstempel": "2026-09-21 15:13:14 CEST",
+  "aktueller_kurs": 85762.6,
+  "kurs_zeitstempel": "2026-09-21 15:52:19 CEST",
   "position": {
     "asset": "BTC",
     "richtung": "SHORT",
@@ -11,7 +11,7 @@
   "bewertung": {
     "einstufung": "KEIN_SETUP",
     "einstufung_label": "Keine aktive Sequenz — in keiner Richtung",
-    "lauf_pct": -5.14,
+    "lauf_pct": -5.94,
     "pro_anzahl": 0,
     "contra_anzahl": 0,
     "pro_tfs": [],
@@ -52,6 +52,6 @@
       }
     ]
   },
-  "ki_kommentar": "Deine BTC-Short-Position läuft aktuell mit -5,14% gegen dich, befindet sich aber strukturell in der Einstufung KEIN_SETUP – es liegt derzeit weder in Positionsrichtung noch in Gegenrichtung eine aktive Fibonacci-Sequenz mit offenem Ziel vor. In Positionsrichtung wartet eine Sequenz noch auf den Bruch von Punkt A, während in Gegenrichtung gleich fünf Sequenzen auf Aktivierung warten, was auf ein Übergewicht potenzieller Struktur nach oben hindeutet. Die nächsten relevanten Level unterhalb des aktuellen Kurses liegen bei $84.190 (H1/GELB 50%), $83.850 (D1/ROT 50%) und $83.475 (H4/ROT 50%) – hier könnte sich zeigen, ob sich eine Struktur in deiner Richtung überhaupt erst bildet. Oberhalb ist $126.200 (W1/ROT A Extrem) das nächste markante Level, das mit vier weiteren Punkten verknüpft ist und die Gegenrichtung strukturell dominiert. Insgesamt bleibt die Lage ohne aktives Setup in beide Richtungen unbestätigt und rein beobachtend zu betrachten.",
-  "struktur_stand": "2026-09-21 15:22:24"
+  "ki_kommentar": "Deine Short-Position läuft aktuell mit -5,94% gegen dich, befindet sich aber strukturell im Nirwana: Die Einstufung KEIN_SETUP bestätigt, dass weder in Positionsrichtung noch in Gegenrichtung eine aktivierte Fibonacci-Sequenz mit offenem Ziel existiert – der Markt hat aktuell keinen validierten Rahmen nach der Kassing-Methode. Es gibt lediglich unaktivierte Sequenzen, die erst nach Bruch ihres jeweiligen A-Punktes relevant würden, wobei die Gegenrichtung mit 5 wartenden Sequenzen deutlich mehr potenzielle Struktur aufweist als deine Richtung mit nur 1. Nach unten sind $84,190, $83,850 und $83,475 als nächste Levels zu beobachten, da ein Bruch dieser Zonen über den H1/GELB-, D1/ROT- und H4/ROT-50%-Marken eine Aktivierung in deine Richtung auslösen könnte. Nach oben liegt das nächste strukturelle Level bei $126,200 (W1/ROT A Extrem), was jedoch weit entfernt und nur eine von mehreren wartenden Sequenzen gegen deine Position ist.",
+  "struktur_stand": "2026-09-21 15:52:18"
 }
