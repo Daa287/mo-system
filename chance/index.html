@@ -37,9 +37,12 @@
 
   .werte-tabelle { width: 100%; border-collapse: collapse; margin-bottom: 0.9rem; }
   .werte-tabelle td { padding: 0.35rem 0.2rem; border-bottom: 1px solid #eee;
-                        font-size: 0.9rem; word-break: break-word; }
-  .werte-tabelle td:first-child { color: #666; }
-  .werte-tabelle td:last-child { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
+                        font-size: 0.9rem; }
+  /* Label darf umbrechen, der WERT nicht - sonst zerreisst "$84,083" auf
+     schmalen Displays mitten in der Zahl (Fund Rene 22.09.2026). */
+  .werte-tabelle td:first-child { color: #666; word-break: break-word; }
+  .werte-tabelle td:last-child { text-align: right; font-variant-numeric: tabular-nums;
+                                   font-weight: 600; white-space: nowrap; width: 1%; }
   .werte-tabelle tr:last-child td { border-bottom: none; }
 
   .begruendung { font-size: 0.85rem; color: #444; margin: 0; line-height: 1.5; }
@@ -52,8 +55,8 @@
 </head>
 <body>
   <h1>Trade-Chance des Tages</h1>
-  <p class="kurs-live">BTC aktuell: <strong>$86,024</strong> <span class="kurs-zeit">(Stand: 2026-09-22 15:12:27 CEST)</span></p>
-  <p class="sub">BTC · regelbasierte Auswahl aus allen aktuellen SK-Kandidaten · generiert 2026-09-22 15:24</p>
+  <p class="kurs-live">BTC aktuell: <strong>$85,702</strong> <span class="kurs-zeit">(Stand: 2026-09-22 15:28:14 CEST)</span></p>
+  <p class="sub">BTC · regelbasierte Auswahl aus allen aktuellen SK-Kandidaten · generiert 2026-09-22 15:31</p>
   <p class="nav"><a href="../">← Mo's System</a> &nbsp;·&nbsp; <a href="../zonen/">SK-Zonen</a>
   &nbsp;·&nbsp; <a href="../trade/">Mein Trade</a> &nbsp;·&nbsp; <a href="archiv/">Archiv</a></p>
   <div class="keine-chance">
