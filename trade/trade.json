@@ -1,17 +1,17 @@
 {
-  "generiert": "2026-09-22T16:56:18",
+  "generiert": "2026-09-22T17:24:42",
   "symbol": "BTC",
-  "aktueller_kurs": 85926.8,
-  "kurs_zeitstempel": "2026-09-22 16:53:04 CEST",
+  "aktueller_kurs": 86225.3,
+  "kurs_zeitstempel": "2026-09-22 17:22:17 CEST",
   "position": {
     "asset": "BTC",
     "richtung": "SHORT",
-    "entry": 84083.3
+    "entry": 84094.9
   },
   "bewertung": {
     "einstufung": "KEIN_SETUP",
     "einstufung_label": "Keine aktive Sequenz — in keiner Richtung",
-    "lauf_pct": -2.19,
+    "lauf_pct": -2.53,
     "pro_anzahl": 0,
     "contra_anzahl": 0,
     "pro_tfs": [],
@@ -58,21 +58,21 @@
     "management": [
       {
         "sl_abstand_pct": 1.5,
-        "sl": 85344.54950000001,
-        "be_marke": 81560.801,
-        "teilgewinn_marke": 80299.5515
+        "sl": 85356.3235,
+        "be_marke": 81572.053,
+        "teilgewinn_marke": 80310.6295
       },
       {
         "sl_abstand_pct": 2.5,
-        "sl": 86185.3825,
-        "be_marke": 79879.13500000001,
-        "teilgewinn_marke": 77777.0525
+        "sl": 86197.27249999999,
+        "be_marke": 79890.155,
+        "teilgewinn_marke": 77787.7825
       },
       {
         "sl_abstand_pct": 4.0,
-        "sl": 87446.632,
-        "be_marke": 77356.636,
-        "teilgewinn_marke": 73993.304
+        "sl": 87458.696,
+        "be_marke": 77367.30799999999,
+        "teilgewinn_marke": 74003.51199999999
       }
     ],
     "marktphase": {
@@ -81,5 +81,5 @@
     }
   },
   "ki_kommentar": null,
-  "struktur_stand": "2026-09-22 16:53:01"
+  "struktur_stand": "2026-09-22 17:22:15"
 }
