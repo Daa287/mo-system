@@ -1,8 +1,8 @@
 {
-  "generiert": "2026-09-22T22:24:39",
+  "generiert": "2026-09-22T22:54:41",
   "symbol": "BTC",
-  "aktueller_kurs": 86238.1,
-  "kurs_zeitstempel": "2026-09-22 22:22:15 CEST",
+  "aktueller_kurs": 86239.1,
+  "kurs_zeitstempel": "2026-09-22 22:52:16 CEST",
   "position": {
     "asset": "BTC",
     "richtung": "SHORT",
@@ -80,5 +80,5 @@
     }
   },
   "ki_kommentar": null,
-  "struktur_stand": "2026-09-22 22:22:13"
+  "struktur_stand": "2026-09-22 22:52:14"
 }
