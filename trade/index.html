@@ -32,10 +32,13 @@
   .badge.warn { color: #b45309; background: #fef3c7; }
 
   .werte { width: 100%; border-collapse: collapse; margin-bottom: 0.9rem; }
-  .werte td { padding: 0.35rem 0.2rem; border-bottom: 1px solid #eee; font-size: 0.9rem;
-               word-break: break-word; }
-  .werte td:first-child { color: #666; }
-  .werte td:last-child { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
+  .werte td { padding: 0.35rem 0.2rem; border-bottom: 1px solid #eee; font-size: 0.9rem; }
+  /* Label darf umbrechen, der WERT nicht - sonst zerreisst "$84,083" auf
+     schmalen Displays mitten in der Zahl zu "$84,08" + "3" (Fund Rene
+     22.09.2026). Die Wertespalte bekommt nur so viel Platz wie noetig. */
+  .werte td:first-child { color: #666; word-break: break-word; }
+  .werte td:last-child { text-align: right; font-variant-numeric: tabular-nums;
+                          font-weight: 600; white-space: nowrap; width: 1%; }
   .werte tr:last-child td { border-bottom: none; }
   .plus { color: #1a7f37; }
   .minus { color: #cf222e; }
@@ -78,10 +81,10 @@
 </head>
 <body>
   <h1>Mein Trade — SK-Analyse</h1>
-  <p class="kurs-live">BTC aktuell: <strong>$86,024</strong>
-  <span class="kurs-zeit">(Stand: 2026-09-22 15:12:27 CEST)</span></p>
+  <p class="kurs-live">BTC aktuell: <strong>$85,702</strong>
+  <span class="kurs-zeit">(Stand: 2026-09-22 15:28:14 CEST)</span></p>
   <p class="sub">Offene BingX-Position gegenüber der erkannten SK-Struktur ·
-  Strukturen berechnet 2026-09-22 15:22:16 · generiert 2026-09-22 15:24</p>
+  Strukturen berechnet 2026-09-22 15:22:16 · generiert 2026-09-22 15:28</p>
   <p class="nav"><a href="../">← Mo's System</a> &nbsp;·&nbsp; <a href="../zonen/">SK-Zonen</a>
   &nbsp;·&nbsp; <a href="../chance/">Trade-Chance</a></p>
   <div class="pos-card">
@@ -92,8 +95,8 @@
     </div>
     <table class="werte">
       <tr><td>Einstieg</td><td>$84,083</td></tr>
-      <tr><td>Aktueller Kurs</td><td>$86,024</td></tr>
-      <tr><td>Lauf seit Einstieg</td><td class="minus">-2.31%</td></tr>
+      <tr><td>Aktueller Kurs</td><td>$85,702</td></tr>
+      <tr><td>Lauf seit Einstieg</td><td class="minus">-1.93%</td></tr>
       <tr><td>Aktive Sequenzen dafür</td><td>0 (keine)</td></tr>
       <tr><td>Aktive Sequenzen dagegen</td><td>0 (keine)</td></tr>
       <tr><td>Noch nicht aktiviert (dafür / dagegen)</td><td>1 / 4</td></tr>
