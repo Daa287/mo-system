@@ -1,8 +1,8 @@
 {
-  "generiert": "2026-09-22T14:54:42",
+  "generiert": "2026-09-22T15:13:00",
   "symbol": "BTC",
-  "aktueller_kurs": 85978.0,
-  "kurs_zeitstempel": "2026-09-22 14:52:17 CEST",
+  "aktueller_kurs": 86023.9,
+  "kurs_zeitstempel": "2026-09-22 15:12:27 CEST",
   "position": {
     "asset": "BTC",
     "richtung": "SHORT",
@@ -11,7 +11,7 @@
   "bewertung": {
     "einstufung": "KEIN_SETUP",
     "einstufung_label": "Keine aktive Sequenz — in keiner Richtung",
-    "lauf_pct": -2.25,
+    "lauf_pct": -2.31,
     "pro_anzahl": 0,
     "contra_anzahl": 0,
     "pro_tfs": [],
@@ -54,7 +54,31 @@
         "name": "W1/ROT A (Extrem) +4 weitere",
         "anzahl": 5
       }
-    ]
+    ],
+    "management": [
+      {
+        "sl_abstand_pct": 1.5,
+        "sl": 85344.54950000001,
+        "be_marke": 81560.801,
+        "teilgewinn_marke": 80299.5515
+      },
+      {
+        "sl_abstand_pct": 2.5,
+        "sl": 86185.3825,
+        "be_marke": 79879.13500000001,
+        "teilgewinn_marke": 77777.0525
+      },
+      {
+        "sl_abstand_pct": 4.0,
+        "sl": 87446.632,
+        "be_marke": 77356.636,
+        "teilgewinn_marke": 73993.304
+      }
+    ],
+    "marktphase": {
+      "phase": "Erholung nach −54 %-Absturz",
+      "hinweis": "Seit dem Tief bei $57.800 (07/2026). In dieser Phase hat das System bisher 3 Signale erzeugt – alle SHORT, alle verloren. Der gemessene Edge des Systems existierte nur in der Anstiegsphase 01/2024–10/2025 (LONG 26,2 % Trefferquote); in der Absturzphase traf es 0 von 38 LONG- und 0 von 14 SHORT-Signalen."
+    }
   },
   "ki_kommentar": null,
   "struktur_stand": "2026-09-22 14:52:15"
