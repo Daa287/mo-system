@@ -1,91 +1,10 @@
 {
-  "generiert": "2026-09-23T22:22:21",
+  "generiert": "2026-09-23T22:52:12",
   "symbol": "BTC",
-  "aktueller_kurs": 84303.1,
-  "kurs_zeitstempel": "2026-09-23 22:21:07 CEST",
-  "position": {
-    "asset": "BTC",
-    "richtung": "SHORT",
-    "entry": 84094.9
-  },
-  "bewertung": {
-    "einstufung": "RUECKENWIND",
-    "einstufung_label": "Aktive Sequenz stützt die Position",
-    "lauf_pct": -0.25,
-    "pro_anzahl": 3,
-    "contra_anzahl": 0,
-    "pro_tfs": [
-      "D1",
-      "H4"
-    ],
-    "contra_tfs": [],
-    "pro_potenziell": 0,
-    "contra_potenziell": 4,
-    "pro_potenziell_tfs": [],
-    "contra_potenziell_tfs": [
-      "D1",
-      "H1",
-      "W1"
-    ],
-    "levels_darunter": [
-      {
-        "wert": 84190.2,
-        "name": "H1/GELB 50%",
-        "anzahl": 1
-      },
-      {
-        "wert": 83849.82,
-        "name": "D1/ROT 50%",
-        "anzahl": 1
-      },
-      {
-        "wert": 83474.82,
-        "name": "H4/ROT 50%",
-        "anzahl": 1
-      }
-    ],
-    "levels_darueber": [
-      {
-        "wert": 87395.67,
-        "name": "H4/GELB A (Extrem) +1 weitere",
-        "anzahl": 2
-      },
-      {
-        "wert": 91999.91,
-        "name": "W1/ROT 50% +1 weitere",
-        "anzahl": 2
-      },
-      {
-        "wert": 96035.48,
-        "name": "W1/ROT E1 55,9% +1 weitere",
-        "anzahl": 2
-      }
-    ],
-    "management": [
-      {
-        "sl_abstand_pct": 1.5,
-        "sl": 85356.3235,
-        "be_marke": 81572.053,
-        "teilgewinn_marke": 80310.6295
-      },
-      {
-        "sl_abstand_pct": 2.5,
-        "sl": 86197.27249999999,
-        "be_marke": 79890.155,
-        "teilgewinn_marke": 77787.7825
-      },
-      {
-        "sl_abstand_pct": 4.0,
-        "sl": 87458.696,
-        "be_marke": 77367.30799999999,
-        "teilgewinn_marke": 74003.51199999999
-      }
-    ],
-    "marktphase": {
-      "phase": "Erholung nach −54 %-Absturz",
-      "hinweis": "Seit dem Tief bei $57.800 (07/2026). In dieser Phase hat das System bisher 3 Signale erzeugt – alle SHORT, alle verloren. Der gemessene Edge des Systems existierte nur in der Anstiegsphase 01/2024–10/2025 (LONG 26,2 % Trefferquote); in der Absturzphase traf es 0 von 38 LONG- und 0 von 14 SHORT-Signalen."
-    }
-  },
+  "aktueller_kurs": 84267.0,
+  "kurs_zeitstempel": "2026-09-23 22:51:03 CEST",
+  "position": null,
+  "bewertung": null,
   "ki_kommentar": null,
-  "struktur_stand": "2026-09-23 22:21:04"
+  "struktur_stand": "2026-09-23 22:51:01"
 }
