@@ -1,20 +1,20 @@
 {
-  "generiert": "2026-09-23T17:52:11",
+  "generiert": "2026-09-23T18:22:15",
   "symbol": "BTC",
-  "aktueller_kurs": 84154.1,
-  "kurs_zeitstempel": "2026-09-23 17:51:06 CEST",
+  "aktueller_kurs": 84213.7,
+  "kurs_zeitstempel": "2026-09-23 18:21:07 CEST",
   "chance": {
     "tf": "H1",
     "richtung": "LONG",
-    "tier": "BEOBACHTEN",
-    "tier_label": "BEOBACHTEN - unter Mindestbedingung",
+    "tier": "KANDIDAT_GUELTIG",
+    "tier_label": "KANDIDAT (valide, Kurs ausserhalb Zone)",
     "zone_low": 82507.8225,
     "zone_high": 83702.29,
     "sl": 81656.67,
-    "tp1": 95436.82,
-    "tp2": 96802.94,
-    "ftp": 98169.07,
-    "crv": 7.49,
-    "begruendung": "Keine Struktur erreicht die 50%-Mindestschwelle - gezeigt wird die naechstbeste Beobachtungs-Kandidatur (45-50% Retracement) auf H1. UNTER MINDESTBEDINGUNG, nicht handelsreif."
+    "tp1": 95072.75,
+    "tp2": 96438.88,
+    "ftp": 97805.01,
+    "crv": 7.26,
+    "begruendung": "Kein TRADEBAR-Signal und kein IN_ZONE_KANDIDAT aktiv - hoechste verfuegbare Stufe: KANDIDAT_GUELTIG (B-Retracement>=50% bestaetigt, Kurs aktuell noch ausserhalb der Einstiegszone) auf H1."
   }
 }
