@@ -1,8 +1,8 @@
 {
-  "generiert": "2026-09-24T03:52:20",
+  "generiert": "2026-09-24T04:22:20",
   "symbol": "BTC",
-  "aktueller_kurs": 84028.8,
-  "kurs_zeitstempel": "2026-09-24 03:51:07 CEST",
+  "aktueller_kurs": 84156.3,
+  "kurs_zeitstempel": "2026-09-24 04:21:06 CEST",
   "position": {
     "asset": "BTC",
     "richtung": "SHORT",
@@ -11,7 +11,7 @@
   "bewertung": {
     "einstufung": "RUECKENWIND",
     "einstufung_label": "Aktive Sequenz stützt die Position",
-    "lauf_pct": 0.21,
+    "lauf_pct": 0.06,
     "pro_anzahl": 3,
     "contra_anzahl": 0,
     "pro_tfs": [
@@ -20,10 +20,11 @@
     ],
     "contra_tfs": [],
     "pro_potenziell": 0,
-    "contra_potenziell": 3,
+    "contra_potenziell": 4,
     "pro_potenziell_tfs": [],
     "contra_potenziell_tfs": [
       "D1",
+      "H1",
       "W1"
     ],
     "levels_darunter": [
@@ -86,5 +87,5 @@
     }
   },
   "ki_kommentar": null,
-  "struktur_stand": "2026-09-24 03:51:05"
+  "struktur_stand": "2026-09-24 04:21:04"
 }
