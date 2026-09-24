@@ -1,8 +1,8 @@
 {
-  "generiert": "2026-09-24T03:22:21",
+  "generiert": "2026-09-24T03:52:20",
   "symbol": "BTC",
-  "aktueller_kurs": 84232.6,
-  "kurs_zeitstempel": "2026-09-24 03:21:06 CEST",
+  "aktueller_kurs": 84028.8,
+  "kurs_zeitstempel": "2026-09-24 03:51:07 CEST",
   "position": {
     "asset": "BTC",
     "richtung": "SHORT",
@@ -11,7 +11,7 @@
   "bewertung": {
     "einstufung": "RUECKENWIND",
     "einstufung_label": "Aktive Sequenz stützt die Position",
-    "lauf_pct": -0.03,
+    "lauf_pct": 0.21,
     "pro_anzahl": 3,
     "contra_anzahl": 0,
     "pro_tfs": [
@@ -28,11 +28,6 @@
     ],
     "levels_darunter": [
       {
-        "wert": 84190.2,
-        "name": "H1/GELB 50%",
-        "anzahl": 1
-      },
-      {
         "wert": 83849.82,
         "name": "D1/ROT 50%",
         "anzahl": 1
@@ -41,9 +36,19 @@
         "wert": 83474.82,
         "name": "H4/ROT 50%",
         "anzahl": 1
+      },
+      {
+        "wert": 82377.32,
+        "name": "W1/ROT 50% +1 weitere",
+        "anzahl": 2
       }
     ],
     "levels_darueber": [
+      {
+        "wert": 84190.2,
+        "name": "H1/GELB 50%",
+        "anzahl": 1
+      },
       {
         "wert": 87395.67,
         "name": "H4/GELB A (Extrem) +1 weitere",
@@ -52,11 +57,6 @@
       {
         "wert": 91999.91,
         "name": "W1/ROT 50% +1 weitere",
-        "anzahl": 2
-      },
-      {
-        "wert": 96035.48,
-        "name": "W1/ROT E1 55,9% +1 weitere",
         "anzahl": 2
       }
     ],
@@ -86,5 +86,5 @@
     }
   },
   "ki_kommentar": null,
-  "struktur_stand": "2026-09-24 03:21:04"
+  "struktur_stand": "2026-09-24 03:51:05"
 }
