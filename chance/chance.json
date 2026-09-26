@@ -1,7 +1,20 @@
 {
-  "generiert": "2026-09-26T23:52:11",
+  "generiert": "2026-09-27T00:22:11",
   "symbol": "BTC",
-  "aktueller_kurs": 84096.9,
-  "kurs_zeitstempel": "2026-09-26 23:51:04 CEST",
-  "chance": null
+  "aktueller_kurs": 84216.6,
+  "kurs_zeitstempel": "2026-09-27 00:21:04 CEST",
+  "chance": {
+    "tf": "H4",
+    "richtung": "SHORT",
+    "tier": "KANDIDAT_GUELTIG",
+    "tier_label": "KANDIDAT (valide, Kurs ausserhalb Zone)",
+    "zone_low": 85135.29999999999,
+    "zone_high": 85890.26358,
+    "sl": 86428.23,
+    "tp1": 77940.44,
+    "tp2": 77076.98,
+    "ftp": 76213.52,
+    "crv": 7.27,
+    "begruendung": "Kein TRADEBAR-Signal und kein IN_ZONE_KANDIDAT aktiv - hoechste verfuegbare Stufe: KANDIDAT_GUELTIG (B-Retracement>=50% bestaetigt, Kurs aktuell noch ausserhalb der Einstiegszone) auf H4."
+  }
 }
