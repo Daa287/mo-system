@@ -1,9 +1,9 @@
 {
-  "generiert": "2026-09-28T17:51:07",
+  "generiert": "2026-09-28T18:21:05",
   "symbol": "BTC",
-  "aktueller_kurs": 83261.1,
-  "kurs_zeitstempel": "2026-09-28 17:51:07 CEST",
-  "anzahl": 212,
+  "aktueller_kurs": 83706.7,
+  "kurs_zeitstempel": "2026-09-28 18:21:04 CEST",
+  "anzahl": 208,
   "zonen": [
     {
       "symbol": "BTC",
@@ -2915,62 +2915,6 @@
       "status": "NICHT_GEHALTEN",
       "status_label": "NICHT GEHALTEN",
       "kategorie": "KANDIDAT_GUELTIG",
-      "unbestaetigt": true
-    },
-    {
-      "symbol": "BTC",
-      "tf": "H4",
-      "richtung": "LONG",
-      "zone_bereich": "$77,428–$78,012",
-      "ziel_bei_halten": 82045.25,
-      "ziel_bei_nicht_halten": 77012.14,
-      "erkannt_datum": "2026-09-14",
-      "erkannt_ts": "2026-09-14 16:10:07",
-      "status": "NICHT_GEHALTEN",
-      "status_label": "NICHT GEHALTEN",
-      "kategorie": "KANDIDAT_GUELTIG",
-      "unbestaetigt": true
-    },
-    {
-      "symbol": "BTC",
-      "tf": "H1",
-      "richtung": "LONG",
-      "zone_bereich": "$77,605–$78,177",
-      "ziel_bei_halten": 82922.68,
-      "ziel_bei_nicht_halten": 77197.16,
-      "erkannt_datum": "2026-09-14",
-      "erkannt_ts": "2026-09-14 16:10:06",
-      "status": "NICHT_GEHALTEN",
-      "status_label": "NICHT GEHALTEN",
-      "kategorie": "KANDIDAT_GUELTIG",
-      "unbestaetigt": true
-    },
-    {
-      "symbol": "BTC",
-      "tf": "H4",
-      "richtung": "LONG",
-      "zone_bereich": "$77,471–$78,077",
-      "ziel_bei_halten": 82255.59,
-      "ziel_bei_nicht_halten": 77039.96,
-      "erkannt_datum": "2026-09-14",
-      "erkannt_ts": "2026-09-14 16:10:06",
-      "status": "NICHT_GEHALTEN",
-      "status_label": "NICHT GEHALTEN",
-      "kategorie": "KANDIDAT_GUELTIG",
-      "unbestaetigt": true
-    },
-    {
-      "symbol": "BTC",
-      "tf": "H1",
-      "richtung": "SHORT",
-      "zone_bereich": "$78,195–$78,761",
-      "ziel_bei_halten": 72888.99,
-      "ziel_bei_nicht_halten": 79164.54,
-      "erkannt_datum": "2026-09-14",
-      "erkannt_ts": "2026-09-14 16:10:05",
-      "status": "NICHT_GEHALTEN",
-      "status_label": "NICHT GEHALTEN",
-      "kategorie": "IN_ZONE_KANDIDAT",
       "unbestaetigt": true
     }
   ]
