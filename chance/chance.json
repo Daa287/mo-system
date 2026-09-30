@@ -1,20 +1,20 @@
 {
-  "generiert": "2026-09-30T19:22:17",
+  "generiert": "2026-09-30T19:52:14",
   "symbol": "BTC",
-  "aktueller_kurs": 84110.6,
-  "kurs_zeitstempel": "2026-09-30 19:21:07 CEST",
+  "aktueller_kurs": 84067.1,
+  "kurs_zeitstempel": "2026-09-30 19:51:04 CEST",
   "chance": {
-    "tf": "H4",
-    "richtung": "SHORT",
-    "tier": "KANDIDAT_GUELTIG",
-    "tier_label": "KANDIDAT (valide, Kurs ausserhalb Zone)",
-    "zone_low": 85147.83499999999,
-    "zone_high": 85898.61189,
-    "sl": 86433.6,
-    "tp1": 78375.96,
-    "tp2": 77517.28,
-    "ftp": 76658.61,
-    "crv": 6.9,
-    "begruendung": "Kein TRADEBAR-Signal und kein IN_ZONE_KANDIDAT aktiv - hoechste verfuegbare Stufe: KANDIDAT_GUELTIG (B-Retracement>=50% bestaetigt, Kurs aktuell noch ausserhalb der Einstiegszone) auf H4 (unter 2 Kandidaten dieser Stufe, hoechste TF gewaehlt)."
+    "tf": "H1",
+    "richtung": "LONG",
+    "tier": "IN_ZONE_KANDIDAT",
+    "tier_label": "KANDIDAT (Kurs in Zone)",
+    "zone_low": 83613.9992,
+    "zone_high": 84123.75,
+    "sl": 83250.76,
+    "tp1": 88311.78,
+    "tp2": 88894.79,
+    "ftp": 89477.8,
+    "crv": 6.3,
+    "begruendung": "Kein aktives TRADEBAR-Signal - hoechste verfuegbare Stufe: IN_ZONE_KANDIDAT (B-Retracement>=50% bestaetigt, Kurs aktuell in der Einstiegszone) auf H1."
   }
 }
