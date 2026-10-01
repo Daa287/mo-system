@@ -1,11 +1,21 @@
 {
-  "generiert": "2026-10-01T02:52:14",
+  "generiert": "2026-10-01T03:22:13",
   "symbol": "BTC",
-  "anzahl": 86,
+  "anzahl": 87,
   "gehalten": 0,
   "nicht_gehalten": 64,
-  "offen": 22,
+  "offen": 23,
   "eintraege": [
+    {
+      "ts": "2026-10-01 03:22:13",
+      "tf": "H1",
+      "richtung": "LONG",
+      "stufe": "IN_ZONE_KANDIDAT",
+      "zone_bereich": "$83,614–$84,124",
+      "status": "OFFEN",
+      "status_label": "OFFEN",
+      "status_updated_ts": null
+    },
     {
       "ts": "2026-10-01 02:22:14",
       "tf": "D1",
