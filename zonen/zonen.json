@@ -1,9 +1,9 @@
 {
-  "generiert": "2026-10-05T16:51:06",
+  "generiert": "2026-10-05T17:21:08",
   "symbol": "BTC",
-  "aktueller_kurs": 85605.7,
-  "kurs_zeitstempel": "2026-10-05 16:51:06 CEST",
-  "anzahl": 169,
+  "aktueller_kurs": 85508.3,
+  "kurs_zeitstempel": "2026-10-05 17:21:07 CEST",
+  "anzahl": 173,
   "zonen": [
     {
       "symbol": "BTC",
@@ -1347,6 +1347,62 @@
       "status": "OFFEN",
       "status_label": "OFFEN",
       "kategorie": "KANDIDAT_GUELTIG",
+      "unbestaetigt": true
+    },
+    {
+      "symbol": "BTC",
+      "tf": "H1",
+      "richtung": "LONG",
+      "zone_bereich": "$85,401–$85,857",
+      "ziel_bei_halten": 89823.72,
+      "ziel_bei_nicht_halten": 85076.85,
+      "erkannt_datum": "2026-10-05",
+      "erkannt_ts": "2026-10-05 17:10:06",
+      "status": "OFFEN",
+      "status_label": "OFFEN",
+      "kategorie": "IN_ZONE_KANDIDAT",
+      "unbestaetigt": true
+    },
+    {
+      "symbol": "BTC",
+      "tf": "H4",
+      "richtung": "SHORT",
+      "zone_bereich": "$84,979–$85,786",
+      "ziel_bei_halten": 79179.85,
+      "ziel_bei_nicht_halten": 86361.48,
+      "erkannt_datum": "2026-10-05",
+      "erkannt_ts": "2026-10-05 17:10:06",
+      "status": "OFFEN",
+      "status_label": "OFFEN",
+      "kategorie": "IN_ZONE_KANDIDAT",
+      "unbestaetigt": true
+    },
+    {
+      "symbol": "BTC",
+      "tf": "H4",
+      "richtung": "SHORT",
+      "zone_bereich": "$85,135–$85,890",
+      "ziel_bei_halten": 79684.55,
+      "ziel_bei_nicht_halten": 86428.23,
+      "erkannt_datum": "2026-10-05",
+      "erkannt_ts": "2026-10-05 17:10:07",
+      "status": "OFFEN",
+      "status_label": "OFFEN",
+      "kategorie": "IN_ZONE_KANDIDAT",
+      "unbestaetigt": true
+    },
+    {
+      "symbol": "BTC",
+      "tf": "H4",
+      "richtung": "SHORT",
+      "zone_bereich": "$85,148–$85,899",
+      "ziel_bei_halten": 79725.12,
+      "ziel_bei_nicht_halten": 86433.6,
+      "erkannt_datum": "2026-10-05",
+      "erkannt_ts": "2026-10-05 17:10:07",
+      "status": "OFFEN",
+      "status_label": "OFFEN",
+      "kategorie": "IN_ZONE_KANDIDAT",
       "unbestaetigt": true
     },
     {
