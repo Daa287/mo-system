@@ -1,9 +1,9 @@
 {
-  "generiert": "2026-10-05T17:51:08",
+  "generiert": "2026-10-05T18:21:06",
   "symbol": "BTC",
-  "aktueller_kurs": 85258.1,
-  "kurs_zeitstempel": "2026-10-05 17:51:08 CEST",
-  "anzahl": 173,
+  "aktueller_kurs": 85094.1,
+  "kurs_zeitstempel": "2026-10-05 18:21:06 CEST",
+  "anzahl": 175,
   "zonen": [
     {
       "symbol": "BTC",
@@ -987,20 +987,6 @@
     },
     {
       "symbol": "BTC",
-      "tf": "W1",
-      "richtung": "LONG",
-      "zone_bereich": "$91,147–$99,491",
-      "ziel_bei_halten": 155812.96,
-      "ziel_bei_nicht_halten": 85200.72,
-      "erkannt_datum": "2026-10-05",
-      "erkannt_ts": "2026-10-05 02:10:08",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "kategorie": "KANDIDAT_GUELTIG",
-      "unbestaetigt": true
-    },
-    {
-      "symbol": "BTC",
       "tf": "H4",
       "richtung": "SHORT",
       "zone_bereich": "$85,642–$86,228",
@@ -1403,6 +1389,48 @@
       "status": "OFFEN",
       "status_label": "OFFEN",
       "kategorie": "IN_ZONE_KANDIDAT",
+      "unbestaetigt": true
+    },
+    {
+      "symbol": "BTC",
+      "tf": "H1",
+      "richtung": "LONG",
+      "zone_bereich": "$84,924–$85,444",
+      "ziel_bei_halten": 90445.78,
+      "ziel_bei_nicht_halten": 84553.78,
+      "erkannt_datum": "2026-10-05",
+      "erkannt_ts": "2026-10-05 18:10:06",
+      "status": "OFFEN",
+      "status_label": "OFFEN",
+      "kategorie": "IN_ZONE_KANDIDAT",
+      "unbestaetigt": true
+    },
+    {
+      "symbol": "BTC",
+      "tf": "H1",
+      "richtung": "LONG",
+      "zone_bereich": "$84,757–$85,193",
+      "ziel_bei_halten": 89398.03,
+      "ziel_bei_nicht_halten": 84446.65,
+      "erkannt_datum": "2026-10-05",
+      "erkannt_ts": "2026-10-05 18:10:06",
+      "status": "OFFEN",
+      "status_label": "OFFEN",
+      "kategorie": "KANDIDAT_GUELTIG",
+      "unbestaetigt": true
+    },
+    {
+      "symbol": "BTC",
+      "tf": "W1",
+      "richtung": "LONG",
+      "zone_bereich": "$91,147–$99,491",
+      "ziel_bei_halten": 155812.96,
+      "ziel_bei_nicht_halten": 85200.72,
+      "erkannt_datum": "2026-10-05",
+      "erkannt_ts": "2026-10-05 02:10:08",
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "kategorie": "KANDIDAT_GUELTIG",
       "unbestaetigt": true
     },
     {
