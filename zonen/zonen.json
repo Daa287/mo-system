@@ -1,9 +1,9 @@
 {
-  "generiert": "2026-10-06T05:51:08",
+  "generiert": "2026-10-06T06:21:07",
   "symbol": "BTC",
-  "aktueller_kurs": 85494.3,
-  "kurs_zeitstempel": "2026-10-06 05:51:08 CEST",
-  "anzahl": 185,
+  "aktueller_kurs": 85577.7,
+  "kurs_zeitstempel": "2026-10-06 06:21:07 CEST",
+  "anzahl": 189,
   "zonen": [
     {
       "symbol": "BTC",
@@ -1557,6 +1557,62 @@
       "status": "OFFEN",
       "status_label": "OFFEN",
       "kategorie": "IN_ZONE_KANDIDAT",
+      "unbestaetigt": true
+    },
+    {
+      "symbol": "BTC",
+      "tf": "H1",
+      "richtung": "SHORT",
+      "zone_bereich": "$85,554–$86,110",
+      "ziel_bei_halten": 80739.27,
+      "ziel_bei_nicht_halten": 86506.95,
+      "erkannt_datum": "2026-10-06",
+      "erkannt_ts": "2026-10-06 06:10:06",
+      "status": "OFFEN",
+      "status_label": "OFFEN",
+      "kategorie": "KANDIDAT_GUELTIG",
+      "unbestaetigt": true
+    },
+    {
+      "symbol": "BTC",
+      "tf": "H1",
+      "richtung": "SHORT",
+      "zone_bereich": "$85,889–$86,334",
+      "ziel_bei_halten": 81823.33,
+      "ziel_bei_nicht_halten": 86650.33,
+      "erkannt_datum": "2026-10-06",
+      "erkannt_ts": "2026-10-06 06:10:06",
+      "status": "OFFEN",
+      "status_label": "OFFEN",
+      "kategorie": "KANDIDAT_GUELTIG",
+      "unbestaetigt": true
+    },
+    {
+      "symbol": "BTC",
+      "tf": "H4",
+      "richtung": "LONG",
+      "zone_bereich": "$84,114–$84,892",
+      "ziel_bei_halten": 92507.04,
+      "ziel_bei_nicht_halten": 83559.6,
+      "erkannt_datum": "2026-10-06",
+      "erkannt_ts": "2026-10-06 06:10:07",
+      "status": "OFFEN",
+      "status_label": "OFFEN",
+      "kategorie": "BEOBACHTEN",
+      "unbestaetigt": true
+    },
+    {
+      "symbol": "BTC",
+      "tf": "H4",
+      "richtung": "LONG",
+      "zone_bereich": "$84,040–$84,781",
+      "ziel_bei_halten": 92149.64,
+      "ziel_bei_nicht_halten": 83512.33,
+      "erkannt_datum": "2026-10-06",
+      "erkannt_ts": "2026-10-06 06:10:07",
+      "status": "OFFEN",
+      "status_label": "OFFEN",
+      "kategorie": "BEOBACHTEN",
       "unbestaetigt": true
     },
     {
