@@ -1,10 +1,10 @@
 {
-  "generiert": "2026-10-07T10:52:13",
+  "generiert": "2026-10-07T11:22:16",
   "symbol": "BTC",
   "anzahl": 142,
   "gehalten": 0,
-  "nicht_gehalten": 92,
-  "offen": 50,
+  "nicht_gehalten": 102,
+  "offen": 40,
   "eintraege": [
     {
       "ts": "2026-10-06 17:52:13",
@@ -202,9 +202,9 @@
       "richtung": "LONG",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$84,376–$85,088",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-10-07 11:22:16"
     },
     {
       "ts": "2026-10-04 08:52:13",
@@ -222,9 +222,9 @@
       "richtung": "LONG",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$84,376–$85,088",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-10-07 11:22:16"
     },
     {
       "ts": "2026-10-03 23:52:13",
@@ -232,9 +232,9 @@
       "richtung": "LONG",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$84,274–$84,934",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-10-07 11:22:16"
     },
     {
       "ts": "2026-10-03 23:22:17",
@@ -242,9 +242,9 @@
       "richtung": "LONG",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$84,376–$85,088",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-10-07 11:22:16"
     },
     {
       "ts": "2026-10-03 21:22:17",
@@ -252,9 +252,9 @@
       "richtung": "LONG",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$84,274–$84,934",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-10-07 11:22:16"
     },
     {
       "ts": "2026-10-03 20:22:18",
@@ -262,9 +262,9 @@
       "richtung": "LONG",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$84,376–$85,088",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-10-07 11:22:16"
     },
     {
       "ts": "2026-10-03 19:52:15",
@@ -282,9 +282,9 @@
       "richtung": "LONG",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$84,376–$85,088",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-10-07 11:22:16"
     },
     {
       "ts": "2026-10-03 13:52:12",
@@ -292,9 +292,9 @@
       "richtung": "LONG",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$84,236–$84,906",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-10-07 11:22:16"
     },
     {
       "ts": "2026-10-03 04:52:18",
@@ -302,9 +302,9 @@
       "richtung": "LONG",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$84,339–$85,060",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-10-07 11:22:16"
     },
     {
       "ts": "2026-10-03 04:22:16",
@@ -312,9 +312,9 @@
       "richtung": "LONG",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$84,236–$84,906",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-10-07 11:22:16"
     },
     {
       "ts": "2026-10-03 02:52:17",
