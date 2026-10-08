@@ -1,8 +1,8 @@
 {
-  "generiert": "2026-10-08T05:51:10",
+  "generiert": "2026-10-08T06:21:06",
   "symbol": "BTC",
-  "aktueller_kurs": 82760.8,
-  "kurs_zeitstempel": "2026-10-08 05:51:10 CEST",
+  "aktueller_kurs": 82253.0,
+  "kurs_zeitstempel": "2026-10-08 06:21:06 CEST",
   "anzahl": 223,
   "zonen": [
     {
@@ -357,20 +357,6 @@
     },
     {
       "symbol": "BTC",
-      "tf": "W1",
-      "richtung": "LONG",
-      "zone_bereich": "$86,986–$93,244",
-      "ziel_bei_halten": 135597.67,
-      "ziel_bei_nicht_halten": 82527.01,
-      "erkannt_datum": "2026-10-05",
-      "erkannt_ts": "2026-10-05 02:10:06",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "kategorie": "KANDIDAT_GUELTIG",
-      "unbestaetigt": true
-    },
-    {
-      "symbol": "BTC",
       "tf": "H4",
       "richtung": "SHORT",
       "zone_bereich": "$85,642–$86,228",
@@ -381,20 +367,6 @@
       "status": "OFFEN",
       "status_label": "OFFEN",
       "kategorie": "KANDIDAT_GUELTIG",
-      "unbestaetigt": true
-    },
-    {
-      "symbol": "BTC",
-      "tf": "H1",
-      "richtung": "SHORT",
-      "zone_bereich": "$85,889–$86,334",
-      "ziel_bei_halten": 82691.99,
-      "ziel_bei_nicht_halten": 86650.33,
-      "erkannt_datum": "2026-10-05",
-      "erkannt_ts": "2026-10-05 06:10:05",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "kategorie": "IN_ZONE_KANDIDAT",
       "unbestaetigt": true
     },
     {
@@ -423,20 +395,6 @@
       "status": "OFFEN",
       "status_label": "OFFEN",
       "kategorie": "IN_ZONE_KANDIDAT",
-      "unbestaetigt": true
-    },
-    {
-      "symbol": "BTC",
-      "tf": "H1",
-      "richtung": "SHORT",
-      "zone_bereich": "$85,889–$86,334",
-      "ziel_bei_halten": 82691.99,
-      "ziel_bei_nicht_halten": 86650.33,
-      "erkannt_datum": "2026-10-05",
-      "erkannt_ts": "2026-10-05 06:40:05",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "kategorie": "KANDIDAT_GUELTIG",
       "unbestaetigt": true
     },
     {
@@ -521,34 +479,6 @@
       "status": "OFFEN",
       "status_label": "OFFEN",
       "kategorie": "KANDIDAT_GUELTIG",
-      "unbestaetigt": true
-    },
-    {
-      "symbol": "BTC",
-      "tf": "H1",
-      "richtung": "SHORT",
-      "zone_bereich": "$85,889–$86,334",
-      "ziel_bei_halten": 82418.0,
-      "ziel_bei_nicht_halten": 86650.33,
-      "erkannt_datum": "2026-10-05",
-      "erkannt_ts": "2026-10-05 19:10:07",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "kategorie": "KANDIDAT_GUELTIG",
-      "unbestaetigt": true
-    },
-    {
-      "symbol": "BTC",
-      "tf": "H1",
-      "richtung": "SHORT",
-      "zone_bereich": "$85,889–$86,334",
-      "ziel_bei_halten": 82418.0,
-      "ziel_bei_nicht_halten": 86650.33,
-      "erkannt_datum": "2026-10-06",
-      "erkannt_ts": "2026-10-06 00:10:05",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "kategorie": "IN_ZONE_KANDIDAT",
       "unbestaetigt": true
     },
     {
@@ -1226,6 +1156,20 @@
     {
       "symbol": "BTC",
       "tf": "H1",
+      "richtung": "SHORT",
+      "zone_bereich": "$85,889–$86,334",
+      "ziel_bei_halten": 82418.0,
+      "ziel_bei_nicht_halten": 86650.33,
+      "erkannt_datum": "2026-10-06",
+      "erkannt_ts": "2026-10-06 00:10:05",
+      "status": "GEHALTEN",
+      "status_label": "GEHALTEN / ZIEL ERREICHT",
+      "kategorie": "IN_ZONE_KANDIDAT",
+      "unbestaetigt": true
+    },
+    {
+      "symbol": "BTC",
+      "tf": "H1",
       "richtung": "LONG",
       "zone_bereich": "$84,924–$85,444",
       "ziel_bei_halten": 90005.79,
@@ -1290,6 +1234,20 @@
       "erkannt_ts": "2026-10-05 19:10:07",
       "status": "NICHT_GEHALTEN",
       "status_label": "NICHT GEHALTEN",
+      "kategorie": "KANDIDAT_GUELTIG",
+      "unbestaetigt": true
+    },
+    {
+      "symbol": "BTC",
+      "tf": "H1",
+      "richtung": "SHORT",
+      "zone_bereich": "$85,889–$86,334",
+      "ziel_bei_halten": 82418.0,
+      "ziel_bei_nicht_halten": 86650.33,
+      "erkannt_datum": "2026-10-05",
+      "erkannt_ts": "2026-10-05 19:10:07",
+      "status": "GEHALTEN",
+      "status_label": "GEHALTEN / ZIEL ERREICHT",
       "kategorie": "KANDIDAT_GUELTIG",
       "unbestaetigt": true
     },
@@ -1605,6 +1563,20 @@
       "symbol": "BTC",
       "tf": "H1",
       "richtung": "SHORT",
+      "zone_bereich": "$85,889–$86,334",
+      "ziel_bei_halten": 82691.99,
+      "ziel_bei_nicht_halten": 86650.33,
+      "erkannt_datum": "2026-10-05",
+      "erkannt_ts": "2026-10-05 06:40:05",
+      "status": "GEHALTEN",
+      "status_label": "GEHALTEN / ZIEL ERREICHT",
+      "kategorie": "KANDIDAT_GUELTIG",
+      "unbestaetigt": true
+    },
+    {
+      "symbol": "BTC",
+      "tf": "H1",
+      "richtung": "SHORT",
       "zone_bereich": "$85,554–$86,110",
       "ziel_bei_halten": 81607.93,
       "ziel_bei_nicht_halten": 86506.95,
@@ -1613,6 +1585,20 @@
       "status": "NICHT_GEHALTEN",
       "status_label": "NICHT GEHALTEN",
       "kategorie": "KANDIDAT_GUELTIG",
+      "unbestaetigt": true
+    },
+    {
+      "symbol": "BTC",
+      "tf": "H1",
+      "richtung": "SHORT",
+      "zone_bereich": "$85,889–$86,334",
+      "ziel_bei_halten": 82691.99,
+      "ziel_bei_nicht_halten": 86650.33,
+      "erkannt_datum": "2026-10-05",
+      "erkannt_ts": "2026-10-05 06:10:05",
+      "status": "GEHALTEN",
+      "status_label": "GEHALTEN / ZIEL ERREICHT",
+      "kategorie": "IN_ZONE_KANDIDAT",
       "unbestaetigt": true
     },
     {
@@ -1652,6 +1638,20 @@
       "ziel_bei_nicht_halten": 84931.94,
       "erkannt_datum": "2026-10-05",
       "erkannt_ts": "2026-10-05 02:10:07",
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "kategorie": "KANDIDAT_GUELTIG",
+      "unbestaetigt": true
+    },
+    {
+      "symbol": "BTC",
+      "tf": "W1",
+      "richtung": "LONG",
+      "zone_bereich": "$86,986–$93,244",
+      "ziel_bei_halten": 135597.67,
+      "ziel_bei_nicht_halten": 82527.01,
+      "erkannt_datum": "2026-10-05",
+      "erkannt_ts": "2026-10-05 02:10:06",
       "status": "NICHT_GEHALTEN",
       "status_label": "NICHT GEHALTEN",
       "kategorie": "KANDIDAT_GUELTIG",
