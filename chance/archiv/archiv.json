@@ -1,10 +1,10 @@
 {
-  "generiert": "2026-10-08T05:52:17",
+  "generiert": "2026-10-08T06:22:16",
   "symbol": "BTC",
   "anzahl": 142,
-  "gehalten": 0,
-  "nicht_gehalten": 115,
-  "offen": 27,
+  "gehalten": 1,
+  "nicht_gehalten": 120,
+  "offen": 21,
   "eintraege": [
     {
       "ts": "2026-10-06 17:52:13",
@@ -22,9 +22,9 @@
       "richtung": "LONG",
       "stufe": "KANDIDAT_GUELTIG",
       "zone_bereich": "$86,986–$93,244",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-10-08 06:22:16"
     },
     {
       "ts": "2026-10-06 16:22:18",
@@ -42,9 +42,9 @@
       "richtung": "LONG",
       "stufe": "KANDIDAT_GUELTIG",
       "zone_bereich": "$86,986–$93,244",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-10-08 06:22:16"
     },
     {
       "ts": "2026-10-06 15:22:13",
@@ -92,9 +92,9 @@
       "richtung": "LONG",
       "stufe": "KANDIDAT_GUELTIG",
       "zone_bereich": "$86,986–$93,244",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-10-08 06:22:16"
     },
     {
       "ts": "2026-10-05 11:22:15",
@@ -122,9 +122,9 @@
       "richtung": "LONG",
       "stufe": "KANDIDAT_GUELTIG",
       "zone_bereich": "$86,986–$93,244",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-10-08 06:22:16"
     },
     {
       "ts": "2026-10-05 09:22:15",
@@ -132,9 +132,9 @@
       "richtung": "SHORT",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$85,889–$86,334",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "GEHALTEN",
+      "status_label": "GEHALTEN",
+      "status_updated_ts": "2026-10-08 06:22:16"
     },
     {
       "ts": "2026-10-05 06:22:18",
@@ -152,9 +152,9 @@
       "richtung": "LONG",
       "stufe": "KANDIDAT_GUELTIG",
       "zone_bereich": "$86,986–$93,244",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-10-08 06:22:16"
     },
     {
       "ts": "2026-10-05 00:22:15",
