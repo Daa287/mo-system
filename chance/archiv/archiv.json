@@ -1,11 +1,21 @@
 {
-  "generiert": "2026-10-08T16:52:20",
+  "generiert": "2026-10-08T17:22:17",
   "symbol": "BTC",
-  "anzahl": 144,
-  "gehalten": 1,
-  "nicht_gehalten": 120,
-  "offen": 23,
+  "anzahl": 145,
+  "gehalten": 3,
+  "nicht_gehalten": 130,
+  "offen": 12,
   "eintraege": [
+    {
+      "ts": "2026-10-08 17:22:17",
+      "tf": "W1",
+      "richtung": "LONG",
+      "stufe": "KANDIDAT_GUELTIG",
+      "zone_bereich": "$82,306–$86,216",
+      "status": "OFFEN",
+      "status_label": "OFFEN",
+      "status_updated_ts": null
+    },
     {
       "ts": "2026-10-08 16:22:16",
       "tf": "W1",
@@ -82,9 +92,9 @@
       "richtung": "SHORT",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$85,889–$86,334",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "GEHALTEN",
+      "status_label": "GEHALTEN",
+      "status_updated_ts": "2026-10-08 17:22:17"
     },
     {
       "ts": "2026-10-05 16:52:13",
@@ -102,9 +112,9 @@
       "richtung": "SHORT",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$85,889–$86,334",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "GEHALTEN",
+      "status_label": "GEHALTEN",
+      "status_updated_ts": "2026-10-08 17:22:17"
     },
     {
       "ts": "2026-10-05 15:52:16",
@@ -812,9 +822,9 @@
       "richtung": "LONG",
       "stufe": "KANDIDAT_GUELTIG",
       "zone_bereich": "$82,480–$83,434",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-10-08 17:22:17"
     },
     {
       "ts": "2026-09-24 16:52:12",
@@ -822,9 +832,9 @@
       "richtung": "LONG",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$82,810–$83,929",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-10-08 17:22:17"
     },
     {
       "ts": "2026-09-24 16:22:15",
@@ -832,9 +842,9 @@
       "richtung": "LONG",
       "stufe": "KANDIDAT_GUELTIG",
       "zone_bereich": "$82,480–$83,434",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-10-08 17:22:17"
     },
     {
       "ts": "2026-09-24 15:22:12",
@@ -842,9 +852,9 @@
       "richtung": "LONG",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$82,849–$83,988",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-10-08 17:22:17"
     },
     {
       "ts": "2026-09-24 14:52:11",
@@ -852,9 +862,9 @@
       "richtung": "LONG",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$82,499–$83,462",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-10-08 17:22:17"
     },
     {
       "ts": "2026-09-24 14:22:12",
@@ -862,9 +872,9 @@
       "richtung": "LONG",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$82,623–$83,649",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-10-08 17:22:17"
     },
     {
       "ts": "2026-09-24 11:22:26",
@@ -872,9 +882,9 @@
       "richtung": "LONG",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$82,810–$83,929",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-10-08 17:22:17"
     },
     {
       "ts": "2026-09-24 10:52:10",
@@ -882,9 +892,9 @@
       "richtung": "LONG",
       "stufe": "IN_ZONE_KANDIDAT",
       "zone_bereich": "$82,573–$83,781",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-10-08 17:22:17"
     },
     {
       "ts": "2026-09-24 07:22:14",
@@ -892,9 +902,9 @@
       "richtung": "LONG",
       "stufe": "KANDIDAT_GUELTIG",
       "zone_bereich": "$82,573–$83,781",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-10-08 17:22:17"
     },
     {
       "ts": "2026-09-24 06:22:12",
@@ -902,9 +912,9 @@
       "richtung": "LONG",
       "stufe": "KANDIDAT_GUELTIG",
       "zone_bereich": "$82,534–$83,722",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-10-08 17:22:17"
     },
     {
       "ts": "2026-09-23 18:22:15",
