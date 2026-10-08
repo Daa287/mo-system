@@ -1,8 +1,8 @@
 {
-  "generiert": "2026-10-08T03:21:06",
+  "generiert": "2026-10-08T03:51:06",
   "symbol": "BTC",
-  "aktueller_kurs": 83261.7,
-  "kurs_zeitstempel": "2026-10-08 03:21:06 CEST",
+  "aktueller_kurs": 83165.5,
+  "kurs_zeitstempel": "2026-10-08 03:51:06 CEST",
   "anzahl": 222,
   "zonen": [
     {
@@ -778,20 +778,6 @@
     {
       "symbol": "BTC",
       "tf": "H4",
-      "richtung": "LONG",
-      "zone_bereich": "$83,591–$84,106",
-      "ziel_bei_halten": 87781.94,
-      "ziel_bei_nicht_halten": 83223.61,
-      "erkannt_datum": "2026-10-08",
-      "erkannt_ts": "2026-10-08 02:10:06",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "kategorie": "KANDIDAT_GUELTIG",
-      "unbestaetigt": true
-    },
-    {
-      "symbol": "BTC",
-      "tf": "H4",
       "richtung": "SHORT",
       "zone_bereich": "$84,921–$85,708",
       "ziel_bei_halten": 79069.25,
@@ -910,6 +896,20 @@
       "ziel_bei_nicht_halten": 83512.33,
       "erkannt_datum": "2026-10-08",
       "erkannt_ts": "2026-10-08 02:10:07",
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "kategorie": "KANDIDAT_GUELTIG",
+      "unbestaetigt": true
+    },
+    {
+      "symbol": "BTC",
+      "tf": "H4",
+      "richtung": "LONG",
+      "zone_bereich": "$83,591–$84,106",
+      "ziel_bei_halten": 87781.94,
+      "ziel_bei_nicht_halten": 83223.61,
+      "erkannt_datum": "2026-10-08",
+      "erkannt_ts": "2026-10-08 02:10:06",
       "status": "NICHT_GEHALTEN",
       "status_label": "NICHT GEHALTEN",
       "kategorie": "KANDIDAT_GUELTIG",
