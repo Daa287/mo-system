@@ -1,10 +1,10 @@
 {
-  "generiert": "2026-10-08T17:22:17",
+  "generiert": "2026-10-08T17:52:17",
   "symbol": "BTC",
   "anzahl": 145,
   "gehalten": 3,
-  "nicht_gehalten": 130,
-  "offen": 12,
+  "nicht_gehalten": 132,
+  "offen": 10,
   "eintraege": [
     {
       "ts": "2026-10-08 17:22:17",
@@ -922,9 +922,9 @@
       "richtung": "LONG",
       "stufe": "KANDIDAT_GUELTIG",
       "zone_bereich": "$82,508–$83,702",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-10-08 17:52:17"
     },
     {
       "ts": "2026-09-23 16:52:09",
@@ -932,9 +932,9 @@
       "richtung": "LONG",
       "stufe": "BEOBACHTEN",
       "zone_bereich": "$82,508–$83,702",
-      "status": "OFFEN",
-      "status_label": "OFFEN",
-      "status_updated_ts": null
+      "status": "NICHT_GEHALTEN",
+      "status_label": "NICHT GEHALTEN",
+      "status_updated_ts": "2026-10-08 17:52:17"
     },
     {
       "ts": "2026-09-19 15:57:17",
