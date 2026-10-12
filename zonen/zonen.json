@@ -1,9 +1,9 @@
 {
-  "generiert": "2026-10-12T17:51:10",
+  "generiert": "2026-10-12T18:21:12",
   "symbol": "BTC",
-  "aktueller_kurs": 82672.7,
-  "kurs_zeitstempel": "2026-10-12 17:51:09 CEST",
-  "anzahl": 235,
+  "aktueller_kurs": 82905.9,
+  "kurs_zeitstempel": "2026-10-12 18:21:12 CEST",
+  "anzahl": 237,
   "zonen": [
     {
       "symbol": "BTC",
@@ -518,6 +518,48 @@
       "ziel_bei_nicht_halten": 81240.67,
       "erkannt_datum": "2026-10-12",
       "erkannt_ts": "2026-10-12 17:10:05",
+      "status": "OFFEN",
+      "status_label": "OFFEN",
+      "kategorie": "BEOBACHTEN",
+      "unbestaetigt": true
+    },
+    {
+      "symbol": "BTC",
+      "tf": "H4",
+      "richtung": "SHORT",
+      "zone_bereich": "$83,807–$84,947",
+      "ziel_bei_halten": 73306.82,
+      "ziel_bei_nicht_halten": 85759.14,
+      "erkannt_datum": "2026-10-12",
+      "erkannt_ts": "2026-10-12 18:10:05",
+      "status": "OFFEN",
+      "status_label": "OFFEN",
+      "kategorie": "KANDIDAT_GUELTIG",
+      "unbestaetigt": true
+    },
+    {
+      "symbol": "BTC",
+      "tf": "H4",
+      "richtung": "SHORT",
+      "zone_bereich": "$83,861–$84,295",
+      "ziel_bei_halten": 80151.62,
+      "ziel_bei_nicht_halten": 84603.48,
+      "erkannt_datum": "2026-10-12",
+      "erkannt_ts": "2026-10-12 18:10:06",
+      "status": "OFFEN",
+      "status_label": "OFFEN",
+      "kategorie": "KANDIDAT_GUELTIG",
+      "unbestaetigt": true
+    },
+    {
+      "symbol": "BTC",
+      "tf": "H4",
+      "richtung": "LONG",
+      "zone_bereich": "$81,712–$82,373",
+      "ziel_bei_halten": 88815.62,
+      "ziel_bei_nicht_halten": 81240.67,
+      "erkannt_datum": "2026-10-12",
+      "erkannt_ts": "2026-10-12 18:10:06",
       "status": "OFFEN",
       "status_label": "OFFEN",
       "kategorie": "BEOBACHTEN",
@@ -3279,20 +3321,6 @@
       "status": "NICHT_GEHALTEN",
       "status_label": "NICHT GEHALTEN",
       "kategorie": "IN_ZONE_KANDIDAT",
-      "unbestaetigt": true
-    },
-    {
-      "symbol": "BTC",
-      "tf": "H1",
-      "richtung": "SHORT",
-      "zone_bereich": "$83,926–$84,370",
-      "ziel_bei_halten": 79520.25,
-      "ziel_bei_nicht_halten": 84686.31,
-      "erkannt_datum": "2026-09-28",
-      "erkannt_ts": "2026-09-28 16:10:05",
-      "status": "NICHT_GEHALTEN",
-      "status_label": "NICHT GEHALTEN",
-      "kategorie": "BEOBACHTEN",
       "unbestaetigt": true
     }
   ]
